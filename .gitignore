@@ -13,6 +13,7 @@
 # selected configs
 !config
 !config/packmenu.cfg
+!config/twerk-config.toml
 
 # serverconfigs
 !defaultconfigs
