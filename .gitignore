@@ -1,0 +1,39 @@
+# ignore everything
+*
+
+# except...
+# this file
+!.gitignore
+
+# packmenu resources
+!packmenu
+!packmenu/resources
+!packmenu/resources/**/**
+
+# selected configs
+!config
+!config/packmenu.cfg
+
+# serverconfigs
+!defaultconfigs
+!defaultconfigs/*
+
+# kubejs
+!kubsjs
+!kubejs/data
+!kubejs/data/**/**
+
+# readme
+!README.md
+
+# modlists
+!modlists
+!modlists/*.md
+
+# changelogs
+!changelogs
+!changelogs/*.md
+
+# manifests
+!manifests
+!manifests/*
