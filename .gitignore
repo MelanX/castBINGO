@@ -45,6 +45,7 @@
 !clientmods.txt
 !create_current_manifest.py
 !manifest.json
+!ops.json
 !overrides.txt
 !server_creator.py
 !scripts

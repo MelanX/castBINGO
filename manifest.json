@@ -119,6 +119,12 @@
             "required": true
         },
         {
+            "_displayName": "Emojiful",
+            "projectID": 284324,
+            "fileID": 3178700,
+            "required": true
+        },
+        {
             "_displayName": "Extended Crafting",
             "projectID": 268387,
             "fileID": 3101740,
