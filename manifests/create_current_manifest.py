@@ -80,6 +80,7 @@ if __name__ == "__main__":
             "author": author,
             "projectID": projectID,
             "name": pack_name,
-            "files": mods
+            "files": mods,
+            "_missingFiles": missing_mods
         }, indent=4))
     print(f"Successfully created {pack_version}.json in {float('{:.4f}'.format((datetime.now() - start).microseconds / 1000 / 1000))} seconds")
