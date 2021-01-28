@@ -39,6 +39,7 @@
 # changelogs
 !changelogs
 !changelogs/*.md
+!changelogs/updates.json
 
 # manifests
 !manifests
