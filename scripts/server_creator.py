@@ -35,7 +35,10 @@ def main():
     for path in overrides:
         source = tempDir + os.path.sep + path
         target = sys.argv[1] + os.path.sep + path
-        shutil.copytree(source, target)
+        if os.path.isdir(source):
+            shutil.copytree(source, target)
+        else:
+            shutil.copy2(source, target)
 
     os.makedirs(sys.argv[1] + os.path.sep + 'mods')
 
