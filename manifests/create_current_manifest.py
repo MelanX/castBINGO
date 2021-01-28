@@ -33,6 +33,7 @@ author = "CastCrafter"   # modpack author
 projectID = 408447       # curseforge project id
 pack_name = "castBINGO!" # name displayed when imported into curseforge
 mods = []                # all the mods
+missing_mods = []        # all mods which are not on curseforge
 
 if __name__ == "__main__":
     # get important information from GD Launchers config file
@@ -41,13 +42,22 @@ if __name__ == "__main__":
         mc_version = data["modloader"][1]
         forge_version = data["modloader"][2][len(mc_version) + 1:len(data["modloader"][2])]
         for mod in data["mods"]:
-            mods.append({
-                "_displayName": mod["name"],
-                "projectID": mod["projectID"],
-                "fileID": mod["fileID"],
-                "required": True
-            })
+            if "name" in mod:
+                mods.append({
+                    "_displayName": mod["name"],
+                    "projectID": mod["projectID"],
+                    "fileID": mod["fileID"],
+                    "required": True
+                })
+            else:
+                missing_mods.append(mod["displayName"])
+
     print("Successfully read config.json")
+    if len(missing_mods) > 0:
+        print("Following mods are missing in manifest:")
+        for mod in missing_mods:
+            print(mod)
+        print()
 
     # sort mods by name
     mods = sorted(mods, key=lambda k: k["_displayName"])

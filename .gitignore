@@ -12,7 +12,10 @@
 
 # selected configs
 !config
+!config/ftbultimine-common.toml
 !config/packmenu.cfg
+!config/quark-common.toml
+!config/theoneprobe-*.toml
 !config/twerk-config.toml
 
 # serverconfigs
@@ -21,6 +24,8 @@
 
 # kubejs
 !kubsjs
+!kubejs/config
+!kubejs/config/*.properties
 !kubejs/data
 !kubejs/data/**/**
 

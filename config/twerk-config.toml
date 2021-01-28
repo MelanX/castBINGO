@@ -13,5 +13,5 @@ minCrouchesToApplyBonemeal = 10
 #Range: 0 ~ 20
 effectRadius = 3
 #When true only saplings are allowed to grow with twerking
-saplingsOnly = true
+saplingsOnly = false
 

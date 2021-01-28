@@ -3,7 +3,7 @@
         "version": "1.16.5",
         "modLoaders": [
             {
-                "id": "forge-36.0.1",
+                "id": "forge-36.0.9",
                 "primary": true
             }
         ]
@@ -47,12 +47,6 @@
             "required": true
         },
         {
-            "_displayName": "Artifacts",
-            "projectID": 312353,
-            "fileID": 3164601,
-            "required": true
-        },
-        {
             "_displayName": "AutoRegLib",
             "projectID": 250363,
             "fileID": 3128555,
@@ -71,12 +65,6 @@
             "required": true
         },
         {
-            "_displayName": "Caves and Cliffs mod [1.17]",
-            "projectID": 411623,
-            "fileID": 3180079,
-            "required": true
-        },
-        {
             "_displayName": "Citadel",
             "projectID": 331936,
             "fileID": 3131923,
@@ -92,6 +80,12 @@
             "_displayName": "Controlling",
             "projectID": 250398,
             "fileID": 3169795,
+            "required": true
+        },
+        {
+            "_displayName": "Create",
+            "projectID": 328085,
+            "fileID": 3167531,
             "required": true
         },
         {
@@ -125,12 +119,6 @@
             "required": true
         },
         {
-            "_displayName": "Engineer's Tools",
-            "projectID": 319716,
-            "fileID": 3179451,
-            "required": true
-        },
-        {
             "_displayName": "Extended Crafting",
             "projectID": 268387,
             "fileID": 3101740,
@@ -145,7 +133,7 @@
         {
             "_displayName": "FTB GUI Library",
             "projectID": 404465,
-            "fileID": 3182838,
+            "fileID": 3184516,
             "required": true
         },
         {
@@ -185,6 +173,12 @@
             "required": true
         },
         {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3183932,
+            "required": true
+        },
+        {
             "_displayName": "Immersive Engineering",
             "projectID": 231951,
             "fileID": 3180183,
@@ -194,6 +188,12 @@
             "_displayName": "Industrial Foregoing",
             "projectID": 266515,
             "fileID": 3167607,
+            "required": true
+        },
+        {
+            "_displayName": "Inventory Pets",
+            "projectID": 229380,
+            "fileID": 3164771,
             "required": true
         },
         {
@@ -209,21 +209,33 @@
             "required": true
         },
         {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3184581,
+            "required": true
+        },
+        {
+            "_displayName": "LibX",
+            "projectID": 412525,
+            "fileID": 3159549,
+            "required": true
+        },
+        {
             "_displayName": "Lollipop",
             "projectID": 347954,
             "fileID": 3166271,
             "required": true
         },
         {
-            "_displayName": "Mekanism",
-            "projectID": 268560,
-            "fileID": 3183270,
+            "_displayName": "Mana and Artifice",
+            "projectID": 406360,
+            "fileID": 3169012,
             "required": true
         },
         {
-            "_displayName": "MoreVanillaLib",
-            "projectID": 367254,
-            "fileID": 3145508,
+            "_displayName": "Mekanism",
+            "projectID": 268560,
+            "fileID": 3183270,
             "required": true
         },
         {
@@ -236,18 +248,6 @@
             "_displayName": "Mystical Agriculture",
             "projectID": 246640,
             "fileID": 3152061,
-            "required": true
-        },
-        {
-            "_displayName": "Nature's Compass",
-            "projectID": 252848,
-            "fileID": 3133521,
-            "required": true
-        },
-        {
-            "_displayName": "Open Loader",
-            "projectID": 354339,
-            "fileID": 3112983,
             "required": true
         },
         {
@@ -281,15 +281,15 @@
             "required": true
         },
         {
-            "_displayName": "RandomPatches (Forge)",
-            "projectID": 285612,
-            "fileID": 3158999,
-            "required": true
-        },
-        {
             "_displayName": "ReAuth",
             "projectID": 237701,
             "fileID": 3105779,
+            "required": true
+        },
+        {
+            "_displayName": "Reliquary v1.3",
+            "projectID": 241319,
+            "fileID": 3119035,
             "required": true
         },
         {
@@ -302,6 +302,18 @@
             "_displayName": "Runelic",
             "projectID": 393149,
             "fileID": 3165936,
+            "required": true
+        },
+        {
+            "_displayName": "Shutup Experimental Settings!",
+            "projectID": 407174,
+            "fileID": 3182559,
+            "required": true
+        },
+        {
+            "_displayName": "Simple Sorter",
+            "projectID": 391807,
+            "fileID": 3180795,
             "required": true
         },
         {
