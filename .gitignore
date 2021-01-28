@@ -41,7 +41,9 @@
 !changelogs/*.md
 !changelogs/updates.json
 
-# manifests
-!manifests
-!manifests/*.json
-!manifests/create_current_manifest.py
+# server utilities
+!manifest.json
+!create_current_manifest.py
+!server_creator
+!server_creator/server_creator.py
+!server_creator/server-removal.json

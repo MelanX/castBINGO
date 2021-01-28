@@ -24,10 +24,10 @@ import pathlib
 
 start = datetime.now()
 
-path = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+path = os.path.dirname(__file__)
 
 # statics
-base_path = str(pathlib.Path(path).parent.absolute()) + os.path.sep # path to gd launcher instance
+base_path = str(pathlib.Path(path)) + os.path.sep # path to gd launcher instance
 pack_version = "1.1.0"   # current pack version
 author = "CastCrafter"   # modpack author
 projectID = 408447       # curseforge project id
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     print(f"Successfully sorted all {len(mods)} mods.")
 
     # create current manifest
-    with open(f"{base_path}manifests/{pack_version}.json", "w") as f:
+    with open(f"{base_path}manifest.json", "w") as f:
         f.write(json.dumps({
             "minecraft": {
                 "version": mc_version,
@@ -83,4 +83,4 @@ if __name__ == "__main__":
             "files": mods,
             "_missingFiles": missing_mods
         }, indent=4))
-    print(f"Successfully created {pack_version}.json in {float('{:.4f}'.format((datetime.now() - start).microseconds / 1000 / 1000))} seconds")
+    print(f"Successfully created manifest.json in {float('{:.4f}'.format((datetime.now() - start).microseconds / 1000 / 1000))} seconds")
