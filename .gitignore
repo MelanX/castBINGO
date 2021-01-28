@@ -12,6 +12,8 @@
 
 # selected configs
 !config
+!config/defaultoptions
+!config/defaultoptions/*
 !config/ftbultimine-common.toml
 !config/packmenu.cfg
 !config/quark-common.toml
@@ -49,4 +51,3 @@
 !overrides.txt
 !scripts
 !scripts/*
-!servers.dat
