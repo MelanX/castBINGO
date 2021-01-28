@@ -23,9 +23,9 @@
 !defaultconfigs/*
 
 # kubejs
-!kubsjs
+!kubejs
 !kubejs/config
-!kubejs/config/*.properties
+!kubejs/config/client.properties
 !kubejs/data
 !kubejs/data/**/**
 
