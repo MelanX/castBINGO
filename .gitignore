@@ -47,3 +47,5 @@
 !manifest.json
 !overrides.txt
 !server_creator.py
+!scripts
+!scripts/*
