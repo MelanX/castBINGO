@@ -71,12 +71,6 @@
             "required": true
         },
         {
-            "_displayName": "Botanical Machinery",
-            "projectID": 395617,
-            "fileID": 3172157,
-            "required": true
-        },
-        {
             "_displayName": "Caves and Cliffs mod [1.17]",
             "projectID": 411623,
             "fileID": 3180079,
@@ -203,12 +197,6 @@
             "required": true
         },
         {
-            "_displayName": "Iron Chests",
-            "projectID": 228756,
-            "fileID": 3105315,
-            "required": true
-        },
-        {
             "_displayName": "Just Enough Items (JEI)",
             "projectID": 238222,
             "fileID": 3157864,
@@ -230,18 +218,6 @@
             "_displayName": "Mekanism",
             "projectID": 268560,
             "fileID": 3183270,
-            "required": true
-        },
-        {
-            "_displayName": "Mekanism Generators",
-            "projectID": 268566,
-            "fileID": 3183272,
-            "required": true
-        },
-        {
-            "_displayName": "Mekanism Tools",
-            "projectID": 268567,
-            "fileID": 3183273,
             "required": true
         },
         {
@@ -329,18 +305,6 @@
             "required": true
         },
         {
-            "_displayName": "Simply Jetpacks 2",
-            "projectID": 251792,
-            "fileID": 3172395,
-            "required": true
-        },
-        {
-            "_displayName": "Statues",
-            "projectID": 253172,
-            "fileID": 3046078,
-            "required": true
-        },
-        {
             "_displayName": "Stronghold Compass",
             "projectID": 338643,
             "fileID": 3045490,
@@ -374,12 +338,6 @@
             "_displayName": "U Team Core",
             "projectID": 273744,
             "fileID": 3177217,
-            "required": true
-        },
-        {
-            "_displayName": "Useful Backpacks",
-            "projectID": 274338,
-            "fileID": 3177272,
             "required": true
         },
         {
