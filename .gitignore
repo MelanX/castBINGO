@@ -41,7 +41,6 @@
 # changelogs
 !changelogs
 !changelogs/*.md
-!changelogs/updates.json
 
 # server utilities
 !clientmods.txt
