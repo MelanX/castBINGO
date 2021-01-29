@@ -1,6 +1,6 @@
 ![Logo](https://i.imgur.com/8dZAHyI.png)
 
-[![CurseForge](http://cf.way2muchnoise.eu/full_408447_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/castbingo)
+[![CurseForge](http://cf.way2muchnoise.eu/full_408447_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/castbingo)
 [![Bugs label](https://img.shields.io/github/issues/MelanX/castBINGO/bug)](https://github.com/MelanX/castBINGO/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 [![GitHub license](https://img.shields.io/github/license/MelanX/castBINGO.svg)](https://github.com/MelanX/castBINGO/blob/dev/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/MelanX/castBINGO.svg)](https://GitHub.com/MelanX/castBINGO/releases/)
