@@ -12,4 +12,4 @@ To use the scripts you need to add your tokens in `tokens.json`. The file should
 | :---: | :---  |
 | create_current_manifest.py | Creates the manifest from GDLauncher files |
 | update_emotes.py | Updates emote data for the emojiful mod based on [emotes.json](emotes.json). The generated file can be found in `build/overrides` |
-| create_release.py | Creates a new release and publishes it on github. The release status will be draft. This must be changed manually. **IMPORTANT: Make sure to push you r current branch before calling this!!!** |
+| create_release.py | Creates a new release and publishes it on github. The release status will be draft. This must be changed manually. **IMPORTANT: Make sure to push your current branch before calling this!!!** |
