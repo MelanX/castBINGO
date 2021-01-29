@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import json
 import os
 import shutil
@@ -6,16 +8,23 @@ import sys
 import tempfile
 from urllib.request import urlopen, Request
 
-branch = "dev"
-
 
 def main():
-    if len(sys.argv) != 2:
+    branch = None
+
+    if len(sys.argv) == 1:
         print('Please specify destination path as argument')
         sys.exit(1)
 
+    if len(sys.argv) > 3:
+        print('Too many arguments. Should only be "file" "path/to/destination" "branch name".')
+        sys.exit()
+
     if os.path.isdir(sys.argv[1]):
         shutil.rmtree(sys.argv[1])
+
+    if len(sys.argv) == 3:
+        branch = str(sys.argv[2])
 
     os.makedirs(sys.argv[1])
 
@@ -25,12 +34,12 @@ def main():
          tempDir])
 
     overrides = []
-    with open(tempDir + os.path.sep + 'overrides.txt') as file:
-        overrides = [x.strip() for x in file.read().split('\n')]
+    with open(tempDir + os.path.sep + 'overrides.txt') as f:
+        overrides = [x.strip() for x in f.read().split('\n')]
 
     clientmods = []
-    with open(tempDir + os.path.sep + 'clientmods.txt') as file:
-        clientmods = [int(x.strip()) for x in file.read().split('\n')]
+    with open(tempDir + os.path.sep + 'clientmods.txt') as f:
+        clientmods = [int(x.strip()) for x in f.read().split('\n')]
 
     for path in overrides:
         source = tempDir + os.path.sep + path
@@ -42,13 +51,13 @@ def main():
 
     os.makedirs(sys.argv[1] + os.path.sep + 'mods')
 
-    with open(tempDir + os.path.sep + 'manifest.json', mode='r') as file:
-        manifest = json.load(file)
+    with open(tempDir + os.path.sep + 'manifest.json', mode='r') as f:
+        manifest = json.load(f)
     mods = manifest["files"]
     for mod in mods:
         projectID = mod["projectID"]
         fileID = mod["fileID"]
-        download_url = f"https://addons-ecs.forgesvc.net/api/v2/addon/{projectID}/file/{fileID}/download-url"
+        download_url = f"https://addons-ecs.forgesvc.net/api/v2/addon/{projectID}/f/{fileID}/download-url"
         request1 = Request(download_url)
         response1 = urlopen(request1)
         file_url = response1.read().decode('utf-8')
@@ -63,8 +72,8 @@ def main():
                       mode='wb') as target:
                 target.write(response2.read())
 
-    with open(sys.argv[1] + os.path.sep + 'server.properties', mode='w') as file:
-        file.writelines([
+    with open(sys.argv[1] + os.path.sep + 'server.properties', mode='w') as f:
+        f.writelines([
             'allow-flight=true\n',
             'enable-command-block=true\n',
             'max-players=32\n',
@@ -74,8 +83,8 @@ def main():
             'view-distance=8\n'
         ])
 
-    with open(sys.argv[1] + os.path.sep + 'eula.txt', mode='w') as file:
-        file.writelines([
+    with open(sys.argv[1] + os.path.sep + 'eula.txt', mode='w') as f:
+        f.writelines([
             '#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).\n'
             'eula=true\n'
         ])

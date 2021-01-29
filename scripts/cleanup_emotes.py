@@ -1,6 +1,8 @@
+#!/usr/bin/env python
+
 import json
 import os
-import pathlib
+import sys
 
 prefixes = ["te_", "pu_"]
 
@@ -22,11 +24,14 @@ def renameFile(file: str):
 
 
 def main():
-    path = os.path.abspath(os.path.join(os.path.dirname(__file__)))
-    emotes_path = f"{str(pathlib.Path(path).parent.absolute()) + os.path.sep}kubejs{os.path.sep}data{os.path.sep}emojiful{os.path.sep}recipes{os.path.sep}"
+    if len(sys.argv) != 2:
+        print("Please specify destination path as argument")
+        sys.exit(1)
+
+    emotes_path = sys.argv[1]
 
     for file in os.listdir(emotes_path):
-        with open(emotes_path + file, "r") as f:
+        with open(emotes_path + os.path.sep + file, mode="r") as f:
             data = json.loads(f.read())
 
         changed = fixName(data, file)
@@ -35,7 +40,7 @@ def main():
             changed = True
 
         if changed:
-            with open(emotes_path + file, "w") as f:
+            with open(emotes_path + os.path.sep + file, mode="w") as f:
                 f.write(json.dumps(data, indent=2))
 
 
