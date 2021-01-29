@@ -53,3 +53,4 @@ kubejs/data/emojiful/recipes
 !scripts
 !scripts/*
 !emotes.json
+!tokens-example.json
