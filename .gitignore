@@ -8,7 +8,7 @@
 # packmenu resources
 !packmenu
 !packmenu/resources
-!packmenu/resources/**/**
+!packmenu/resources/**
 
 # selected configs
 !config
@@ -29,7 +29,8 @@
 !kubejs/config
 !kubejs/config/client.properties
 !kubejs/data
-!kubejs/data/**/**
+!kubejs/data/**
+kubejs/data/emojiful/recipes
 
 # readme
 !README.md
@@ -51,3 +52,4 @@
 !server-icon.png
 !scripts
 !scripts/*
+!emotes.json

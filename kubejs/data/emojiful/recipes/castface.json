@@ -1,6 +1,6 @@
 {
-  "category": "CastCrafter",
-  "name": "castface",
-  "url": "https://cdn.discordapp.com/emojis/716006049986904132.png",
-  "type": "emojiful:emoji_recipe"
+    "category": "Twitch_3rd_party",
+    "name": "castFace",
+    "url": "https://static-cdn.jtvnw.net/emoticons/v1/180678/3.0",
+    "type": "emojiful:emoji_recipe"
 }
