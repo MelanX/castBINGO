@@ -1,3 +1,4 @@
 {
-  "twitch": "Twitch token"
+  "twitch": "Twitch token",
+  "github": "GitHub Token"
 }

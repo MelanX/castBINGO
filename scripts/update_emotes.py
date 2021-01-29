@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
+
 import json
 import os
 import shutil
 from urllib.request import Request, urlopen
-
 
 def updateEmotes():
     with open('tokens.json') as file:
@@ -33,8 +33,10 @@ def updateEmotes():
         request = Request(f'https://api.betterttv.net/3/cached/users/twitch/{id}')
         response = urlopen(request)
         data = json.loads(response.read())
-        for entry in data['sharedEmotes']:
-            emotes[entry['code']] = f'https://cdn.betterttv.net/emote/{entry["id"]}/3x'
+        for entry in data['sharedEmotes']: 
+            emotes[entry['code']] = f'https://cdn.betterttv.net/emote/{entry["id"]}/3x.{entry["imageType"]}'
+        for entry in data['channelEmotes']:
+            emotes[entry['code']] = f'https://cdn.betterttv.net/emote/{entry["id"]}/3x.{entry["imageType"]}'
 
     for twitch_channel in emote_data['ffzChannels']:
         id = get_user_id(twitch_channel, client_id, token)
@@ -50,13 +52,14 @@ def updateEmotes():
                         max = int(url_key)
                 emotes[entry['name']] = f'https:{entry["urls"][str(max)]}'
 
-    if os.path.isdir('kubejs/data/emojiful/recipes'):
-        shutil.rmtree('kubejs/data/emojiful/recipes')
+    target_dir = os.path.join('build', 'overrides', 'kubejs',  'data', 'emojiful', 'recipes')
+    if os.path.isdir(target_dir):
+        shutil.rmtree(target_dir)
 
-    os.makedirs(os.path.join('kubejs',  'data', 'emojiful', 'recipes'))
+    os.makedirs(target_dir)
 
     for emote in emotes:
-        file_path = os.path.join('kubejs',  'data', 'emojiful', 'recipes', f'{emote.lower()}.json')
+        file_path = target_dir + os.path.sep + f'{emote.lower()}.json'
         with open(file_path, mode='w') as file:
             file.write(json.dumps({
                 'category': 'Twitch_3rd_party',

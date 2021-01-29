@@ -30,7 +30,6 @@
 !kubejs/config/client.properties
 !kubejs/data
 !kubejs/data/**
-kubejs/data/emojiful/recipes
 
 # readme
 !README.md
@@ -47,9 +46,9 @@ kubejs/data/emojiful/recipes
 !clientmods.txt
 !create_current_manifest.py
 !manifest.json
-!ops.json
+!serverdata
+!serverdata/**
 !overrides.txt
-!server-icon.png
 !scripts
 !scripts/*
 !emotes.json

@@ -1,5 +1,3 @@
 config
 defaultconfigs
 kubejs
-ops.json
-server-icon.png
