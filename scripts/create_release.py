@@ -10,6 +10,7 @@ import gitignore_parser
 
 import update_emotes
 import modlist
+import create_update_file
 
 MOD_LIST_CREATOR_VERSION = '1.1.4'
 
@@ -38,6 +39,10 @@ def main():
     with open('manifest.json') as file:
         manifest = json.loads(file.read())
 
+    print('Creating changelog')
+    create_update_file.githubChanges(manifest)
+    create_update_file.modsChanges(manifest)
+
     print('Update emotes')
     update_emotes.updateEmotes()
 
@@ -49,6 +54,15 @@ def main():
     with open(os.path.join('build', 'ModListCreator.jar'), mode='wb') as file:
         file.write(response.read())
 
+    print('Update root directory modlist.')
+    subprocess.check_call(
+        ['java', '-jar', os.path.join('build', 'ModListCreator.jar'),
+         '--md',
+         '--manifest', 'manifest.json',
+         '--output', '.',
+         '--detailed']
+    )
+
     print('Prepare CurseForge pack.')
     createModpackZip(manifest, gitignore)
     
@@ -57,7 +71,7 @@ def main():
     
     print('Uploading to GitHub')
     uploadToGithub(commit, token, manifest)
-    
+
     print('Done')
 
 

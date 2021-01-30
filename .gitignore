@@ -38,9 +38,8 @@
 # readme
 !README.md
 
-# modlists
-!modlists
-!modlists/*.md
+# modlist
+!modlist.md
 
 # changelogs
 !changelogs

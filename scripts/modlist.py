@@ -2,7 +2,7 @@ import hashlib
 import json
 import os
 import zipfile
-from typing import List, Dict
+from typing import List
 from urllib.request import Request, urlopen
 
 import murmurhash2
