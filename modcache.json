@@ -289,6 +289,56 @@
             "_displayName": "Shutup Experimental Settings!",
             "projectID": 407174,
             "fileID": 3182559
+        },
+        "f14d14604af72e88cb516bf12e713bee": {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3185644
+        },
+        "1c8acb58a9cc65e5a5c52518cb7fd507": {
+            "_displayName": "AIOT Botania",
+            "projectID": 294815,
+            "fileID": 3185817
+        },
+        "b585194aa45987eed540c85a79d4cd0c": {
+            "_displayName": "Curios API (Forge)",
+            "projectID": 309927,
+            "fileID": 3186427
+        },
+        "26d32f149d53697a882bc8d680560449": {
+            "_displayName": "Emojiful",
+            "projectID": 284324,
+            "fileID": 3184796
+        },
+        "1fdfcb77a0e89208b586c3d4e3bf87b2": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3186116
+        },
+        "ce43286148cc9fcf795e18383edc729c": {
+            "_displayName": "Industrial Foregoing",
+            "projectID": 266515,
+            "fileID": 3185896
+        },
+        "e93b8d7a075afb6b7d33f94937f23259": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3185969
+        },
+        "1a3fbd6852b40f3033aa1ee1751e56f0": {
+            "_displayName": "Runelic",
+            "projectID": 393149,
+            "fileID": 3185428
+        },
+        "a76faf1bc426fe4a402674065276e1b1": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3160292
+        },
+        "707eddf0d1245733373ce42c8b4dcc67": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3186932
         }
     },
     "modid_map": {
@@ -339,6 +389,26 @@
         "shutupexperimentalsettings": {
             "_displayName": "Shutup Experimental Settings!",
             "projectID": 407174
+        },
+        "aiotbotania": {
+            "_displayName": "AIOT Botania",
+            "projectID": 294815
+        },
+        "curios": {
+            "_displayName": "Curios API (Forge)",
+            "projectID": 309927
+        },
+        "industrialforegoing": {
+            "_displayName": "Industrial Foregoing",
+            "projectID": 266515
+        },
+        "runelic": {
+            "_displayName": "Runelic",
+            "projectID": 393149
+        },
+        "castbingo": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998
         }
     }
 }

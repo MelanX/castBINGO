@@ -19,7 +19,7 @@
         {
             "_displayName": "AIOT Botania",
             "projectID": 294815,
-            "fileID": 3177121
+            "fileID": 3185817
         },
         {
             "_displayName": "Abnormals Core",
@@ -45,6 +45,16 @@
             "_displayName": "AutoRegLib",
             "projectID": 250363,
             "fileID": 3128555
+        },
+        {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3186932
+        },
+        {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3160292
         },
         {
             "_displayName": "Bookshelf",
@@ -84,7 +94,7 @@
         {
             "_displayName": "Curios API (Forge)",
             "projectID": 309927,
-            "fileID": 3168960
+            "fileID": 3186427
         },
         {
             "_displayName": "Cyclic",
@@ -104,7 +114,7 @@
         {
             "_displayName": "Emojiful",
             "projectID": 284324,
-            "fileID": 3178700
+            "fileID": 3184796
         },
         {
             "_displayName": "Extended Crafting",
@@ -154,7 +164,7 @@
         {
             "_displayName": "GeckoLib",
             "projectID": 388172,
-            "fileID": 3183932
+            "fileID": 3186116
         },
         {
             "_displayName": "Immersive Engineering",
@@ -164,7 +174,7 @@
         {
             "_displayName": "Industrial Foregoing",
             "projectID": 266515,
-            "fileID": 3167607
+            "fileID": 3185896
         },
         {
             "_displayName": "Inventory Pets",
@@ -189,7 +199,7 @@
         {
             "_displayName": "KubeJS",
             "projectID": 238086,
-            "fileID": 3183434
+            "fileID": 3185969
         },
         {
             "_displayName": "LibX",
@@ -244,7 +254,7 @@
         {
             "_displayName": "Quark",
             "projectID": 243121,
-            "fileID": 3183856
+            "fileID": 3185644
         },
         {
             "_displayName": "ReAuth",
@@ -264,7 +274,7 @@
         {
             "_displayName": "Runelic",
             "projectID": 393149,
-            "fileID": 3165936
+            "fileID": 3185428
         },
         {
             "_displayName": "Shutup Experimental Settings!",
