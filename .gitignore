@@ -5,6 +5,10 @@
 # this file
 !.gitignore
 
+# github files
+!.github
+!.github/**
+
 # packmenu resources
 !packmenu
 !packmenu/resources
