@@ -53,3 +53,5 @@
 !scripts/*
 !emotes.json
 !tokens-example.json
+!modcache.json
+!pack.json

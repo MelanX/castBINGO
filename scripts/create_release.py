@@ -9,8 +9,9 @@ from urllib.request import Request, urlopen
 import gitignore_parser
 
 import update_emotes
+import modlist
 
-MOD_LIST_CREATOR_VERSION = '1.1.3'
+MOD_LIST_CREATOR_VERSION = '1.1.4'
 
 
 def main():
@@ -19,7 +20,7 @@ def main():
 
     commit = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()
     
-    with open('manifest.json') as file:
+    with open('pack.json') as file:
         manifest = json.loads(file.read())
 
     print(f'Prepare Release v{manifest["version"]} on commit {commit}')
@@ -32,16 +33,21 @@ def main():
     print('Read gitignore')
     gitignore = gitignore_parser.parse_gitignore('.gitignore', '.')
 
+    print('Generate manifest')
+    modlist.generateManifest()
+    with open('manifest.json') as file:
+        manifest = json.loads(file.read())
+
     print('Update emotes')
     update_emotes.updateEmotes()
 
-    # print('Download ModListCreator')
-    # request = Request(
-    #     f'https://github.com/MelanX/ModListCreator/releases/download/v{MOD_LIST_CREATOR_VERSION}/ModListCreator-{MOD_LIST_CREATOR_VERSION}.jar'
-    # )
-    # response = urlopen(request)
-    # with open(os.path.join('build', 'ModListCreator.jar'), mode='wb') as file:
-    #     file.write(response.read())
+    print('Download ModListCreator')
+    request = Request(
+        f'https://github.com/MelanX/ModListCreator/releases/download/v{MOD_LIST_CREATOR_VERSION}/ModListCreator-{MOD_LIST_CREATOR_VERSION}.jar'
+    )
+    response = urlopen(request)
+    with open(os.path.join('build', 'ModListCreator.jar'), mode='wb') as file:
+        file.write(response.read())
 
     print('Prepare CurseForge pack.')
     createModpackZip(manifest, gitignore)
@@ -50,7 +56,7 @@ def main():
     createServerZip(manifest, gitignore)
     
     print('Uploading to GitHub')
-    uploadToGithub(commit, token, manifest)
+    #uploadToGithub(commit, token, manifest)
     
     print('Done')
 
@@ -61,13 +67,13 @@ def createModpackZip(manifest, gitignore):
     os.makedirs(targetDir)
     shutil.copy2('manifest.json', targetDir + os.path.sep + 'manifest.json')
 
-    # print('Generate ModList')
-    # subprocess.check_call(
-    #     ['java', '-jar', os.path.join('build', 'ModListCreator.jar'),
-    #      '--html',
-    #      '--manifest', targetDir + os.path.sep + 'manifest.json',
-    #      '--output', targetDir]
-    # )
+    print('Generate ModList')
+    subprocess.check_call(
+        ['java', '-jar', os.path.join('build', 'ModListCreator.jar'),
+         '--html',
+         '--manifest', targetDir + os.path.sep + 'manifest.json',
+         '--output', targetDir]
+    )
 
     print('Copy overrides')
     with open('overrides.txt') as file:
@@ -88,7 +94,12 @@ def createServerZip(manifest, gitignore):
     clientmods = []
     with open('clientmods.txt') as file:
         clientmods = [int(x.strip()) for x in file.read().split('\n')]
-    with open(targetDir + os.path.sep + 'servermods.txt', mode='w') as file:
+    with open(targetDir + os.path.sep + 'server.txt', mode='w') as file:
+        mcv = manifest['minecraft']['version']
+        mlv: str = manifest['minecraft']['modLoaders'][0]['id']
+        if mlv.startswith('forge-'):
+            mlv = mlv[6:]
+        file.write(f'{mcv}/{mlv}\n')
         for mod in manifest['files']:
             if not mod['projectID'] in clientmods:
                 file.write(f'{mod["projectID"]}/{mod["fileID"]}\n')
@@ -114,7 +125,7 @@ def createServerZip(manifest, gitignore):
             'spawn-protection=0\n',
             'view-distance=8\n'
         ])
-        
+
     print('Create archive')
     shutil.make_archive(os.path.join('build', 'server'), 'zip', targetDir)
 
@@ -141,7 +152,7 @@ def uploadToGithub(commit, token, manifest):
         'target_commitish': commit,
         'name': f'v{manifest["version"]}',
         'body': f'CastBingo v{manifest["version"]}',
-        'draft': False,
+        'draft': True,
         'prerelease': False
     }).encode('utf-8')
     release_id = json.loads(urlopen(create_release).read())['id']
