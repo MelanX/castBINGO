@@ -42,6 +42,7 @@ needs push access to this repository.
 | update_emotes.py | Updates emote data for the emojiful mod based on [emotes.json](emotes.json). The generated file can be found in `build/overrides` |
 | create_release.py | Creates a new release and publishes it on github. **IMPORTANT: Make sure to push your current branch before calling this!!!** |
 | modlist.py | Generates the manifest from the manifest without file ids at [pack.json](pack.json) and the files in the `mods` folder. Uses a cache file `modcache.json`. This file should be committed. |
+| downloadmods.py | Downloads all mods from `manifest.json` into the `mods` folder. **This wil ldelete all mods previously in the mods fodler!** |
 
 ## Contribution
 

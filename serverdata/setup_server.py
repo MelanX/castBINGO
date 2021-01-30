@@ -6,8 +6,6 @@ from urllib.request import Request, urlopen
 
 
 def downloadMods():
-    if not os.path.isdir('mods'):
-        os.makedirs('mods')
     mods = []
     with open('server.txt') as file:
         for entry in file.read().split('\n'):
@@ -44,6 +42,8 @@ def downloadMods():
         print('Failed to rename forge installer output. Forge seems to have changed their installer.')
 
     print('Download Mods')
+    if not os.path.isdir('mods'):
+        os.makedirs('mods')
     for mod in mods[1:]:
         projectID = mod[0]
         fileID = mod[1]
