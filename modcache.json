@@ -235,16 +235,6 @@
             "projectID": 419699,
             "fileID": 3183867
         },
-        "deab8a3bcd1f91f8bf37b3c6a67c8052": {
-            "_displayName": "Bongo",
-            "projectID": 406119,
-            "fileID": 3160292
-        },
-        "707eddf0d1245733373ce42c8b4dcc67": {
-            "_displayName": "Bongo",
-            "projectID": 406119,
-            "fileID": 0
-        },
         "3e332a8d1fa55b3ced82d27e487eb823": {
             "_displayName": "Cyclic",
             "projectID": 239286,
@@ -305,14 +295,6 @@
         "architectury": {
             "_displayName": "Architectury API (Forge)",
             "projectID": 419699
-        },
-        "bongo": {
-            "_displayName": "Bongo",
-            "projectID": 406119
-        },
-        "castbingo": {
-            "_displayName": "Bongo",
-            "projectID": 406119
         },
         "cyclic": {
             "_displayName": "Cyclic",
