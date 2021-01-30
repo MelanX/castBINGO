@@ -19,7 +19,7 @@ def generateManifest():
     if not os.path.isdir('build'):
         os.makedirs('build')
     with open('manifest.json', mode='w') as file:
-        file.write(json.dumps(manifest, indent=4))
+        file.write(json.dumps(manifest, indent=4) + '\n')
 
 class ModCache:
     def __init__(self, file: str):
@@ -43,7 +43,7 @@ class ModCache:
             'modid_map': self.modid_map
         }
         with open(self.file, mode='w') as f:
-            f.write(json.dumps(data) + '\n')
+            f.write(json.dumps(data, indent=4) + '\n')
 
     def resolve_signature(self, signature: str):
         if signature in self.signatures:
