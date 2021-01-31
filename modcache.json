@@ -334,11 +334,6 @@
             "_displayName": "Bongo",
             "projectID": 406119,
             "fileID": 3160292
-        },
-        "707eddf0d1245733373ce42c8b4dcc67": {
-            "_displayName": "BingoLobby",
-            "projectID": 440998,
-            "fileID": 3186932
         }
     },
     "modid_map": {
@@ -405,10 +400,6 @@
         "runelic": {
             "_displayName": "Runelic",
             "projectID": 393149
-        },
-        "castbingo": {
-            "_displayName": "BingoLobby",
-            "projectID": 440998
         }
     }
 }
