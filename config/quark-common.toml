@@ -47,21 +47,21 @@
 	World = false
 
 [automation]
-	Chute = true
-	"Iron Rod" = true
-	"Weather Sensor" = true
-	"Ender Watcher" = true
-	"Endermites Form Shulkers" = true
-	"Chains Connect Blocks" = true
-	"Color Slime" = true
-	"Dispensers Place Blocks" = true
-	"Redstone Circuit" = true
-	"Chain Linkage" = true
-	Gravisand = true
-	"Metal Buttons" = true
-	"Obsidian Plate" = true
-	"Pistons Move Tile Entities" = true
-	"Feeding Trough" = true
+	Chute = false
+	"Iron Rod" = false
+	"Weather Sensor" = false
+	"Ender Watcher" = false
+	"Endermites Form Shulkers" = false
+	"Chains Connect Blocks" = false
+	"Color Slime" = false
+	"Dispensers Place Blocks" = false
+	"Redstone Circuit" = false
+	"Chain Linkage" = false
+	Gravisand = false
+	"Metal Buttons" = false
+	"Obsidian Plate" = false
+	"Pistons Move Tile Entities" = false
+	"Feeding Trough" = false
 
 	[automation.dispensers_place_blocks]
 		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire"]
@@ -105,43 +105,43 @@
 		Range = 10.0
 
 [building]
-	"Duskbound Blocks" = true
-	"Bamboo Mat" = true
-	"Cobblestone Bricks" = true
-	"More Brick Types" = true
-	"Gold Bars" = true
-	"Soul Sandstone" = true
-	"Burn Vines" = true
-	"Quilted Wool" = true
-	"Compressed Blocks" = true
-	Stools = true
-	Thatch = true
-	"Variant Chests" = true
-	"Variant Ladders" = true
-	Hedges = true
-	"Vertical Slabs" = true
-	Shingles = true
-	"Nether Brick Fence Gate" = true
-	"Item Frames" = true
-	"Stained Planks" = true
-	"Wooden Posts" = true
-	"Leaf Carpet" = true
-	"Lit Lamp" = true
-	"Vertical Planks" = true
-	Midori = true
-	"Tie Leads To Fences" = true
-	"Shallow Dirt" = true
-	"More Stone Variants" = true
-	"Framed Glass" = true
-	"Tallow And Candles" = true
-	Turf = true
-	"Paper Decor" = true
-	Rope = true
-	"Iron Plates" = true
-	"Sturdy Stone" = true
-	"More Potted Plants" = true
-	Grate = true
-	"Variant Bookshelves" = true
+	"Duskbound Blocks" = false
+	"Bamboo Mat" = false
+	"Cobblestone Bricks" = false
+	"More Brick Types" = false
+	"Gold Bars" = false
+	"Soul Sandstone" = false
+	"Burn Vines" = false
+	"Quilted Wool" = false
+	"Compressed Blocks" = false
+	Stools = false
+	Thatch = false
+	"Variant Chests" = false
+	"Variant Ladders" = false
+	Hedges = false
+	"Vertical Slabs" = false
+	Shingles = false
+	"Nether Brick Fence Gate" = false
+	"Item Frames" = false
+	"Stained Planks" = false
+	"Wooden Posts" = false
+	"Leaf Carpet" = false
+	"Lit Lamp" = false
+	"Vertical Planks" = false
+	Midori = false
+	"Tie Leads To Fences" = false
+	"Shallow Dirt" = false
+	"More Stone Variants" = false
+	"Framed Glass" = false
+	"Tallow And Candles" = false
+	Turf = false
+	"Paper Decor" = false
+	Rope = false
+	"Iron Plates" = false
+	"Sturdy Stone" = false
+	"More Potted Plants" = false
+	Grate = false
+	"Variant Bookshelves" = false
 
 	[building.rope]
 		"Enable Dispenser Behavior" = true
@@ -233,13 +233,13 @@
 		"Change Names" = true
 
 [management]
-	"Chests In Boats" = true
-	"Inventory Sorting" = true
-	"Shulker Box Right Click" = true
-	"Hotbar Changer" = true
-	"Item Sharing" = true
-	"Right Click Armor" = true
-	"Easy Transfering" = true
+	"Chests In Boats" = false
+	"Inventory Sorting" = false
+	"Shulker Box Right Click" = false
+	"Hotbar Changer" = false
+	"Item Sharing" = false
+	"Right Click Armor" = false
+	"Easy Transfering" = false
 
 	[management.inventory_sorting]
 		#
@@ -364,33 +364,33 @@
 		"Never Use Heart Of Diamond" = false
 
 [tweaks]
-	"Armed Armor Stands" = true
-	"Lock Rotation" = true
-	"Dragon Scales" = true
-	"Replace Scaffolding" = true
-	"Axe Leaf Harvesting" = true
-	"Sign Editing" = true
-	"Dirt To Path" = true
-	"Simple Harvest" = true
-	"Hoe Harvesting" = true
-	"Reacharound Placing" = true
-	"Villagers Follow Emeralds" = true
-	"Compasses Work Everywhere" = true
-	"Skull Pikes" = true
-	"Note Block Mob Sounds" = true
-	"Double Door Opening" = true
-	"Automatic Recipe Unlock" = true
-	"Poison Potato Usage" = true
-	"Improved Sleeping" = true
-	"Infinity Bucket" = true
-	"Springy Slime" = true
-	Emotes = true
-	"Utility Recipes" = true
-	"Pat The Dogs" = true
-	"Enhanced Ladders" = true
-	"Snow Golem Player Heads" = true
-	"Glass Shard" = true
-	"Campfires Boost Elytra" = true
+	"Armed Armor Stands" = false
+	"Lock Rotation" = false
+	"Dragon Scales" = false
+	"Replace Scaffolding" = false
+	"Axe Leaf Harvesting" = false
+	"Sign Editing" = false
+	"Dirt To Path" = false
+	"Simple Harvest" = false
+	"Hoe Harvesting" = false
+	"Reacharound Placing" = false
+	"Villagers Follow Emeralds" = false
+	"Compasses Work Everywhere" = false
+	"Skull Pikes" = false
+	"Note Block Mob Sounds" = false
+	"Double Door Opening" = false
+	"Automatic Recipe Unlock" = false
+	"Poison Potato Usage" = false
+	"Improved Sleeping" = false
+	"Infinity Bucket" = false
+	"Springy Slime" = false
+	Emotes = false
+	"Utility Recipes" = false
+	"Pat The Dogs" = false
+	"Enhanced Ladders" = false
+	"Snow Golem Player Heads" = false
+	"Glass Shard" = false
+	"Campfires Boost Elytra" = false
 
 	[tweaks.sign_editing]
 		"Requires Empty Hand" = false
@@ -527,32 +527,32 @@
 		"Max Bounces" = 1
 
 [world]
-	"New Stone Types" = true
-	"Lush Underground Biome" = true
-	"Big Dungeon" = true
-	Speleothems = true
-	"Elder Prismarine Underground Biome" = true
-	"Blossom Trees" = true
-	"Sandstone Underground Biome" = true
-	"Glowshroom Underground Biome" = true
-	"Permafrost Underground Biome" = true
-	"Underground Clay" = true
-	"Slime Underground Biome" = true
-	"Fairy Rings" = true
-	"Chorus Vegetation" = true
-	Crevices = true
-	"Nether Obsidian Spikes" = true
-	"Mega Caves" = true
-	"Realistic World Gen" = true
-	Biotite = true
-	"Big Stone Clusters" = true
-	"Brimstone Underground Biome" = true
-	"Cave Crystal Underground Biome" = true
-	"Spiral Spires" = true
-	"Overgrown Underground Biome" = true
-	"Cave Roots" = true
-	"Spider Nest Underground Biome" = true
-	"Monster Box" = true
+	"New Stone Types" = false
+	"Lush Underground Biome" = false
+	"Big Dungeon" = false
+	Speleothems = false
+	"Elder Prismarine Underground Biome" = false
+	"Blossom Trees" = false
+	"Sandstone Underground Biome" = false
+	"Glowshroom Underground Biome" = false
+	"Permafrost Underground Biome" = false
+	"Underground Clay" = false
+	"Slime Underground Biome" = false
+	"Fairy Rings" = false
+	"Chorus Vegetation" = false
+	Crevices = false
+	"Nether Obsidian Spikes" = false
+	"Mega Caves" = false
+	"Realistic World Gen" = false
+	Biotite = false
+	"Big Stone Clusters" = false
+	"Brimstone Underground Biome" = false
+	"Cave Crystal Underground Biome" = false
+	"Spiral Spires" = false
+	"Overgrown Underground Biome" = false
+	"Cave Roots" = false
+	"Spider Nest Underground Biome" = false
+	"Monster Box" = false
 
 	[world.monster_box]
 		#
@@ -1725,39 +1725,12 @@
 
 [mobs]
 	Frogs = false
-	Crabs = false
+	Crabs = true
 	Stonelings = true
 	Foxhound = false
+	Forgotten = false
+	Wraith = true
 	Toretoise = false
-
-	[mobs.stonelings]
-		"Cautious Stonelings" = true
-		"Enable Diamond Heart" = true
-		"Max Y Level" = 24
-		"Tamable Stonelings" = true
-
-		[mobs.stonelings.spawn_config]
-			#
-			#Allowed values: (0,)
-			"Spawn Weight" = 80
-			#
-			#Allowed values: [1,)
-			"Min Group Size" = 1
-			#
-			#Allowed values: [1,)
-			"Max Group Size" = 1
-
-			[mobs.stonelings.spawn_config.biomes]
-				#
-				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# icy, the_end, beach, forest, ocean, desert, river, swamp,
-				# mushroom, nether]
-				"Biome Categories" = ["none", "nether", "the_end"]
-				"Is Blacklist" = true
-
-		[mobs.stonelings.dimensions]
-			Dimensions = ["minecraft:overworld"]
-			"Is Blacklist" = false
 
 	[mobs.toretoise]
 		"Max Y Level" = 32
@@ -1844,6 +1817,64 @@
 				Biomes = ["minecraft:nether_wastes", "minecraft:basalt_deltas"]
 				"Is Blacklist" = false
 
+	[mobs.wraith]
+		#
+		#List of sound sets to use with wraiths.
+		#Three sounds must be provided per entry, separated by | (in the format idle|hurt|death). Leave blank for no sound (i.e. if a mob has no ambient noise)
+		"Wraith Sounds" = ["entity.sheep.ambient|entity.sheep.hurt|entity.sheep.death", "entity.cow.ambient|entity.cow.hurt|entity.cow.death", "entity.pig.ambient|entity.pig.hurt|entity.pig.death", "entity.chicken.ambient|entity.chicken.hurt|entity.chicken.death", "entity.horse.ambient|entity.horse.hurt|entity.horse.death", "entity.cat.ambient|entity.cat.hurt|entity.cat.death", "entity.wolf.ambient|entity.wolf.hurt|entity.wolf.death", "entity.villager.ambient|entity.villager.hurt|entity.villager.death", "entity.polar_bear.ambient|entity.polar_bear.hurt|entity.polar_bear.death", "entity.zombie.ambient|entity.zombie.hurt|entity.zombie.death", "entity.skeleton.ambient|entity.skeleton.hurt|entity.skeleton.death", "entity.spider.ambient|entity.spider.hurt|entity.spider.death", "|entity.creeper.hurt|entity.creeper.death", "entity.endermen.ambient|entity.endermen.hurt|entity.endermen.death", "entity.zombie_pig.ambient|entity.zombie_pig.hurt|entity.zombie_pig.death", "entity.witch.ambient|entity.witch.hurt|entity.witch.death", "entity.blaze.ambient|entity.blaze.hurt|entity.blaze.death", "entity.llama.ambient|entity.llama.hurt|entity.llama.death", "|quark:entity.stoneling.cry|quark:entity.stoneling.die", "quark:entity.frog.idle|quark:entity.frog.hurt|quark:entity.frog.die"]
+
+		[mobs.wraith.spawn_config]
+			#
+			#Allowed values: (0,)
+			"Spawn Weight" = 8
+			"Max Cost" = 0.7
+			#
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+			"Spawn Cost" = 0.15
+
+			[mobs.wraith.spawn_config.biomes]
+				Biomes = ["minecraft:soul_sand_valley"]
+				"Is Blacklist" = false
+
+	[mobs.stonelings]
+		"Cautious Stonelings" = true
+		"Enable Diamond Heart" = true
+		"Max Y Level" = 24
+		"Tamable Stonelings" = true
+
+		[mobs.stonelings.spawn_config]
+			#
+			#Allowed values: (0,)
+			"Spawn Weight" = 80
+			#
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#
+			#Allowed values: [1,)
+			"Max Group Size" = 1
+
+			[mobs.stonelings.spawn_config.biomes]
+				#
+				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
+				# icy, the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
+				"Biome Categories" = ["none", "nether", "the_end"]
+				"Is Blacklist" = true
+
+		[mobs.stonelings.dimensions]
+			Dimensions = ["minecraft:overworld"]
+			"Is Blacklist" = false
+
+	[mobs.forgotten]
+		#
+		#1 in this many Skeletons that spawn under the threshold are replaced with Forgotten.
+		"Forgotten Spawn Rate" = 0.05
+		"Max Height For Spawn" = 20
+
 	[mobs.frogs]
 		"Enable Big Funny" = false
 		"Enable Brewing" = true
@@ -1868,14 +1899,14 @@
 				"Is Blacklist" = false
 
 [client]
-	"Greener Grass" = true
-	"Variant Animal Textures" = true
-	"Back Button Keybind" = true
-	"Improved Tooltips" = true
-	"Improved Mount Hud" = true
-	"Usage Ticker" = true
-	"Auto Walk Keybind" = true
-	"Chest Searching" = true
+	"Greener Grass" = false
+	"Variant Animal Textures" = false
+	"Back Button Keybind" = false
+	"Improved Tooltips" = false
+	"Improved Mount Hud" = false
+	"Usage Ticker" = false
+	"Auto Walk Keybind" = false
+	"Chest Searching" = false
 
 	[client.usage_ticker]
 		#

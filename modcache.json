@@ -334,6 +334,41 @@
             "_displayName": "Bongo",
             "projectID": 406119,
             "fileID": 3160292
+        },
+        "b59ec4cb3d33b870cb818ff867ac6040": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3186932
+        },
+        "6b9b6df87156de861e14bfd44a256c47": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3186848
+        },
+        "1cfe6e09f6548a2312268b3634dffa0c": {
+            "_displayName": "Cucumber Library",
+            "projectID": 272335,
+            "fileID": 3187116
+        },
+        "850c04ece24feb114fda68e9b3eabb45": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3186916
+        },
+        "1ec8ffc36f181b191be74d19be043789": {
+            "_displayName": "Lollipop",
+            "projectID": 347954,
+            "fileID": 3187610
+        },
+        "1bd3c7df1e19ae0ca3dab009f66274e2": {
+            "_displayName": "Powah!",
+            "projectID": 352656,
+            "fileID": 3187611
+        },
+        "1ce8485c30d99d6d1b050fd51e7717f9": {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3186934
         }
     },
     "modid_map": {
@@ -400,6 +435,26 @@
         "runelic": {
             "_displayName": "Runelic",
             "projectID": 393149
+        },
+        "bingolobby": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998
+        },
+        "bongo": {
+            "_displayName": "Bongo",
+            "projectID": 406119
+        },
+        "cucumber": {
+            "_displayName": "Cucumber Library",
+            "projectID": 272335
+        },
+        "lollipop": {
+            "_displayName": "Lollipop",
+            "projectID": 347954
+        },
+        "powah": {
+            "_displayName": "Powah!",
+            "projectID": 352656
         }
     }
 }
