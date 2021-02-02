@@ -334,6 +334,21 @@
             "_displayName": "Bongo",
             "projectID": 406119,
             "fileID": 3160292
+        },
+        "b59ec4cb3d33b870cb818ff867ac6040": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3186932
+        },
+        "b42460903a80cb3295ce741a1c119fab": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3189220
+        },
+        "dcc8484479a7f7bc522f917f9fe85196": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3189209
         }
     },
     "modid_map": {
@@ -400,6 +415,14 @@
         "runelic": {
             "_displayName": "Runelic",
             "projectID": 393149
+        },
+        "bingolobby": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998
+        },
+        "bongo": {
+            "_displayName": "Bongo",
+            "projectID": 406119
         }
     }
 }
