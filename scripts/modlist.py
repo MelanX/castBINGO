@@ -135,7 +135,6 @@ class ModCache:
             files_response = urlopen(files_request)
             files_data = json.loads(files_response.read().decode('utf-8'))
             for entry in files_data:
-                print(entry)
                 if murmur == entry['packageFingerprint']:
                     mod_entry = {
                         '_displayName': mod_data["_displayName"],
