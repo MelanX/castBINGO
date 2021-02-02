@@ -1,0 +1,2258 @@
+{
+  "tasks": [
+    {
+      "biome": "endergetic:poise_forest",
+      "weight": 3,
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:bamboo_jungle",
+      "weight": 3,
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:crimson_forest",
+      "weight": 3,
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:deep_frozen_ocean",
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:desert",
+      "weight": 3,
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:end_highlands",
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:eroded_badlands",
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "weight": 3,
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:gravelly_mountains",
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "weight": 3,
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:mushroom_fields",
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:nether_wastes",
+      "weight": 3,
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:savanna",
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:snowy_taiga",
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:snowy_tundra",
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:soul_sand_valley",
+      "weight": 3,
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:sunflower_plains",
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:swamp",
+      "weight": 3,
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:taiga",
+      "weight": 3,
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:the_end",
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:warm_ocean",
+      "type": "bongo.biome"
+    },
+    {
+      "biome": "minecraft:warped_forest",
+      "type": "bongo.biome"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "endergetic:booflo"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "endergetic:puff_bug"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "mana-and-artifice:mushroom_soldier"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "mana-and-artifice:witch_hunter"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:bat"
+    },
+    {
+      "type": "bongo.entity",
+      "weight": 3,
+      "entity": "minecraft:cat"
+    },
+    {
+      "type": "bongo.entity",
+      "weight": 3,
+      "entity": "minecraft:dolphin"
+    },
+    {
+      "type": "bongo.entity",
+      "weight": 3,
+      "entity": "minecraft:elder_guardian"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:endermite"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:evoker"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:fox"
+    },
+    {
+      "type": "bongo.entity",
+      "weight": 3,
+      "entity": "minecraft:guardian"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:horse"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:illusioner"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:mooshroom"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:panda"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:parrot"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:phantom"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:piglin_brute"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:polar_bear"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:pufferfish"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:ravager"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:shulker"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:skeleton_horse"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:stray"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:trader_llama"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:vex"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:vindicator"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:wither"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "minecraft:zombie_horse"
+    },
+    {
+      "type": "bongo.entity",
+      "weight": 3,
+      "entity": "quark:crab"
+    },
+    {
+      "type": "bongo.entity",
+      "weight": 3,
+      "entity": "quark:wraith"
+    },
+    {
+      "type": "bongo.entity",
+      "entity": "waddles:adelie_penguin"
+    },
+    {
+      "potion": "botania:allure",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "botania:bloodthirst",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "botania:emptiness",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "botania:feather_feet",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "botania:soul_cross",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "farmersdelight:comfort",
+      "weight": 10,
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "minecraft:bad_omen",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "minecraft:conduit_power",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "minecraft:dolphins_grace",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "minecraft:hero_of_the_village",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "minecraft:levitation",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "minecraft:luck",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "minecraft:regeneration",
+      "type": "bongo.potion"
+    },
+    {
+      "potion": "minecraft:unluck",
+      "type": "bongo.potion"
+    },
+    {
+      "advancement": "appliedenergistics2:main/network2",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/mana_bomb_ignite",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/terrasteel_pickup",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/enchanter_make",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/ender_air_make",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/brew_pickup",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/elf_portal_open",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/mana_cookie_eat",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/gaia_guardian_kill",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/tiny_potato_pet",
+      "weight": 3,
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/elf_lexicon_pickup",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/tiara_wings",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/dandelifeon_pickup",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "botania:main/rune_pickup",
+      "weight": 3,
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:chromatic_compound",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:infinite_water",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:refined_radiance",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:infinite_lava",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:blaze_cake",
+      "weight": 3,
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:upgraded_zapper",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:its_alive",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "endergetic:up_up_and_away",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "endergetic:catch_puffbug",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "endergetic:eat_bolloom_fruit",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "farmersdelight:main/eat_comfort_food",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "farmersdelight:main/plant_all_crops",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "farmersdelight:main/get_mushroom_colony",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "farmersdelight:main/master_chef",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "farmersdelight:main/eat_nourishing_food",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "immersiveengineering:main/mb_crusher",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "immersiveengineering:main/mb_dieselgen",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "immersiveengineering:main/mb_blastfurnace",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "immersiveengineering:main/mb_excavator",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "inventorypets:50",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "inventorypets:all",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:end/dragon_egg",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:nether/all_effects",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:adventure/two_birds_one_arrow",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:adventure/kill_all_mobs",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:nether/obtain_ancient_debris",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:nether/create_full_beacon",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:nether/netherite_armor",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:husbandry/complete_catalogue",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:nether/all_potions",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:husbandry/bred_all_animals",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:nether/summon_wither",
+      "weight": 3,
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:createchromatic_age",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:adventure/sniper_duel",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:story/cure_zombie_villager",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:end/respawn_dragon",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:husbandry/obtain_netherite_hoe",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:husbandry/balanced_diet",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "minecraft:nether/fast_travel",
+      "weight": 3,
+      "type": "bongo.advancement"
+    },
+    {
+      "stat": "minecraft:cobblestone",
+      "weight": 5,
+      "category": "minecraft:mined",
+      "type": "bongo.stat",
+      "value": 50000
+    },
+    {
+      "stat": "minecraft:jump",
+      "weight": 5,
+      "category": "minecraft:custom",
+      "type": "bongo.stat",
+      "value": 6666
+    },
+    {
+      "stat": "minecraft:fish_caught",
+      "weight": 5,
+      "category": "minecraft:custom",
+      "type": "bongo.stat",
+      "value": 100
+    },
+    {
+      "stat": "minecraft:walk_one_cm",
+      "weight": 5,
+      "category": "minecraft:custom",
+      "type": "bongo.stat",
+      "value": 5000000
+    },
+    {
+      "stat": "minecraft:magma_block",
+      "category": "minecraft:mined",
+      "type": "bongo.stat",
+      "value": 6666
+    },
+    {
+      "stat": "minecraft:strider_one_cm",
+      "weight": 5,
+      "category": "minecraft:custom",
+      "type": "bongo.stat",
+      "value": 1000000
+    },
+    {
+      "stat": "minecraft:crouch_one_cm",
+      "category": "minecraft:custom",
+      "type": "bongo.stat",
+      "value": 500000
+    },
+    {
+      "stat": "minecraft:deaths",
+      "category": "minecraft:custom",
+      "type": "bongo.stat",
+      "value": 3
+    },
+
+    {
+      "id": "aiotbotania:elementium_aiot",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "aiotbotania:terra_aiot",
+      "Count": 1,
+      "tag": {
+        "tipped": 1
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "angelring:itemring",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "appliedenergistics2:128_cubed_spatial_storage_cell",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "appliedenergistics2:64k_storage_cell",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "appliedenergistics2:crafting_terminal",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "type": "bongo.group",
+      "weight": 20,
+      "tasks": [
+        {
+          "id": "appliedenergistics2:purified_certus_quartz_crystal",
+          "weight": 3,
+          "Count": 10,
+          "type": "bongo.item"
+        },
+        {
+          "id": "appliedenergistics2:purified_fluix_crystal",
+          "weight": 3,
+          "Count": 10,
+          "type": "bongo.item"
+        },
+        {
+          "id": "appliedenergistics2:purified_nether_quartz_crystal",
+          "weight": 3,
+          "Count": 10,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "id": "appliedenergistics2:singularity",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "appliedenergistics2:wireless_terminal",
+      "weight": 3,
+      "Count": 1,
+      "tag": {
+        "internalMaxPower": 1600000.0,
+        "Damage": 0,
+        "internalCurrentPower": 1600000.0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "id": "botania:ancient_will_ahrim",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:ancient_will_dharok",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:ancient_will_guthan",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:ancient_will_karil",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:ancient_will_torag",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:ancient_will_verac",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "id": "botania:astrolabe",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:blood_pendant",
+      "Count": 1,
+      "tag": {
+        "brewKey": "botania:soul_cross"
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:brew_flask",
+      "Count": 1,
+      "tag": {
+        "brewKey": "botania:resistance"
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:corporea_spark_master",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "type": "bongo.group",
+      "weight": 10,
+      "tasks": [
+        {
+          "id": "botania:cosmetic_devil_horns",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:cosmetic_devil_tail",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "id": "botania:dice",
+      "Count": 2,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:diva_charm",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:ender_air_bottle",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:flight_tiara",
+      "Count": 1,
+      "tag": {
+        "variant": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:gaia_ingot",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:incense_stick",
+      "weight": 3,
+      "Count": 1,
+      "tag": {
+        "brewKey": "botania:bloodthirst"
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:kekimurus",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:king_key",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:knockback_belt",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:laputa_shard",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:mana_bomb",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:monocle",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:pinkinator",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:rosa_arcana",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:spawner_mover",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:attribute_filter",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:bar_of_chocolate",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:brass_hand",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:builders_tea",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:chromatic_compound",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:deforester",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:deployer",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:handheld_blockzapper",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:integrated_circuit",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:shadow_steel_casing",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "cyclic:beacon",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "cyclic:charm_ultimate",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "cyclic:ender_controller",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "cyclic:evoker_fang",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "cyclic:heart",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "darkutils:charm_portal",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "darkutils:charm_sleep",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "darkutils:rune_damage_player",
+      "Count": 4,
+      "type": "bongo.item"
+    },
+    {
+      "id": "darkutils:rune_wither",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "endergetic:acidian_lantern",
+      "Count": 5,
+      "type": "bongo.item"
+    },
+    {
+      "id": "endergetic:booflo_vest",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "endergetic:ender_campfire",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "endergetic:ender_lantern",
+      "weight": 3,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "endergetic:eumus_bricks",
+      "Count": 10,
+      "type": "bongo.item"
+    },
+    {
+      "id": "endergetic:eumus_poismoss",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "endergetic:poise_cluster",
+      "Count": 5,
+      "type": "bongo.item"
+    },
+    {
+      "id": "endergetic:poismoss",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "type": "bongo.group",
+      "weight": 5,
+      "tasks": [
+        {
+          "id": "extendedcrafting:singularity",
+          "Count": 1,
+          "tag": {
+            "Id": "extendedcrafting:coal"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "extendedcrafting:singularity",
+          "Count": 1,
+          "tag": {
+            "Id": "extendedcrafting:glowstone"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "extendedcrafting:singularity",
+          "Count": 1,
+          "tag": {
+            "Id": "extendedcrafting:lapis_lazuli"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "extendedcrafting:singularity",
+          "Count": 1,
+          "tag": {
+            "Id": "extendedcrafting:redstone"
+          },
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "id": "farmersdelight:honey_glazed_ham_block",
+      "weight": 5,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "farmersdelight:stuffed_pumpkin_block",
+      "weight": 5,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "immersiveengineering:balloon",
+      "weight": 5,
+      "Count": 64,
+      "type": "bongo.item"
+    },
+    {
+      "id": "immersiveengineering:biodiesel_bucket",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "immersiveengineering:blueprint",
+      "Count": 1,
+      "tag": {
+        "blueprint": "electrode"
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "immersiveengineering:casull",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "immersiveengineering:charging_station",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "immersiveengineering:coke",
+      "weight": 5,
+      "Count": 8,
+      "type": "bongo.item"
+    },
+    {
+      "id": "immersiveengineering:coresample",
+      "weight": 5,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "immersiveengineering:ethanol_bucket",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "immersiveengineering:plantoil_bucket",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "industrialforegoing:black_hole_controller",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "industrialforegoing:enchantment_factory",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "industrialforegoing:mechanical_dirt",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "industrialforegoing:pink_slime_ingot",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "inventorypets:pet_black_hole",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "inventorypets:pet_cloud",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "inventorypets:pet_pufferfish",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "inventorypets:pet_slime",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "inventorypets:pet_sun",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "inventorypets:pet_wither",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "mana-and-artifice:manaweave_projector",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "mekanism:brine_bucket",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "mekanism:chlorine_bucket",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "type": "bongo.group",
+      "weight": 7,
+      "tasks": [
+        {
+          "id": "mekanism:crystal_copper",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:crystal_gold",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:crystal_iron",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:crystal_lead",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:crystal_osmium",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:crystal_tin",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:crystal_uranium",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "id": "mekanism:digital_miner",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "type": "bongo.group",
+      "weight": 8,
+      "tasks": [
+        {
+          "id": "mekanism:dirty_dust_copper",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:dirty_dust_gold",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:dirty_dust_iron",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:dirty_dust_lead",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:dirty_dust_osmium",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:dirty_dust_tin",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:dirty_dust_uranium",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:dirty_netherite_scrap",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "id": "mekanism:hdpe_stick",
+      "Count": 64,
+      "type": "bongo.item"
+    },
+    {
+      "id": "mekanism:hydrogen_chloride_bucket",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "type": "bongo.group",
+      "weight": 3,
+      "tasks": [
+        {
+          "id": "mekanism:meka_tool",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:mekasuit_bodyarmor",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:mekasuit_boots",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:mekasuit_helmet",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:mekasuit_pants",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "weight": 10,
+      "tasks": [
+        {
+          "id": "mekanism:module_attack_amplification_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_charge_distribution_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_dosimeter_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_electrolytic_breathing_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_energy_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_excavation_escalation_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_farming_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_gravitational_modulating_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_hydraulic_propulsion_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_inhalation_purification_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_jetpack_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_locomotive_boosting_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_magnetic_attraction_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_nutritional_injection_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_radiation_shielding_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_silk_touch_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_solar_recharging_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_teleportation_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_vein_mining_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:module_vision_enhancement_unit",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "weight": 23,
+      "tasks": [
+        {
+          "id": "mekanism:ultimate_bin",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_chemical_tank",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_combining_factory",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_compressing_factory",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_control_circuit",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_crushing_factory",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_energy_cube",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_energy_cube",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_enriching_factory",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_fluid_tank",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_induction_cell",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_induction_provider",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_infusing_factory",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_injecting_factory",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_logistical_transporter",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_mechanical_pipe",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_pressurized_tube",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_purifying_factory",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_sawing_factory",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_smelting_factory",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_thermodynamic_conductor",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_tier_installer",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:ultimate_universal_cable",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "weight": 6,
+      "tasks": [
+        {
+          "id": "mekanism:upgrade_anchor",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:upgrade_energy",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:upgrade_filter",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:upgrade_gas",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:upgrade_muffling",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "mekanism:upgrade_speed",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "id": "minecraft:conduit",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "minecraft:dragon_head",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "minecraft:kelp",
+      "Count": 10,
+      "type": "bongo.item"
+    },
+    {
+      "id": "minecraft:player_head",
+      "weight": 5,
+      "Count": 1,
+      "tag": {
+        "SkullOwner": "Vazkii"
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "minecraft:sponge",
+      "Count": 64,
+      "type": "bongo.item"
+    },
+    {
+      "id": "minecraft:wither_rose",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "type": "bongo.group",
+      "weight": 8,
+      "tasks": [
+        {
+          "type": "bongo.group",
+          "weight": 2,
+          "tasks": [
+            {
+              "id": "minecraft:blaze_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:cave_spider_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:creeper_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:enderman_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:ghast_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:guardian_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:magma_cube_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:skeleton_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:slime_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:spider_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:witch_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:wither_skeleton_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:zombie_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "minecraft:zombified_piglin_spawn_egg",
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "type": "bongo.group",
+          "weight": 5,
+          "tasks": [
+            {
+              "id": "mysticalagriculture:absorption_i_augment",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:absorption_ii_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:absorption_iii_augment",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:absorption_iv_augment",
+              "weight": 4,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:absorption_v_augment",
+              "weight": 5,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "type": "bongo.group",
+          "weight": 3,
+          "tasks": [
+            {
+              "id": "mysticalagriculture:attack_aoe_i_augment",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:attack_aoe_ii_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:attack_aoe_iii_augment",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "type": "bongo.group",
+          "weight": 5,
+          "tasks": [
+            {
+              "id": "mysticalagriculture:health_boost_i_augment",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:health_boost_ii_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:health_boost_iii_augment",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:health_boost_iv_augment",
+              "weight": 4,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:health_boost_v_augment",
+              "weight": 5,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "type": "bongo.group",
+          "weight": 3,
+          "tasks": [
+            {
+              "id": "mysticalagriculture:jump_boost_i_augment",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:jump_boost_ii_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:jump_boost_iii_augment",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "type": "bongo.group",
+          "weight": 4,
+          "tasks": [
+            {
+              "id": "mysticalagriculture:mining_aoe_i_augment",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:mining_aoe_ii_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:mining_aoe_iii_augment",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:mining_aoe_iv_augment",
+              "weight": 4,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "type": "bongo.group",
+          "weight": 4,
+          "tasks": [
+            {
+              "id": "mysticalagriculture:pathing_aoe_i_augment",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:pathing_aoe_ii_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:pathing_aoe_iii_augment",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:pathing_aoe_iv_augment",
+              "weight": 4,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "type": "bongo.group",
+          "weight": 3,
+          "tasks": [
+            {
+              "id": "mysticalagriculture:speed_i_augment",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:speed_ii_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:speed_iii_augment",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "type": "bongo.group",
+          "weight": 3,
+          "tasks": [
+            {
+              "id": "mysticalagriculture:strength_i_augment",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:strength_ii_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:strength_iii_augment",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "type": "bongo.group",
+          "weight": 4,
+          "tasks": [
+            {
+              "id": "mysticalagriculture:tilling_aoe_i_augment",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:tilling_aoe_ii_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:tilling_aoe_iii_augment",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:tilling_aoe_iv_augment",
+              "weight": 4,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "type": "bongo.group",
+          "weight": 9,
+          "tasks": [
+            {
+              "id": "mysticalagriculture:fire_resistance_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:flight_augment",
+              "weight": 4,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:mining_fatigue_resistance_augment",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:night_vision_augment",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:no_fall_damage_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:poison_resistance_augment",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:step_assist_augment",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:water_breathing_augment",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mysticalagriculture:wither_resistance_augment",
+              "weight": 4,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "weight": 10,
+      "tasks": [
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 8.0,
+            "Type": "mysticalagriculture:pig"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 8.0,
+            "Type": "mysticalagriculture:chicken"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 8.0,
+            "Type": "mysticalagriculture:cow"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 8.0,
+            "Type": "mysticalagriculture:sheep"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 6.0,
+            "Type": "mysticalagriculture:squid"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 6.0,
+            "Type": "mysticalagriculture:fish"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 12.0,
+            "Type": "mysticalagriculture:slime"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 6.0,
+            "Type": "mysticalagriculture:turtle"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 10.0,
+            "Type": "mysticalagriculture:zombie"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 10.0,
+            "Type": "mysticalagriculture:skeleton"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 10.0,
+            "Type": "mysticalagriculture:creeper"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 10.0,
+            "Type": "mysticalagriculture:spider"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 6.0,
+            "Type": "mysticalagriculture:rabbit"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 10.0,
+            "Type": "mysticalagriculture:blaze"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 4.0,
+            "Type": "mysticalagriculture:ghast"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 8.0,
+            "Type": "mysticalagriculture:enderman"
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "mysticalagriculture:soul_jar",
+          "Count": 1,
+          "tag": {
+            "Souls": 8.0,
+            "Type": "mysticalagriculture:wither_skeleton"
+          },
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "weight": 30,
+      "tasks": [
+        {
+          "id": "powah:battery_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:blazing_crystal_block",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:capacitor_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:charged_snowball",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:crystal_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:ender_cell_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:ender_gate_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:energizing_rod_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:energy_cable_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:energy_cell_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:energy_discharger_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:energy_hopper_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:furnator_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:magmator_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:player_transmitter_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:reactor_blazing",
+          "Count": 36,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:solar_panel_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        },
+        {
+          "id": "powah:thermo_generator_blazing",
+          "Count": 2,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "weight": 5,
+      "tasks": [
+        {
+          "id": "quark:diamond_heart",
+          "weight": 1,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "quark:pickarang",
+          "weight": 2,
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "quark:flamerang",
+          "weight": 3,
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          },
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "id": "xreliquary:glacial_staff",
+      "weight": 5,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "xreliquary:pyromancer_staff",
+      "weight": 5,
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "xreliquary:serpent_staff",
+      "weight": 3,
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    }
+  ]
+}
