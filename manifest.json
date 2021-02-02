@@ -27,6 +27,11 @@
             "fileID": 3157757
         },
         {
+            "_displayName": "Akashic Tome",
+            "projectID": 250577,
+            "fileID": 3165075
+        },
+        {
             "_displayName": "Angel Ring",
             "projectID": 333396,
             "fileID": 3056161
@@ -39,7 +44,7 @@
         {
             "_displayName": "Architectury API (Forge)",
             "projectID": 419699,
-            "fileID": 3183867
+            "fileID": 3188530
         },
         {
             "_displayName": "AutoRegLib",
@@ -99,7 +104,7 @@
         {
             "_displayName": "Cyclic",
             "projectID": 239286,
-            "fileID": 3181578
+            "fileID": 3188762
         },
         {
             "_displayName": "Dark Utilities",
@@ -124,7 +129,7 @@
         {
             "_displayName": "FTB Chunks",
             "projectID": 314906,
-            "fileID": 3176162
+            "fileID": 3189022
         },
         {
             "_displayName": "FTB GUI Library",
@@ -164,12 +169,12 @@
         {
             "_displayName": "GeckoLib",
             "projectID": 388172,
-            "fileID": 3186916
+            "fileID": 3189334
         },
         {
             "_displayName": "Immersive Engineering",
             "projectID": 231951,
-            "fileID": 3180183
+            "fileID": 3189063
         },
         {
             "_displayName": "Industrial Foregoing",
@@ -199,12 +204,12 @@
         {
             "_displayName": "KubeJS",
             "projectID": 238086,
-            "fileID": 3185969
+            "fileID": 3189113
         },
         {
             "_displayName": "LibX",
             "projectID": 412525,
-            "fileID": 3159549
+            "fileID": 3189169
         },
         {
             "_displayName": "Lollipop",
@@ -269,7 +274,7 @@
         {
             "_displayName": "Rhino",
             "projectID": 416294,
-            "fileID": 3162251
+            "fileID": 3187177
         },
         {
             "_displayName": "Runelic",
@@ -279,7 +284,7 @@
         {
             "_displayName": "Shutup Experimental Settings!",
             "projectID": 407174,
-            "fileID": 3182559
+            "fileID": 3188120
         },
         {
             "_displayName": "Stronghold Compass",
@@ -304,7 +309,7 @@
         {
             "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
             "projectID": 414640,
-            "fileID": 3163570
+            "fileID": 3189805
         },
         {
             "_displayName": "U Team Core",

@@ -340,7 +340,6 @@
             "projectID": 440998,
             "fileID": 3186932
         },
-
         "b42460903a80cb3295ce741a1c119fab": {
             "_displayName": "BingoLobby",
             "projectID": 440998,
@@ -350,6 +349,81 @@
             "_displayName": "Bongo",
             "projectID": 406119,
             "fileID": 3189209
+        },
+        "70c7dc779bbd38e34fb9e3a4afe876dd": {
+            "_displayName": "Akashic Tome",
+            "projectID": 250577,
+            "fileID": 3165075
+        },
+        "0a9d06a6e02bdcc653e36fae8611e46c": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3188530
+        },
+        "1cfe6e09f6548a2312268b3634dffa0c": {
+            "_displayName": "Cucumber Library",
+            "projectID": 272335,
+            "fileID": 3187116
+        },
+        "f780497fc95d7102fea2ba0f76f64a0b": {
+            "_displayName": "Cyclic",
+            "projectID": 239286,
+            "fileID": 3188762
+        },
+        "7bb1e50ea9839e9e5a78f57ab60d2b79": {
+            "_displayName": "FTB Chunks",
+            "projectID": 314906,
+            "fileID": 3189022
+        },
+        "a13991734d0b801309ba1d769c797313": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3189334
+        },
+        "c767200790d7eb0cdfbb813c03453361": {
+            "_displayName": "Immersive Engineering",
+            "projectID": 231951,
+            "fileID": 3189063
+        },
+        "8c9c9b43bab2660e4ce9bf91fe6f9607": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3189113
+        },
+        "b40c12790f7e77a7033dd9e1cefa40a5": {
+            "_displayName": "LibX",
+            "projectID": 412525,
+            "fileID": 3189169
+        },
+        "1ec8ffc36f181b191be74d19be043789": {
+            "_displayName": "Lollipop",
+            "projectID": 347954,
+            "fileID": 3187610
+        },
+        "1bd3c7df1e19ae0ca3dab009f66274e2": {
+            "_displayName": "Powah!",
+            "projectID": 352656,
+            "fileID": 3187611
+        },
+        "1ce8485c30d99d6d1b050fd51e7717f9": {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3186934
+        },
+        "2a3ec32fda040cb700087742c55c4b80": {
+            "_displayName": "Rhino",
+            "projectID": 416294,
+            "fileID": 3187177
+        },
+        "150c992d5976049fcda0161132afc269": {
+            "_displayName": "Shutup Experimental Settings!",
+            "projectID": 407174,
+            "fileID": 3188120
+        },
+        "252a565d842a2bb2406de8dd8365c4be": {
+            "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
+            "projectID": 414640,
+            "fileID": 3189805
         }
     },
     "modid_map": {
@@ -436,6 +510,22 @@
         "powah": {
             "_displayName": "Powah!",
             "projectID": 352656
+        },
+        "ftbchunks": {
+            "_displayName": "FTB Chunks",
+            "projectID": 314906
+        },
+        "libx": {
+            "_displayName": "LibX",
+            "projectID": 412525
+        },
+        "rhino": {
+            "_displayName": "Rhino",
+            "projectID": 416294
+        },
+        "twerkitmeal": {
+            "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
+            "projectID": 414640
         }
     }
 }
