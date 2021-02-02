@@ -18,6 +18,7 @@
 !config
 !config/defaultoptions
 !config/defaultoptions/*
+!config/extendedcrafting-common.toml
 !config/ftbultimine-common.toml
 !config/packmenu.cfg
 !config/quark-common.toml
@@ -34,6 +35,8 @@
 !kubejs/config/client.properties
 !kubejs/data
 !kubejs/data/**
+!kubejs/startup_scripts
+!kubejs/startup_scripts/*
 
 # readme
 !README.md
