@@ -424,6 +424,26 @@
             "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
             "projectID": 414640,
             "fileID": 3189805
+        },
+        "7dd864121d23cfb9775ac8286aaf88e1": {
+            "_displayName": "Akashic Tome",
+            "projectID": 250577,
+            "fileID": 3190372
+        },
+        "4eb18e30b2b119a86e5aa98d39e57b68": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3190524
+        },
+        "bdfce827a0fc4965c9e5fc9085ffa15a": {
+            "_displayName": "Lootr",
+            "projectID": 361276,
+            "fileID": 3187524
+        },
+        "c12a9d238b7e5594362537f41e942f51": {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3190442
         }
     },
     "modid_map": {
@@ -526,6 +546,14 @@
         "twerkitmeal": {
             "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
             "projectID": 414640
+        },
+        "akashictome": {
+            "_displayName": "Akashic Tome",
+            "projectID": 250577
+        },
+        "lootr": {
+            "_displayName": "Lootr",
+            "projectID": 361276
         }
     }
 }

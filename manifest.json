@@ -29,7 +29,7 @@
         {
             "_displayName": "Akashic Tome",
             "projectID": 250577,
-            "fileID": 3165075
+            "fileID": 3190372
         },
         {
             "_displayName": "Angel Ring",
@@ -169,7 +169,7 @@
         {
             "_displayName": "GeckoLib",
             "projectID": 388172,
-            "fileID": 3189334
+            "fileID": 3190524
         },
         {
             "_displayName": "Immersive Engineering",
@@ -217,6 +217,11 @@
             "fileID": 3187610
         },
         {
+            "_displayName": "Lootr",
+            "projectID": 361276,
+            "fileID": 3187524
+        },
+        {
             "_displayName": "Mana and Artifice",
             "projectID": 406360,
             "fileID": 3169012
@@ -259,7 +264,7 @@
         {
             "_displayName": "Quark",
             "projectID": 243121,
-            "fileID": 3186934
+            "fileID": 3190442
         },
         {
             "_displayName": "ReAuth",

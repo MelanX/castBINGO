@@ -20,6 +20,7 @@
 !config/defaultoptions/*
 !config/extendedcrafting-common.toml
 !config/ftbultimine-common.toml
+!config/lootr-common.toml
 !config/packmenu.cfg
 !config/quark-common.toml
 !config/theoneprobe-*.toml
