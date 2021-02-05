@@ -2,11 +2,16 @@ events.listen('recipes', function (event) {
     const idRemovals = [
         'botania:mushroom_stew',
 
+        'create:crafting/kinetics/fluid_pipe',
+        'create:crafting/kinetics/empty_blaze_burner',
+        'create:crafting/kinetics/whisk',
+
         'cyclic:solidifier_amberalt',
 
         'farmersdelight:rice',
 
         'immersiveengineering:alloysmelter/brass',
+        'immersiveengineering:metalpress/plate_brass',
 
         'inventorypets:biome_pet',
 
@@ -20,5 +25,5 @@ events.listen('recipes', function (event) {
         event.remove({id: removal});
     });
 
-    event.remove({type: 'xreliquary:alkahestry_crafting'})
+    event.remove({type: 'xreliquary:alkahestry_crafting'});
 });
