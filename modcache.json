@@ -444,6 +444,36 @@
             "_displayName": "Quark",
             "projectID": 243121,
             "fileID": 3190442
+        },
+        "faf485cbffdd8e76f21fe334a5f934c4": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3194029
+        },
+        "68e0ef8d888eac828a22bbb354f5c6c8": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3191486
+        },
+        "0a99c03e6343a4847c28e8ac00ad393b": {
+            "_displayName": "Extended Crafting",
+            "projectID": 268387,
+            "fileID": 3193286
+        },
+        "51ef3843619c797435545effd6ba4934": {
+            "_displayName": "FTB GUI Library",
+            "projectID": 404465,
+            "fileID": 3193685
+        },
+        "e46ea23aa1ca941bcd061f1c92e4d271": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3192554
+        },
+        "110e152c5f7a50a085561c8d28ca0a40": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3192496
         }
     },
     "modid_map": {
@@ -554,6 +584,10 @@
         "lootr": {
             "_displayName": "Lootr",
             "projectID": 361276
+        },
+        "extendedcrafting": {
+            "_displayName": "Extended Crafting",
+            "projectID": 268387
         }
     }
 }
