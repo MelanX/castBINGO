@@ -40,8 +40,8 @@ def main():
         manifest = json.loads(file.read())
 
     print('Creating changelog')
-    create_update_file.githubChanges(manifest)
     create_update_file.modsChanges(manifest)
+    create_update_file.githubChanges(manifest)
 
     print('Update emotes')
     update_emotes.updateEmotes()
@@ -62,6 +62,11 @@ def main():
          '--output', '.',
          '--detailed']
     )
+
+    print('Push latest changes to GitHub')
+    subprocess.check_call(['git', 'add', '.'])
+    subprocess.check_call(['git', 'commit', '-m', f'v{manifest["version"]} release'])
+    subprocess.check_call(['git', 'push'])
 
     print('Prepare CurseForge pack.')
     createModpackZip(manifest, gitignore)
