@@ -32,6 +32,8 @@
 
 # kubejs
 !kubejs
+!kubejs/assets
+!kubejs/assets/**
 !kubejs/config
 !kubejs/config/client.properties
 !kubejs/data
