@@ -20,7 +20,7 @@ def main():
         token = json.loads(file.read())['github']
 
     commit = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()
-    
+
     with open('pack.json') as file:
         manifest = json.loads(file.read())
 
@@ -62,11 +62,6 @@ def main():
          '--detailed']
     )
 
-    print('Push latest changes to GitHub')
-    subprocess.check_call(['git', 'add', '.'])
-    subprocess.check_call(['git', 'commit', '-m', f'v{manifest["version"]} release'])
-    subprocess.check_call(['git', 'push'])
-
     print('Prepare CurseForge pack.')
     createModpackZip(manifest, gitignore)
 
@@ -99,7 +94,7 @@ def createModpackZip(manifest, gitignore):
     shutil.copytree(os.path.join('build', 'overrides'), targetDir + os.path.sep + manifest['overrides'])
     for entry in overrides:
         copyNotGitignoreTree('.', targetDir + os.path.sep + manifest['overrides'], entry, gitignore)
-        
+
     print('Create archive')
     shutil.make_archive(os.path.join('build', 'curseforge'), 'zip', targetDir)
 
@@ -160,6 +155,11 @@ def copyNotGitignoreTree(sourceBase: str, targetBase: str, relative: str, gitign
             shutil.copy2(source, target)
 
 def uploadToGithub(commit, token, manifest):
+    print('Push latest changes to GitHub')
+    subprocess.check_call(['git', 'add', '.'])
+    subprocess.check_call(['git', 'commit', '-m', f'v{manifest["version"]} release'])
+    subprocess.check_call(['git', 'push'])
+
     print('Create release')
     create_release = Request('https://api.github.com/repos/MelanX/castBINGO/releases', method='POST')
     create_release.add_header('Authorization', f'token {token}')
@@ -173,13 +173,13 @@ def uploadToGithub(commit, token, manifest):
         'prerelease': False
     }).encode('utf-8')
     release_id = json.loads(urlopen(create_release).read())['id']
-    
+
     print('Upload CurseForge pack')
     uploadFileToRelease(token, release_id, manifest, 'application/zip', 'curseforge', 'zip', os.path.join('build', 'curseforge.zip'))
-    
+
     print('Upload Server zip')
     uploadFileToRelease(token, release_id, manifest, 'application/zip', 'server', 'zip', os.path.join('build', 'server.zip'))
-    
+
 def uploadFileToRelease(token, release_id, manifest, mime, basename, suffix, path):
     request = Request(f'https://uploads.github.com/repos/MelanX/castBINGO/releases/{release_id}/assets?name={basename}-{manifest["version"]}.{suffix}', method='POST')
     request.add_header('Authorization', f'token {token}')
