@@ -65,10 +65,10 @@ def main():
 
     print('Prepare CurseForge pack.')
     createModpackZip(manifest, gitignore)
-    
+
     print('Prepare Server zip.')
     createServerZip(manifest, gitignore)
-    
+
     print('Uploading to GitHub')
     uploadToGithub(commit, token, manifest)
 

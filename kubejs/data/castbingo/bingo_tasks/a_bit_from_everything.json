@@ -1,0 +1,150 @@
+{
+  "tasks": [
+    {
+      "id": "darkutils:vector_plate",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "minecraft:cake",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "botania:rune_mana",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "xreliquary:glowing_bread",
+      "Count": 6,
+      "type": "bongo.item"
+    },
+    {
+      "id": "mysticalagriculture:tertium_gemstone",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "cyclic:terra_preta",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "inventorypets:pet_banana",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "cyclic:scythe_forage",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "inventorypets:pet_purplicious_cow",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "extendedcrafting:basic_table",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "powah:wrench",
+      "Count": 1,
+      "tag": {
+        "PowahWrenchNBT": {}
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "immersiveengineering:coal_coke",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "minecraft:ender_pearl",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "minecraft:potion",
+      "Count": 1,
+      "tag": {
+        "Potion": "minecraft:regeneration"
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "endergetic:poise_stem",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "minecraft:apple",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "aiotbotania:livingrock_aiot",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "industrialforegoing:latex_bucket",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "mekanism:metallurgic_infuser",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:crushed_iron_ore",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "mana-and-artifice:manaweaver_wand",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "cyclic:shears_obsidian",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "quark:diamond_heart",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "endergetic:bolloom_balloon",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "farmersdelight:pumpkin_soup",
+      "Count": 1,
+      "type": "bongo.item"
+    }
+  ]
+}
