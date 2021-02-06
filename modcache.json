@@ -1,0 +1,593 @@
+{
+    "signatures": {
+        "7f28bd659f2397ac08f1181d1865ff34": {
+            "_displayName": "Abnormals Core",
+            "projectID": 382216,
+            "fileID": 3157757
+        },
+        "109512d769dc94b67f3c4d0580825de5": {
+            "_displayName": "AIOT Botania",
+            "projectID": 294815,
+            "fileID": 3177121
+        },
+        "1d0abeeb0d5b25a42003fe80d6c27950": {
+            "_displayName": "Angel Ring",
+            "projectID": 333396,
+            "fileID": 3056161
+        },
+        "b10af0fae28c1635b60df0807b8dafb0": {
+            "_displayName": "Applied Energistics 2",
+            "projectID": 223794,
+            "fileID": 3106770
+        },
+        "1c7a17a3a31c22632aa0755b61244d70": {
+            "_displayName": "AutoRegLib",
+            "projectID": 250363,
+            "fileID": 3128555
+        },
+        "5732e807d71a28a26d0ee21764779afc": {
+            "_displayName": "Bookshelf",
+            "projectID": 228525,
+            "fileID": 3170154
+        },
+        "592e473834bc23030348126f312250af": {
+            "_displayName": "Botania",
+            "projectID": 225643,
+            "fileID": 3175663
+        },
+        "3cdb8774c50443344f23d9ee46b5c9fc": {
+            "_displayName": "Citadel",
+            "projectID": 331936,
+            "fileID": 3131923
+        },
+        "7f5f3061a318d159a6f6e00256b8a1b2": {
+            "_displayName": "Clumps",
+            "projectID": 256717,
+            "fileID": 3137103
+        },
+        "b05991eac6057c4dc37454acf0bb83cf": {
+            "_displayName": "Controlling",
+            "projectID": 250398,
+            "fileID": 3169795
+        },
+        "4ce81a21f5759acd646b6e29d38ba1d3": {
+            "_displayName": "Create",
+            "projectID": 328085,
+            "fileID": 3167531
+        },
+        "c0df857372bf2700a49600bd3cb986db": {
+            "_displayName": "Cucumber Library",
+            "projectID": 272335,
+            "fileID": 3105891
+        },
+        "50d0297afc7f4ebefdcd6c98795711e9": {
+            "_displayName": "Curios API (Forge)",
+            "projectID": 309927,
+            "fileID": 3168960
+        },
+        "f4351349b9d561d78816fbade7caed80": {
+            "_displayName": "Default Options",
+            "projectID": 232131,
+            "fileID": 3066044
+        },
+        "9e0ab7d91cc5daaffa1f73562bc731be": {
+            "_displayName": "Stronghold Compass",
+            "projectID": 338643,
+            "fileID": 3045490
+        },
+        "05c20c2fa16f6dccef8cc5858167cca8": {
+            "_displayName": "The Endergetic Expansion",
+            "projectID": 291509,
+            "fileID": 3154938
+        },
+        "6c90c4a185ac9591c1244c578bde6ea9": {
+            "_displayName": "Extended Crafting",
+            "projectID": 268387,
+            "fileID": 3101740
+        },
+        "10876348fbc2af87746dbc7031e13636": {
+            "_displayName": "Farmer's Delight",
+            "projectID": 398521,
+            "fileID": 3173079
+        },
+        "455de5fe1cbfdd860b576c9fe619a39a": {
+            "_displayName": "FastFurnace",
+            "projectID": 299540,
+            "fileID": 3172796
+        },
+        "464b8d180339cc8e6fd61a46860a4d4b": {
+            "_displayName": "Fast Leaf Decay",
+            "projectID": 230976,
+            "fileID": 3052146
+        },
+        "f8009680ed641c67b3853108df4ffd51": {
+            "_displayName": "FastWorkbench",
+            "projectID": 288885,
+            "fileID": 3171218
+        },
+        "f390725391b677479dc979a66f86f275": {
+            "_displayName": "FTB Chunks",
+            "projectID": 314906,
+            "fileID": 3176162
+        },
+        "c5e2b07bd29548ec4bf737e357798a15": {
+            "_displayName": "FTB Ultimine",
+            "projectID": 386134,
+            "fileID": 3118088
+        },
+        "5a07771c5a01b30e83539bf1ef7d649b": {
+            "_displayName": "Industrial Foregoing",
+            "projectID": 266515,
+            "fileID": 3167607
+        },
+        "0e744f9e1238c05fe6932b54b765a16a": {
+            "_displayName": "Inventory Pets",
+            "projectID": 229380,
+            "fileID": 3164771
+        },
+        "cd324e448f006d6f1a11e58311c36473": {
+            "_displayName": "Inventory Sorter",
+            "projectID": 240633,
+            "fileID": 3077903
+        },
+        "b12187763ac6227ac879df873428559a": {
+            "_displayName": "Just Enough Items (JEI)",
+            "projectID": 238222,
+            "fileID": 3157864
+        },
+        "774a03bcd96b98434b1731d529f5637b": {
+            "_displayName": "Just Enough Resources (JER)",
+            "projectID": 240630,
+            "fileID": 3050183
+        },
+        "e1892a2402593a4788326dc32c9b5b39": {
+            "_displayName": "LibX",
+            "projectID": 412525,
+            "fileID": 3159549
+        },
+        "8290bf600b69f88bd835f79a2a09e29c": {
+            "_displayName": "Lollipop",
+            "projectID": 347954,
+            "fileID": 3166271
+        },
+        "eb907c31431d1aac20167a1dc9f6a94d": {
+            "_displayName": "Mana and Artifice",
+            "projectID": 406360,
+            "fileID": 3169012
+        },
+        "2287f99488f73e8612cd38b01db65612": {
+            "_displayName": "Mouse Tweaks",
+            "projectID": 60089,
+            "fileID": 3035780
+        },
+        "b0b410f8c11f518253739742692d8861": {
+            "_displayName": "Mystical Agriculture",
+            "projectID": 246640,
+            "fileID": 3152061
+        },
+        "1e0e8321f6e68fa38da06a91fd1a9dd0": {
+            "_displayName": "PackMenu",
+            "projectID": 358191,
+            "fileID": 3172839
+        },
+        "f4a9cd0e6516414bb8b20ecd2fe0ffc0": {
+            "_displayName": "Patchouli",
+            "projectID": 306770,
+            "fileID": 3126931
+        },
+        "ff9b60c80d2cb36f9bca8d34c7fdcb19": {
+            "_displayName": "Placebo",
+            "projectID": 283644,
+            "fileID": 3172794
+        },
+        "594824b13ced3246cbcddc7d465c2d79": {
+            "_displayName": "Powah!",
+            "projectID": 352656,
+            "fileID": 3170574
+        },
+        "3b3095744e922d89ab6443529865df43": {
+            "_displayName": "ReAuth",
+            "projectID": 237701,
+            "fileID": 3105779
+        },
+        "f8c6cccf23dd627a82660ffdde3394cf": {
+            "_displayName": "Reliquary v1.3",
+            "projectID": 241319,
+            "fileID": 3119035
+        },
+        "be5eb44be9c215964c78bd81c207eda8": {
+            "_displayName": "Rhino",
+            "projectID": 416294,
+            "fileID": 3162251
+        },
+        "5504b72133c85712b7f2cdb916fd0179": {
+            "_displayName": "Runelic",
+            "projectID": 393149,
+            "fileID": 3165936
+        },
+        "c42f247cbb6945da21a8acdf25a1235d": {
+            "_displayName": "The One Probe",
+            "projectID": 245211,
+            "fileID": 3157997
+        },
+        "816232ca069c47269de8a9b8a3e679bc": {
+            "_displayName": "Titanium",
+            "projectID": 287342,
+            "fileID": 3163247
+        },
+        "9f5fe80f82d3fa3bf75f5a1c893950e1": {
+            "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
+            "projectID": 414640,
+            "fileID": 3163570
+        },
+        "f478abde90f7d1e581a5cd390a2e7235": {
+            "_displayName": "U Team Core",
+            "projectID": 273744,
+            "fileID": 3177217
+        },
+        "3aadb6b196a1934168307077ed63bbea": {
+            "_displayName": "Waddles",
+            "projectID": 251767,
+            "fileID": 3113194
+        },
+        "0bf035f2a7632609cb50ed73617965a0": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3183867
+        },
+        "3e332a8d1fa55b3ced82d27e487eb823": {
+            "_displayName": "Cyclic",
+            "projectID": 239286,
+            "fileID": 3181578
+        },
+        "e4f40d9bdfc89c4a731029617f9065bc": {
+            "_displayName": "Dark Utilities",
+            "projectID": 242195,
+            "fileID": 3183636
+        },
+        "ac5a6e36d8916e7927eb1b7aac660171": {
+            "_displayName": "Emojiful",
+            "projectID": 284324,
+            "fileID": 3178700
+        },
+        "9503808cd053fc6cca37a8399f3fc6d6": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3183932
+        },
+        "f1c11aa324c08969de16ebc64e44ddb7": {
+            "_displayName": "ForgeEndertech",
+            "projectID": 244844,
+            "fileID": 3183055
+        },
+        "f2912f25a05ca7609c571440fa9a7faa": {
+            "_displayName": "FTB GUI Library",
+            "projectID": 404465,
+            "fileID": 3184516
+        },
+        "72a6f00b78e4fd2ef1b3b48cd7b14e4b": {
+            "_displayName": "Immersive Engineering",
+            "projectID": 231951,
+            "fileID": 3180183
+        },
+        "b76109880c043c0db4879c8371cbbe60": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3183434
+        },
+        "c5f10b5d146e4599b95a0948724838b2": {
+            "_displayName": "Mekanism",
+            "projectID": 268560,
+            "fileID": 3183270
+        },
+        "cf41f223b9092c3919132934411874e9": {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3183856
+        },
+        "100081dae7406c1124cb338659618478": {
+            "_displayName": "Shutup Experimental Settings!",
+            "projectID": 407174,
+            "fileID": 3182559
+        },
+        "f14d14604af72e88cb516bf12e713bee": {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3185644
+        },
+        "1c8acb58a9cc65e5a5c52518cb7fd507": {
+            "_displayName": "AIOT Botania",
+            "projectID": 294815,
+            "fileID": 3185817
+        },
+        "b585194aa45987eed540c85a79d4cd0c": {
+            "_displayName": "Curios API (Forge)",
+            "projectID": 309927,
+            "fileID": 3186427
+        },
+        "26d32f149d53697a882bc8d680560449": {
+            "_displayName": "Emojiful",
+            "projectID": 284324,
+            "fileID": 3184796
+        },
+        "1fdfcb77a0e89208b586c3d4e3bf87b2": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3186116
+        },
+        "ce43286148cc9fcf795e18383edc729c": {
+            "_displayName": "Industrial Foregoing",
+            "projectID": 266515,
+            "fileID": 3185896
+        },
+        "e93b8d7a075afb6b7d33f94937f23259": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3185969
+        },
+        "1a3fbd6852b40f3033aa1ee1751e56f0": {
+            "_displayName": "Runelic",
+            "projectID": 393149,
+            "fileID": 3185428
+        },
+        "a76faf1bc426fe4a402674065276e1b1": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3160292
+        },
+        "b59ec4cb3d33b870cb818ff867ac6040": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3186932
+        },
+        "b42460903a80cb3295ce741a1c119fab": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3189220
+        },
+        "dcc8484479a7f7bc522f917f9fe85196": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3189209
+        },
+        "70c7dc779bbd38e34fb9e3a4afe876dd": {
+            "_displayName": "Akashic Tome",
+            "projectID": 250577,
+            "fileID": 3165075
+        },
+        "0a9d06a6e02bdcc653e36fae8611e46c": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3188530
+        },
+        "1cfe6e09f6548a2312268b3634dffa0c": {
+            "_displayName": "Cucumber Library",
+            "projectID": 272335,
+            "fileID": 3187116
+        },
+        "f780497fc95d7102fea2ba0f76f64a0b": {
+            "_displayName": "Cyclic",
+            "projectID": 239286,
+            "fileID": 3188762
+        },
+        "7bb1e50ea9839e9e5a78f57ab60d2b79": {
+            "_displayName": "FTB Chunks",
+            "projectID": 314906,
+            "fileID": 3189022
+        },
+        "a13991734d0b801309ba1d769c797313": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3189334
+        },
+        "c767200790d7eb0cdfbb813c03453361": {
+            "_displayName": "Immersive Engineering",
+            "projectID": 231951,
+            "fileID": 3189063
+        },
+        "8c9c9b43bab2660e4ce9bf91fe6f9607": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3189113
+        },
+        "b40c12790f7e77a7033dd9e1cefa40a5": {
+            "_displayName": "LibX",
+            "projectID": 412525,
+            "fileID": 3189169
+        },
+        "1ec8ffc36f181b191be74d19be043789": {
+            "_displayName": "Lollipop",
+            "projectID": 347954,
+            "fileID": 3187610
+        },
+        "1bd3c7df1e19ae0ca3dab009f66274e2": {
+            "_displayName": "Powah!",
+            "projectID": 352656,
+            "fileID": 3187611
+        },
+        "1ce8485c30d99d6d1b050fd51e7717f9": {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3186934
+        },
+        "2a3ec32fda040cb700087742c55c4b80": {
+            "_displayName": "Rhino",
+            "projectID": 416294,
+            "fileID": 3187177
+        },
+        "150c992d5976049fcda0161132afc269": {
+            "_displayName": "Shutup Experimental Settings!",
+            "projectID": 407174,
+            "fileID": 3188120
+        },
+        "252a565d842a2bb2406de8dd8365c4be": {
+            "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
+            "projectID": 414640,
+            "fileID": 3189805
+        },
+        "7dd864121d23cfb9775ac8286aaf88e1": {
+            "_displayName": "Akashic Tome",
+            "projectID": 250577,
+            "fileID": 3190372
+        },
+        "4eb18e30b2b119a86e5aa98d39e57b68": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3190524
+        },
+        "bdfce827a0fc4965c9e5fc9085ffa15a": {
+            "_displayName": "Lootr",
+            "projectID": 361276,
+            "fileID": 3187524
+        },
+        "c12a9d238b7e5594362537f41e942f51": {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3190442
+        },
+        "faf485cbffdd8e76f21fe334a5f934c4": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3194029
+        },
+        "68e0ef8d888eac828a22bbb354f5c6c8": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3191486
+        },
+        "0a99c03e6343a4847c28e8ac00ad393b": {
+            "_displayName": "Extended Crafting",
+            "projectID": 268387,
+            "fileID": 3193286
+        },
+        "51ef3843619c797435545effd6ba4934": {
+            "_displayName": "FTB GUI Library",
+            "projectID": 404465,
+            "fileID": 3193685
+        },
+        "e46ea23aa1ca941bcd061f1c92e4d271": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3192554
+        },
+        "110e152c5f7a50a085561c8d28ca0a40": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3192496
+        }
+    },
+    "modid_map": {
+        "architectury": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699
+        },
+        "cyclic": {
+            "_displayName": "Cyclic",
+            "projectID": 239286
+        },
+        "darkutils": {
+            "_displayName": "Dark Utilities",
+            "projectID": 242195
+        },
+        "emojiful": {
+            "_displayName": "Emojiful",
+            "projectID": 284324
+        },
+        "geckolib3": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172
+        },
+        "forgeendertech": {
+            "_displayName": "ForgeEndertech",
+            "projectID": 244844
+        },
+        "ftbguilibrary": {
+            "_displayName": "FTB GUI Library",
+            "projectID": 404465
+        },
+        "immersiveengineering": {
+            "_displayName": "Immersive Engineering",
+            "projectID": 231951
+        },
+        "kubejs": {
+            "_displayName": "KubeJS",
+            "projectID": 238086
+        },
+        "mekanism": {
+            "_displayName": "Mekanism",
+            "projectID": 268560
+        },
+        "quark": {
+            "_displayName": "Quark",
+            "projectID": 243121
+        },
+        "shutupexperimentalsettings": {
+            "_displayName": "Shutup Experimental Settings!",
+            "projectID": 407174
+        },
+        "aiotbotania": {
+            "_displayName": "AIOT Botania",
+            "projectID": 294815
+        },
+        "curios": {
+            "_displayName": "Curios API (Forge)",
+            "projectID": 309927
+        },
+        "industrialforegoing": {
+            "_displayName": "Industrial Foregoing",
+            "projectID": 266515
+        },
+        "runelic": {
+            "_displayName": "Runelic",
+            "projectID": 393149
+        },
+        "bingolobby": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998
+        },
+        "bongo": {
+            "_displayName": "Bongo",
+            "projectID": 406119
+        },
+        "cucumber": {
+            "_displayName": "Cucumber Library",
+            "projectID": 272335
+        },
+        "lollipop": {
+            "_displayName": "Lollipop",
+            "projectID": 347954
+        },
+        "powah": {
+            "_displayName": "Powah!",
+            "projectID": 352656
+        },
+        "ftbchunks": {
+            "_displayName": "FTB Chunks",
+            "projectID": 314906
+        },
+        "libx": {
+            "_displayName": "LibX",
+            "projectID": 412525
+        },
+        "rhino": {
+            "_displayName": "Rhino",
+            "projectID": 416294
+        },
+        "twerkitmeal": {
+            "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
+            "projectID": 414640
+        },
+        "akashictome": {
+            "_displayName": "Akashic Tome",
+            "projectID": 250577
+        },
+        "lootr": {
+            "_displayName": "Lootr",
+            "projectID": 361276
+        },
+        "extendedcrafting": {
+            "_displayName": "Extended Crafting",
+            "projectID": 268387
+        }
+    }
+}

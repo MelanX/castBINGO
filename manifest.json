@@ -1,0 +1,330 @@
+{
+    "minecraft": {
+        "version": "1.16.5",
+        "modLoaders": [
+            {
+                "id": "forge-36.0.9",
+                "primary": true
+            }
+        ]
+    },
+    "manifestType": "minecraftModpack",
+    "overrides": "overrides",
+    "manifestVersion": 1,
+    "version": "1.1.0",
+    "author": "CastCrafter",
+    "projectID": 408447,
+    "name": "castBINGO!",
+    "files": [
+        {
+            "_displayName": "AIOT Botania",
+            "projectID": 294815,
+            "fileID": 3185817
+        },
+        {
+            "_displayName": "Abnormals Core",
+            "projectID": 382216,
+            "fileID": 3157757
+        },
+        {
+            "_displayName": "Akashic Tome",
+            "projectID": 250577,
+            "fileID": 3190372
+        },
+        {
+            "_displayName": "Angel Ring",
+            "projectID": 333396,
+            "fileID": 3056161
+        },
+        {
+            "_displayName": "Applied Energistics 2",
+            "projectID": 223794,
+            "fileID": 3106770
+        },
+        {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3194029
+        },
+        {
+            "_displayName": "AutoRegLib",
+            "projectID": 250363,
+            "fileID": 3128555
+        },
+        {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3189220
+        },
+        {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3191486
+        },
+        {
+            "_displayName": "Bookshelf",
+            "projectID": 228525,
+            "fileID": 3170154
+        },
+        {
+            "_displayName": "Botania",
+            "projectID": 225643,
+            "fileID": 3175663
+        },
+        {
+            "_displayName": "Citadel",
+            "projectID": 331936,
+            "fileID": 3131923
+        },
+        {
+            "_displayName": "Clumps",
+            "projectID": 256717,
+            "fileID": 3137103
+        },
+        {
+            "_displayName": "Controlling",
+            "projectID": 250398,
+            "fileID": 3169795
+        },
+        {
+            "_displayName": "Create",
+            "projectID": 328085,
+            "fileID": 3167531
+        },
+        {
+            "_displayName": "Cucumber Library",
+            "projectID": 272335,
+            "fileID": 3187116
+        },
+        {
+            "_displayName": "Curios API (Forge)",
+            "projectID": 309927,
+            "fileID": 3186427
+        },
+        {
+            "_displayName": "Cyclic",
+            "projectID": 239286,
+            "fileID": 3188762
+        },
+        {
+            "_displayName": "Dark Utilities",
+            "projectID": 242195,
+            "fileID": 3183636
+        },
+        {
+            "_displayName": "Default Options",
+            "projectID": 232131,
+            "fileID": 3066044
+        },
+        {
+            "_displayName": "Emojiful",
+            "projectID": 284324,
+            "fileID": 3184796
+        },
+        {
+            "_displayName": "Extended Crafting",
+            "projectID": 268387,
+            "fileID": 3193286
+        },
+        {
+            "_displayName": "FTB Chunks",
+            "projectID": 314906,
+            "fileID": 3189022
+        },
+        {
+            "_displayName": "FTB GUI Library",
+            "projectID": 404465,
+            "fileID": 3193685
+        },
+        {
+            "_displayName": "FTB Ultimine",
+            "projectID": 386134,
+            "fileID": 3118088
+        },
+        {
+            "_displayName": "Farmer's Delight",
+            "projectID": 398521,
+            "fileID": 3173079
+        },
+        {
+            "_displayName": "Fast Leaf Decay",
+            "projectID": 230976,
+            "fileID": 3052146
+        },
+        {
+            "_displayName": "FastFurnace",
+            "projectID": 299540,
+            "fileID": 3172796
+        },
+        {
+            "_displayName": "FastWorkbench",
+            "projectID": 288885,
+            "fileID": 3171218
+        },
+        {
+            "_displayName": "ForgeEndertech",
+            "projectID": 244844,
+            "fileID": 3183055
+        },
+        {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3192554
+        },
+        {
+            "_displayName": "Immersive Engineering",
+            "projectID": 231951,
+            "fileID": 3189063
+        },
+        {
+            "_displayName": "Industrial Foregoing",
+            "projectID": 266515,
+            "fileID": 3185896
+        },
+        {
+            "_displayName": "Inventory Pets",
+            "projectID": 229380,
+            "fileID": 3164771
+        },
+        {
+            "_displayName": "Inventory Sorter",
+            "projectID": 240633,
+            "fileID": 3077903
+        },
+        {
+            "_displayName": "Just Enough Items (JEI)",
+            "projectID": 238222,
+            "fileID": 3157864
+        },
+        {
+            "_displayName": "Just Enough Resources (JER)",
+            "projectID": 240630,
+            "fileID": 3050183
+        },
+        {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3192496
+        },
+        {
+            "_displayName": "LibX",
+            "projectID": 412525,
+            "fileID": 3189169
+        },
+        {
+            "_displayName": "Lollipop",
+            "projectID": 347954,
+            "fileID": 3187610
+        },
+        {
+            "_displayName": "Lootr",
+            "projectID": 361276,
+            "fileID": 3187524
+        },
+        {
+            "_displayName": "Mana and Artifice",
+            "projectID": 406360,
+            "fileID": 3169012
+        },
+        {
+            "_displayName": "Mekanism",
+            "projectID": 268560,
+            "fileID": 3183270
+        },
+        {
+            "_displayName": "Mouse Tweaks",
+            "projectID": 60089,
+            "fileID": 3035780
+        },
+        {
+            "_displayName": "Mystical Agriculture",
+            "projectID": 246640,
+            "fileID": 3152061
+        },
+        {
+            "_displayName": "PackMenu",
+            "projectID": 358191,
+            "fileID": 3172839
+        },
+        {
+            "_displayName": "Patchouli",
+            "projectID": 306770,
+            "fileID": 3126931
+        },
+        {
+            "_displayName": "Placebo",
+            "projectID": 283644,
+            "fileID": 3172794
+        },
+        {
+            "_displayName": "Powah!",
+            "projectID": 352656,
+            "fileID": 3187611
+        },
+        {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3190442
+        },
+        {
+            "_displayName": "ReAuth",
+            "projectID": 237701,
+            "fileID": 3105779
+        },
+        {
+            "_displayName": "Reliquary v1.3",
+            "projectID": 241319,
+            "fileID": 3119035
+        },
+        {
+            "_displayName": "Rhino",
+            "projectID": 416294,
+            "fileID": 3187177
+        },
+        {
+            "_displayName": "Runelic",
+            "projectID": 393149,
+            "fileID": 3185428
+        },
+        {
+            "_displayName": "Shutup Experimental Settings!",
+            "projectID": 407174,
+            "fileID": 3188120
+        },
+        {
+            "_displayName": "Stronghold Compass",
+            "projectID": 338643,
+            "fileID": 3045490
+        },
+        {
+            "_displayName": "The Endergetic Expansion",
+            "projectID": 291509,
+            "fileID": 3154938
+        },
+        {
+            "_displayName": "The One Probe",
+            "projectID": 245211,
+            "fileID": 3157997
+        },
+        {
+            "_displayName": "Titanium",
+            "projectID": 287342,
+            "fileID": 3163247
+        },
+        {
+            "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
+            "projectID": 414640,
+            "fileID": 3189805
+        },
+        {
+            "_displayName": "U Team Core",
+            "projectID": 273744,
+            "fileID": 3177217
+        },
+        {
+            "_displayName": "Waddles",
+            "projectID": 251767,
+            "fileID": 3113194
+        }
+    ]
+}

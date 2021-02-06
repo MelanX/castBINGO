@@ -5,35 +5,60 @@
 # this file
 !.gitignore
 
+# github files
+!.github
+!.github/**
+
 # packmenu resources
 !packmenu
 !packmenu/resources
-!packmenu/resources/**/**
+!packmenu/resources/**
 
 # selected configs
 !config
+!config/defaultoptions
+!config/defaultoptions/*
+!config/extendedcrafting-common.toml
+!config/ftbultimine-common.toml
+!config/lootr-common.toml
 !config/packmenu.cfg
+!config/quark-common.toml
+!config/theoneprobe-*.toml
+!config/twerk-config.toml
 
 # serverconfigs
 !defaultconfigs
 !defaultconfigs/*
 
 # kubejs
-!kubsjs
+!kubejs
+!kubejs/config
+!kubejs/config/client.properties
 !kubejs/data
-!kubejs/data/**/**
+!kubejs/data/**
+!kubejs/startup_scripts
+!kubejs/startup_scripts/*
 
 # readme
 !README.md
 
-# modlists
-!modlists
-!modlists/*.md
+# modlist
+!modlist.md
 
 # changelogs
 !changelogs
 !changelogs/*.md
 
-# manifests
-!manifests
-!manifests/*
+# server utilities
+!clientmods.txt
+!create_current_manifest.py
+!manifest.json
+!serverdata
+!serverdata/**
+!overrides.txt
+!scripts
+!scripts/*
+!emotes.json
+!tokens-example.json
+!modcache.json
+!pack.json
