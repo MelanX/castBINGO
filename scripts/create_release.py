@@ -10,7 +10,7 @@ import gitignore_parser
 
 import update_emotes
 import modlist
-import create_update_file
+import changelog_creator
 
 MOD_LIST_CREATOR_VERSION = '1.1.4'
 
@@ -40,8 +40,7 @@ def main():
         manifest = json.loads(file.read())
 
     print('Creating changelog')
-    create_update_file.modsChanges(manifest)
-    create_update_file.githubChanges(manifest)
+    changelog_creator.main(manifest)
 
     print('Update emotes')
     update_emotes.updateEmotes()

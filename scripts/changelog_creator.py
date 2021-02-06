@@ -40,7 +40,7 @@ def getOldMod(item, old_mods: list):
     return None
 
 
-def githubChanges(manifest_data: dict):
+def githubChanges(manifest_data: dict, file_name: str):
     req_tag = Request(f"https://api.github.com/repos/{owner}/{repo}/tags")
     req_release = Request(f"https://api.github.com/repos/{owner}/{repo}/releases/latest")
 
@@ -71,11 +71,15 @@ def githubChanges(manifest_data: dict):
     for commit in loads:
         if commit["sha"] == sha:
             break
-        message = commit["commit"]["message"].split("\n")[0]
+
+        message: str = commit["commit"]["message"].split("\n")[0]
+
+        if message.startswith("Merge branch"):
+            break
+
         url = commit["html_url"]
         commits.append([message, url])
 
-    file_name = f"changelogs/changelog-{manifest_data['version']}.md"
     with open(file_name, "a", encoding="utf-8") as f:
         appendFile(f, "# Changelog for castBINGO! " + manifest_data['version'])
         appendFile(f, "## Internal changes")
@@ -83,7 +87,7 @@ def githubChanges(manifest_data: dict):
             appendFile(f, f"- [{commit[0]}]({commit[1]})")
 
 
-def modsChanges(new_manifest_data: dict):
+def modsChanges(new_manifest_data: dict, file_name: str):
     old_mods = []
     new_mods = []
 
@@ -138,12 +142,6 @@ def modsChanges(new_manifest_data: dict):
         if mod["projectID"] not in new_mods:
             removed.append(mod)
 
-    if not os.path.exists("changelogs"):
-        os.mkdir("changelogs")
-
-    file_name = f"changelogs/changelog-{new_manifest_data['version']}.md"
-    if os.path.isfile(file_name):
-        os.remove(file_name)
     with open(file_name, "a", encoding="utf-8") as f:
         if len(updated) > 0 or len(added) > 0 or len(removed) > 0 or len(updated) > 0:
             appendFile(f, "## Mod Changes")
@@ -242,7 +240,17 @@ def modsChanges(new_manifest_data: dict):
     shutil.rmtree(tempDir, ignore_errors=True)
 
 
+def main(manifest: dict):
+    file_name = f"changelogs/changelog-{manifest['version']}.md"
+
+    if not os.path.exists("changelogs"):
+        os.mkdir("changelogs")
+    if os.path.isfile(file_name):
+        os.remove(file_name)
+
+    githubChanges(manifest, file_name)
+    modsChanges(manifest, file_name)
+
+
 if __name__ == '__main__':
-    manifest = getCurrentManifest()
-    githubChanges(manifest)
-    modsChanges(manifest)
+    main(getCurrentManifest())
