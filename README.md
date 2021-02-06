@@ -13,10 +13,7 @@ It contains all necessary files to create a server and to create a client .zip f
 
 Releases for server and client files can be found [here](https://github.com/MelanX/castBINGO/releases).
 
-## Dev branch
-
-The dev branch is what it's called - a branch for the development. Any pull request should base on the dev branch.
-Here are the updates for the next version. It the `manifest.json` is always up-to-date. Each mod update, downgrade, addition or removal will be pushed when it happened.
+[![](https://img.shields.io/badge/Suggest%20Mod-%236D4D32?style=for-the-badge)](https://github.com/MelanX/castBINGO/issues/new?assignees=&labels=mod%20request&template=mod_request.md)
 
 ## Content
 ### Basic
