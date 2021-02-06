@@ -74,7 +74,7 @@ def githubChanges(manifest_data: dict):
     if not os.path.exists("changelogs"):
         os.mkdir("changelogs")
 
-    file_name = f"changelogs/modlist-{manifest_data['version']}.md"
+    file_name = f"changelogs/changelog-{manifest_data['version']}.md"
     if os.path.isfile(file_name):
         os.remove(file_name)
     with open(file_name, "a", encoding="utf-8") as f:
@@ -139,7 +139,7 @@ def modsChanges(new_manifest_data: dict):
         if mod["projectID"] not in new_mods:
             removed.append(mod)
 
-    file_name = f"changelogs/modlist-{new_manifest_data['version']}.md"
+    file_name = f"changelogs/changelog-{new_manifest_data['version']}.md"
     with open(file_name, "a", encoding="utf-8") as f:
         if len(updated) > 0 or len(added) > 0 or len(removed) > 0 or len(updated) > 0:
             appendFile(f, "## Mod Changes")

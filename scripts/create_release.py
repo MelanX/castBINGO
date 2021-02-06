@@ -166,7 +166,6 @@ def uploadToGithub(commit, token, manifest):
         'target_commitish': commit,
         'name': f'v{manifest["version"]}',
         'body': f'CastBingo v{manifest["version"]}',
-        'draft': True,
         'prerelease': False
     }).encode('utf-8')
     release_id = json.loads(urlopen(create_release).read())['id']
@@ -176,16 +175,6 @@ def uploadToGithub(commit, token, manifest):
     
     print('Upload Server zip')
     uploadFileToRelease(token, release_id, manifest, 'application/zip', 'server', 'zip', os.path.join('build', 'server.zip'))
-    
-    print('Publish release')
-    publish_release = Request(f'https://api.github.com/repos/MelanX/castBINGO/releases/{release_id}', method='PATCH')
-    publish_release.add_header('Authorization', f'token {token}')
-    publish_release.add_header('Accept', 'application/vnd.github.v3+json')
-    publish_release.add_header('Content-Type', 'application/json')
-    create_release.data = json.dumps({
-        'draft': False
-    }).encode('utf-8')
-    urlopen(publish_release)
     
 def uploadFileToRelease(token, release_id, manifest, mime, basename, suffix, path):
     request = Request(f'https://uploads.github.com/repos/MelanX/castBINGO/releases/{release_id}/assets?name={basename}-{manifest["version"]}.{suffix}', method='POST')
