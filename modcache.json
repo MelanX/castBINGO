@@ -474,6 +474,16 @@
             "_displayName": "KubeJS",
             "projectID": 238086,
             "fileID": 3192496
+        },
+        "e85d9710907f05dcc0717eb1d5ff653b": {
+            "_displayName": "Citadel",
+            "projectID": 331936,
+            "fileID": 3194139
+        },
+        "76adfad78a2adc73cd583a6edcda4d89": {
+            "_displayName": "Cyclic",
+            "projectID": 239286,
+            "fileID": 3194448
         }
     },
     "modid_map": {
@@ -588,6 +598,10 @@
         "extendedcrafting": {
             "_displayName": "Extended Crafting",
             "projectID": 268387
+        },
+        "citadel": {
+            "_displayName": "Citadel",
+            "projectID": 331936
         }
     }
 }
