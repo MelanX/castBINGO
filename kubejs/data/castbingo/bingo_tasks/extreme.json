@@ -294,10 +294,6 @@
       "type": "bongo.potion"
     },
     {
-      "advancement": "appliedenergistics2:main/network2",
-      "type": "bongo.advancement"
-    },
-    {
       "advancement": "botania:main/mana_bomb_ignite",
       "type": "bongo.advancement"
     },
@@ -563,7 +559,6 @@
       "type": "bongo.stat",
       "value": 3
     },
-
     {
       "id": "aiotbotania:elementium_aiot",
       "weight": 3,
@@ -581,62 +576,6 @@
     {
       "id": "angelring:itemring",
       "Count": 1,
-      "type": "bongo.item"
-    },
-    {
-      "id": "appliedenergistics2:128_cubed_spatial_storage_cell",
-      "Count": 1,
-      "type": "bongo.item"
-    },
-    {
-      "id": "appliedenergistics2:64k_storage_cell",
-      "Count": 1,
-      "type": "bongo.item"
-    },
-    {
-      "id": "appliedenergistics2:crafting_terminal",
-      "weight": 3,
-      "Count": 1,
-      "type": "bongo.item"
-    },
-    {
-      "type": "bongo.group",
-      "weight": 20,
-      "tasks": [
-        {
-          "id": "appliedenergistics2:purified_certus_quartz_crystal",
-          "weight": 3,
-          "Count": 10,
-          "type": "bongo.item"
-        },
-        {
-          "id": "appliedenergistics2:purified_fluix_crystal",
-          "weight": 3,
-          "Count": 10,
-          "type": "bongo.item"
-        },
-        {
-          "id": "appliedenergistics2:purified_nether_quartz_crystal",
-          "weight": 3,
-          "Count": 10,
-          "type": "bongo.item"
-        }
-      ]
-    },
-    {
-      "id": "appliedenergistics2:singularity",
-      "Count": 1,
-      "type": "bongo.item"
-    },
-    {
-      "id": "appliedenergistics2:wireless_terminal",
-      "weight": 3,
-      "Count": 1,
-      "tag": {
-        "internalMaxPower": 1600000.0,
-        "Damage": 0,
-        "internalCurrentPower": 1600000.0
-      },
       "type": "bongo.item"
     },
     {

@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "overrides": "overrides",
     "manifestVersion": 1,
-    "version": "1.1.0",
+    "version": "1.1.1",
     "author": "CastCrafter",
     "projectID": 408447,
     "name": "castBINGO!",
@@ -35,11 +35,6 @@
             "_displayName": "Angel Ring",
             "projectID": 333396,
             "fileID": 3056161
-        },
-        {
-            "_displayName": "Applied Energistics 2",
-            "projectID": 223794,
-            "fileID": 3106770
         },
         {
             "_displayName": "Architectury API (Forge)",
@@ -74,7 +69,7 @@
         {
             "_displayName": "Citadel",
             "projectID": 331936,
-            "fileID": 3131923
+            "fileID": 3194139
         },
         {
             "_displayName": "Clumps",
@@ -104,7 +99,7 @@
         {
             "_displayName": "Cyclic",
             "projectID": 239286,
-            "fileID": 3188762
+            "fileID": 3194448
         },
         {
             "_displayName": "Dark Utilities",

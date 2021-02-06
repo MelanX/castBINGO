@@ -14,7 +14,7 @@ repo = "castBINGO"
 
 def getCurrentManifest():
     print("Get current manifest...")
-    response = urlopen("https://raw.githubusercontent.com/MelanX/castBINGO/dev/manifest.json")
+    response = urlopen("https://raw.githubusercontent.com/MelanX/castBINGO/master/manifest.json")
     return json.loads(response.read())
 
 
