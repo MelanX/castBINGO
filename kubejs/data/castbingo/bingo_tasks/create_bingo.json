@@ -1,0 +1,522 @@
+{
+  "tasks": [
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "type": "bongo.item",
+          "id": "create:copper_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:white_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:orange_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:magenta_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:light_blue_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:yellow_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:lime_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:pink_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:gray_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:light_gray_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:cyan_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:purple_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:blue_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:brown_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:green_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:red_valve_handle"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:black_valve_handle"
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "type": "bongo.item",
+          "id": "create:white_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:orange_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:magenta_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:light_blue_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:yellow_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:lime_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:pink_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:gray_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:light_gray_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:cyan_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:purple_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:blue_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:brown_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:green_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:red_seat"
+        },
+        {
+          "type": "bongo.item",
+          "id": "create:black_seat"
+        }
+      ]
+    },
+    {
+      "id": "create:blaze_burner",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:brass_ingot",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "advancement": "create:fan_water",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:fan_smoke",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:fan_lava",
+          "type": "bongo.advancement"
+        }
+      ]
+    },
+    {
+      "advancement": "create:infinite_water",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:infinite_lava",
+      "type": "bongo.advancement"
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "advancement": "create:lava_wheel",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:chocolate_wheel",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:water_wheel",
+          "type": "bongo.advancement"
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "advancement": "create:arm_many_targets",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:musical_arm",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:arm_blaze_burner",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:mechanical_arm",
+          "type": "bongo.advancement"
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "advancement": "create:upgraded_zapper",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:shadow_steel",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:refined_radiance",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:zapper",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:chromatic_compound",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "minecraft:createchromatic_age",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:deforester",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:wand_of_symmetry",
+          "type": "bongo.advancement"
+        },
+        {
+          "id": "create:shadow_steel_casing",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:refined_radiance_casing",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "advancement": "create:deployer",
+      "type": "bongo.advancement"
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "id": "create:andesite_casing",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:brass_casing",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:copper_casing",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "advancement": "create:wrench",
+      "type": "bongo.advancement"
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "advancement": "create:windmill",
+          "weight": 9,
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:maxed_windmill",
+          "weight": 1,
+          "type": "bongo.advancement"
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "advancement": "create:crushing_wheel",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:integrated_circuit",
+          "type": "bongo.advancement"
+        },
+        {
+          "id": "create:rotation_speed_controller",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "advancement": "create:flywheel",
+          "type": "bongo.advancement"
+        }
+      ]
+    },
+    {
+      "advancement": "create:overstressed",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:goggles",
+      "type": "bongo.advancement"
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "advancement": "create:speedometer",
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:stressometer",
+          "type": "bongo.advancement"
+        }
+      ]
+    },
+    {
+      "advancement": "create:aesthetics",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:blaze_cake",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:chocolate",
+      "type": "bongo.advancement"
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "advancement": "create:dual_extendo_grip",
+          "weight": 3,
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "create:extendo_grip",
+          "weight": 6,
+          "type": "bongo.advancement"
+        }
+      ]
+    },
+    {
+      "id": "create:builders_tea",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:super_glue",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:tree_fertilizer",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:honey_bucket",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "id": "create:electron_tube",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "advancement": "create:electron_tube",
+          "type": "bongo.advancement"
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "id": "create:red_sand_paper",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          },
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:sand_paper",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          },
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "id": "create:bar_of_chocolate",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "id": "create:redstone_link",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:analog_lever",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:pulse_repeater",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:adjustable_repeater",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:adjustable_pulse_repeater",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:powered_latch",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:powered_toggle_latch",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:redstone_contact",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:content_observer",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:stockpile_switch",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:adjustable_crate",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    },
+    {
+      "type": "bongo.group",
+      "tasks": [
+        {
+          "id": "create:mechanical_plough",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:mechanical_drill",
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "create:mechanical_harvester",
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    }
+  ]
+}
