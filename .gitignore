@@ -25,6 +25,7 @@
 !config/quark-common.toml
 !config/theoneprobe-*.toml
 !config/twerk-config.toml
+!config/MouseTweaks.cfg
 
 # serverconfigs
 !defaultconfigs
