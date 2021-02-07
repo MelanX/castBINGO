@@ -248,8 +248,8 @@ def main(manifest: dict):
     if os.path.isfile(file_name):
         os.remove(file_name)
 
-    githubChanges(manifest, file_name)
     modsChanges(manifest, file_name)
+    githubChanges(manifest, file_name)
 
 
 if __name__ == '__main__':
