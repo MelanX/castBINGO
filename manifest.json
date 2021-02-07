@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "overrides": "overrides",
     "manifestVersion": 1,
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "CastCrafter",
     "projectID": 408447,
     "name": "castBINGO!",
@@ -45,6 +45,11 @@
             "_displayName": "AutoRegLib",
             "projectID": 250363,
             "fileID": 3128555
+        },
+        {
+            "_displayName": "Bad Wither No Cookie - Reloaded",
+            "projectID": 261251,
+            "fileID": 3101531
         },
         {
             "_displayName": "BingoLobby",
@@ -129,7 +134,7 @@
         {
             "_displayName": "FTB GUI Library",
             "projectID": 404465,
-            "fileID": 3193685
+            "fileID": 3194623
         },
         {
             "_displayName": "FTB Ultimine",
@@ -165,6 +170,11 @@
             "_displayName": "GeckoLib",
             "projectID": 388172,
             "fileID": 3192554
+        },
+        {
+            "_displayName": "Hwyla",
+            "projectID": 253449,
+            "fileID": 3033593
         },
         {
             "_displayName": "Immersive Engineering",
@@ -297,11 +307,6 @@
             "fileID": 3154938
         },
         {
-            "_displayName": "The One Probe",
-            "projectID": 245211,
-            "fileID": 3157997
-        },
-        {
             "_displayName": "Titanium",
             "projectID": 287342,
             "fileID": 3163247
@@ -320,6 +325,16 @@
             "_displayName": "Waddles",
             "projectID": 251767,
             "fileID": 3113194
+        },
+        {
+            "_displayName": "Waila Harvestability",
+            "projectID": 79287,
+            "fileID": 3033731
+        },
+        {
+            "_displayName": "Wawla - What Are We Looking At",
+            "projectID": 224712,
+            "fileID": 3189215
         }
     ]
 }

@@ -484,6 +484,36 @@
             "_displayName": "Cyclic",
             "projectID": 239286,
             "fileID": 3194448
+        },
+        "db75c5367181c6ef43860547d3d776ed": {
+            "_displayName": "Bad Wither No Cookie - Reloaded",
+            "projectID": 261251,
+            "fileID": 3101531
+        },
+        "1bd70c1ad7614bb2df8c95a85ade97eb": {
+            "_displayName": "Hwyla",
+            "projectID": 253449,
+            "fileID": 3033593
+        },
+        "97867668cc6f2aa795bc26012784b1df": {
+            "_displayName": "Waila Harvestability",
+            "projectID": 79287,
+            "fileID": 3033731
+        },
+        "592a68ff45058843a2dcdb9a8fbf29aa": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3195530
+        },
+        "259aa1c21ecb005c6bba250eba880db1": {
+            "_displayName": "FTB GUI Library",
+            "projectID": 404465,
+            "fileID": 3194623
+        },
+        "5547345e4e31b70dd1f7f69424da736c": {
+            "_displayName": "Wawla - What Are We Looking At",
+            "projectID": 224712,
+            "fileID": 3189215
         }
     },
     "modid_map": {
@@ -602,6 +632,10 @@
         "citadel": {
             "_displayName": "Citadel",
             "projectID": 331936
+        },
+        "wawla": {
+            "_displayName": "Wawla - What Are We Looking At",
+            "projectID": 224712
         }
     }
 }
