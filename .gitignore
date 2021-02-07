@@ -23,8 +23,9 @@
 !config/lootr-common.toml
 !config/packmenu.cfg
 !config/quark-common.toml
-!config/theoneprobe-*.toml
 !config/twerk-config.toml
+!config/waila
+!config/waila/waila.json
 !config/MouseTweaks.cfg
 
 # serverconfigs
@@ -55,13 +56,13 @@
 # server utilities
 !clientmods.txt
 !create_current_manifest.py
+!emotes.json
 !manifest.json
+!modcache.json
+!overrides.txt
+!pack.json
 !serverdata
 !serverdata/**
-!overrides.txt
 !scripts
 !scripts/*
-!emotes.json
 !tokens-example.json
-!modcache.json
-!pack.json
