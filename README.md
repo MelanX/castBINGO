@@ -35,11 +35,11 @@ needs push access to this repository.
 
 | script | description |
 | :---: | :---  |
-| create_current_manifest.py | Creates the manifest from GDLauncher files |
-| update_emotes.py | Updates emote data for the emojiful mod based on [emotes.json](emotes.json). The generated file can be found in `build/overrides` |
+| changelog_generator.py | Creates a changelog from the current manifest and the latest release manifest |
 | create_release.py | Creates a new release and publishes it on github. **IMPORTANT: Make sure to push your current branch before calling this!!!** |
+| downloadmods.py | Downloads all mods from `manifest.json` into the `mods` folder. **This will delete all mods previously in the mods folder!** |
 | modlist.py | Generates the manifest from the manifest without file ids at [pack.json](pack.json) and the files in the `mods` folder. Uses a cache file `modcache.json`. This file should be committed. |
-| downloadmods.py | Downloads all mods from `manifest.json` into the `mods` folder. **This wil ldelete all mods previously in the mods fodler!** |
+| update_emotes.py | Updates emote data for the emojiful mod based on [emotes.json](emotes.json). The generated file can be found in `build/overrides` |
 
 ## Contribution
 
