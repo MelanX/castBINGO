@@ -1,0 +1,1210 @@
+{
+  "tasks": [
+    {
+      "_name": "Advancements x6",
+      "type": "bongo.group",
+      "weight": [1, 1, 1, 1, 1, 1],
+      "tasks": [
+        {
+          "advancement": "botania:main/bauble_wear",
+          "weight": 20,
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "botania:main/mana_blaster_shoot",
+          "weight": 15,
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "botania:main/enchanter_make",
+          "weight": 10,
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "botania:main/functional_flower",
+          "weight": 15,
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "botania:main/elf_portal_open",
+          "weight": 5,
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "botania:main/mana_cookie_eat",
+          "weight": 15,
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "botania:main/tiny_potato_pet",
+          "weight": 25,
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "botania:main/generating_flower",
+          "weight": 20,
+          "type": "bongo.advancement"
+        },
+        {
+          "advancement": "botania:main/lexicon_use",
+          "weight": 25,
+          "type": "bongo.advancement"
+        }
+      ]
+    },
+    {
+      "_name": "Potions x3",
+      "type": "bongo.group",
+      "weight": [1, 1, 1],
+      "tasks": [
+        {
+          "potion": "botania:allure",
+          "type": "bongo.potion"
+        },
+        {
+          "potion": "botania:bloodthirst",
+          "type": "bongo.potion"
+        },
+        {
+          "potion": "botania:emptiness",
+          "type": "bongo.potion"
+        },
+        {
+          "potion": "botania:feather_feet",
+          "type": "bongo.potion"
+        },
+        {
+          "potion": "botania:soul_cross",
+          "type": "bongo.potion"
+        }
+      ]
+    },
+    {
+      "_name": "Items 16x",
+      "type": "bongo.group",
+      "weight": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+      "tasks": [
+        {
+          "_name": "AIOTs",
+          "type": "bongo.group",
+          "weight": 20,
+          "tasks": [
+            {
+              "id": "aiotbotania:elementium_aiot",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "aiotbotania:livingrock_aiot",
+              "Count": 1,
+              "weight": 10,
+              "type": "bongo.item"
+            },
+            {
+              "id": "aiotbotania:livingwood_aiot",
+              "Count": 1,
+              "weight": 10,
+              "type": "bongo.item"
+            },
+            {
+              "id": "aiotbotania:manasteel_aiot",
+              "Count": 1,
+              "weight": 5,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "_name": "Functional Flowers",
+          "type": "bongo.group",
+          "weight": [25, 20, 15, 10],
+          "tasks": [
+            {
+              "id": "botania:agricarnation",
+              "weight": 10,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:bellethorn",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:bubbell",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:clayconia",
+              "weight": 15,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:daffomill",
+              "weight": 15,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:dreadthorn",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:exoflame",
+              "weight": 10,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:fallen_kanade",
+              "weight": 10,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:heisei_dream",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:hopperhock",
+              "weight": 15,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:hyacidus",
+              "weight": 10,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:jaded_amaranthus",
+              "weight": 10,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:jiyuulia",
+              "weight": 15,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:loonium",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:marimorphosis",
+              "weight": 15,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:medumone",
+              "weight": 15,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:orechid",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:orechid_ignem",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:pollidisiac",
+              "weight": 10,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:rannuncarpus",
+              "weight": 15,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:solegnolia",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:spectranthemum",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:tangleberrie",
+              "weight": 15,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:thermalily",
+              "weight": 15,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:vinculotus",
+              "weight": 5,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "_name": "Generating Flowers",
+          "type": "bongo.group",
+          "weight": [25, 20, 15, 10],
+          "tasks": [
+            {
+              "id": "botania:endoflame",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:entropinnyum",
+              "weight": 5,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:gourmaryllis",
+              "weight": 10,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:hydroangeas",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:kekimurus",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:munchdew",
+              "weight": 5,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:narslimmus",
+              "weight": 10,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:rafflowsia",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:rosa_arcana",
+              "weight": 17,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:spectrolus",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "_name": "Miscellaneous Flowers",
+          "type": "bongo.group",
+          "weight": 20,
+          "tasks": [
+            {
+              "id": "botania:bergamute",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:manastar",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:pure_daisy",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "_name": "Shiny Flowers",
+          "type": "bongo.group",
+          "weight": [40, 40],
+          "tasks": [
+            {
+              "id": "botania:black_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:blue_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:brown_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cyan_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:gray_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:green_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:light_blue_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:light_gray_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lime_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:magenta_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:orange_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:pink_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:purple_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:red_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:white_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:yellow_shiny_flower",
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "_name": "Rods",
+          "type": "bongo.group",
+          "weight": [30, 25],
+          "tasks": [
+            {
+              "id": "botania:cobble_rod",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:dirt_rod",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:divining_rod",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:exchange_rod",
+              "weight": 10,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:fire_rod",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:gravity_rod",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:rainbow_rod",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:skydirt_rod",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:smelt_rod",
+              "weight": 18,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:terraform_rod",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:tornado_rod",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:water_rod",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "_name": "Rings",
+          "type": "bongo.group",
+          "weight": [10, 5],
+          "tasks": [
+            {
+              "_name": "Aura Rings",
+              "type": "bongo.group",
+              "weight": 20,
+              "tasks": [
+                {
+                  "id": "botania:aura_ring",
+                  "weight": 9,
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:aura_ring_greater",
+                  "weight": 1,
+                  "Count": 1,
+                  "type": "bongo.item"
+                }
+              ]
+            },
+            {
+              "_name": "Magnet Rings",
+              "type": "bongo.group",
+              "weight": 20,
+              "tasks": [
+                {
+                  "id": "botania:magnet_ring",
+                  "weight": 9,
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:magnet_ring_greater",
+                  "weight": 1,
+                  "Count": 1,
+                  "type": "bongo.item"
+                }
+              ]
+            },
+            {
+              "_name": "Mana Rings",
+              "type": "bongo.group",
+              "weight": 20,
+              "tasks": [
+                {
+                  "id": "botania:mana_ring",
+                  "weight": 9,
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:mana_ring_greater",
+                  "weight": 1,
+                  "Count": 1,
+                  "type": "bongo.item"
+                }
+              ]
+            },
+            {
+              "id": "botania:dodge_ring",
+              "weight": 17,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:mining_ring",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:pixie_ring",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:reach_ring",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:swap_ring",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:water_ring",
+              "weight": 2,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "_name": "Cosmetics",
+          "type": "bongo.group",
+          "weight": 15,
+          "tasks": [
+            {
+              "id": "botania:cosmetic_alien_antenna",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_anaglyph_glasses",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_ancient_mask",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_black_bowtie",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_black_tie",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_blue_butterfly",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_botanist_emblem",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_cat_ears",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_clock_eye",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_devil_horns",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_devil_tail",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_eerie_mask",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_engineer_goggles",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_eyepatch",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_four_leaf_clover",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_googly_eyes",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_groucho_glasses",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_hyper_plus",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_kamui_eye",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_lusitanic_shield",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_orange_shades",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_pink_flower_bud",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_polka_dotted_bows",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_puffy_scarf",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_questgiver_mark",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_red_glasses",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_red_ribbons",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_thick_eyebrows",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_thinking_hand",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_tiny_potato_mask",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_unicorn_horn",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_wicked_eyepatch",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:cosmetic_witch_pin",
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "_name": "Drums",
+          "type": "bongo.group",
+          "weight": 15,
+          "tasks": [
+            {
+              "id": "botania:drum_canopy",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:drum_gathering",
+              "weight": 1,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:drum_wild",
+              "weight": 19,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "_name": "Lenses",
+          "type": "bongo.group",
+          "weight": 15,
+          "tasks": [
+            {
+              "id": "botania:lens_bounce",
+              "weight": 15,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_damage",
+              "weight": 10,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_efficiency",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_explosive",
+              "weight": 10,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_fire",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_firework",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_flare",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_gravity",
+              "weight": 15,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_influence",
+              "weight": 7,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_light",
+              "weight": 17,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_magnet",
+              "weight": 25,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_messenger",
+              "weight": 25,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_mine",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_paint",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_phantom",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_piston",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_power",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_redirect",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_speed",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_time",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_tripwire",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_warp",
+              "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:lens_weight",
+              "weight": 7,
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "_name": "Runes",
+          "type": "bongo.group",
+          "weight": [20, 15, 10],
+          "tasks": [
+            {
+              "_name": "Tier 1",
+              "type": "bongo.group",
+              "weight": 4,
+              "tasks": [
+                {
+                  "id": "botania:rune_air",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_earth",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_fire",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_water",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_mana",
+                  "Count": 1,
+                  "type": "bongo.item"
+                }
+              ]
+            },
+            {
+              "_name": "Tier 2",
+              "type": "bongo.group",
+              "weight": 2,
+              "tasks": [
+                {
+                  "id": "botania:rune_autumn",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_spring",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_summer",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_winter",
+                  "Count": 1,
+                  "type": "bongo.item"
+                }
+              ]
+            },
+            {
+              "_name": "Tier 3",
+              "type": "bongo.group",
+              "weight": 1,
+              "tasks": [
+                {
+                  "id": "botania:rune_envy",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_gluttony",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_greed",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_lust",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_pride",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_sloth",
+                  "Count": 1,
+                  "type": "bongo.item"
+                },
+                {
+                  "id": "botania:rune_wrath",
+                  "Count": 1,
+                  "type": "bongo.item"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_name": "Viruses",
+          "type": "bongo.group",
+          "weight": 15,
+          "tasks": [
+            {
+              "id": "botania:virus_necrodermal",
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "botania:virus_nullodermal",
+              "Count": 1,
+              "type": "bongo.item"
+            }
+          ]
+        },
+        {
+          "id": "botania:abstruse_platform",
+          "weight": 20,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:alchemy_catalyst",
+          "weight": 15,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:auto_crafting_halo",
+          "weight": 20,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:avatar",
+          "weight": 20,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:bellows",
+          "weight": 20,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:bifrost_perm",
+          "weight": 3,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:blood_pendant",
+          "weight": 8,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:cocoon",
+          "weight": 3,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:crafty_crate",
+          "weight": 3,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:crystal_bow",
+          "weight": 3,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:hourglass",
+          "weight": 20,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:mana_fluxfield",
+          "weight": 20,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:mana_pylon",
+          "weight": 20,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:open_bucket",
+          "weight": 3,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:phantom_ink",
+          "weight": 20,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:slime_bottle",
+          "weight": 3,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:teru_teru_bozu",
+          "weight": 20,
+          "Count": 1,
+          "type": "bongo.item"
+        },
+        {
+          "id": "botania:third_eye",
+          "weight": 20,
+          "Count": 1,
+          "type": "bongo.item"
+        }
+      ]
+    }
+  ]
+}
