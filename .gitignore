@@ -18,6 +18,7 @@
 !config
 !config/defaultoptions
 !config/defaultoptions/*
+!config/bingolobby.json5
 !config/extendedcrafting-common.toml
 !config/ftbultimine-common.toml
 !config/lootr-common.toml

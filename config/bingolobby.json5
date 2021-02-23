@@ -1,0 +1,75 @@
+{
+  // Whether subtitle 1 or subtitle 2 should be replaced with the countdown
+  // If a subtitle is empty it won't get replaced and the countdown won't be visible.
+  // True means subtitle 2, false means subtitle 1
+  "countdown_in_subtitle2": false,
+  
+  // The subtitle to be shown in the sidebar while in the lobby.
+  // This will cycle through all the elements in the list.
+  "subtitle": [
+    {
+      "text": "Mitspielen: ",
+      "extra": [
+        {
+          "text": "!bingo",
+          "bold": true,
+          "color": "gold"
+        }
+      ]
+    }
+  ],
+  
+  // The second subtitle to be shown in the sidebar while in the lobby.
+  // This will cycle through all the elements in the list.
+  "subtitle2": [
+    {
+      "text": "Mod by noeppi_noeppi",
+      "color": "green"
+    },
+    {
+      "text": "Pack by MelanX",
+      "color": "green"
+    },
+    {
+      "text": "Server by syncopsta",
+      "color": "green"
+    },
+    {
+      "text": "Lobby by LuisGoat",
+      "color": "green"
+    }
+  ],
+  
+  // The title to be shown in the sidebar while in the lobby.
+  "title": {
+    "bold": true,
+    "text": "cast",
+    "extra": [
+      {
+        "text": "B",
+        "bold": true,
+        "color": "red"
+      },
+      {
+        "text": "I",
+        "bold": true,
+        "color": "blue"
+      },
+      {
+        "text": "N",
+        "bold": true,
+        "color": "green"
+      },
+      {
+        "text": "G",
+        "bold": true,
+        "color": "yellow"
+      },
+      {
+        "text": "O",
+        "bold": true,
+        "color": "light_purple"
+      }
+    ]
+  }
+}
