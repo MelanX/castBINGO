@@ -111,6 +111,7 @@ forge-36.0.9 --> forge-36.0.42
 
 # Changelog for castBINGO! 1.1.3
 ## Internal changes
+- [v1.1.3 release](https://github.com/MelanX/castBINGO/commit/6f23a1d5f617a8a0bafad6e918e7dfd82105bbad)
 - [v1.1.3 release](https://github.com/MelanX/castBINGO/commit/eb5e2949a1dccc4ac75e702380d3378ce006016f)
 - [add Botania bingo (#3)](https://github.com/MelanX/castBINGO/commit/b9596de66698b2bd3d4aa5bb99b7e445a7b11a67)
 - [update forge](https://github.com/MelanX/castBINGO/commit/e329b5a9c9906925ccc5b0a85a1d93d409f31d04)

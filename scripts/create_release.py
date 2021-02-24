@@ -165,7 +165,7 @@ def uploadToGithub(commit, token, manifest):
     create_release.add_header('Authorization', f'token {token}')
     create_release.add_header('Accept', 'application/vnd.github.v3+json')
     create_release.add_header('Content-Type', 'application/json')
-    with open(f'changelogs/changelog-{manifest["version"]}.md', 'r') as file:
+    with open(f'changelogs/changelog-{manifest["version"]}.md', 'r', encoding='utf-8') as file:
         changelog = file.read()
     create_release.data = json.dumps({
         'tag_name': f'v{manifest["version"]}',
