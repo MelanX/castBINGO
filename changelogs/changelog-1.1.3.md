@@ -1,0 +1,121 @@
+## Mod Changes
+### Forge updated
+forge-36.0.9 --> forge-36.0.42
+### Added
+- [Cloth Config API (Forge)](https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge/files/3210411)
+
+
+### Updated
+- [[Forge 1.16.4/5] v1.5.107](https://www.curseforge.com/minecraft/mc-mods/architectury-forge/files/3194029) --> [[Forge 1.16.4/5] v1.8.120](https://www.curseforge.com/minecraft/mc-mods/architectury-forge/files/3214320)
+	- Architectury v1.8.120 for 1.16.4/5Updated at 20210223 15:20.
+	- Click here for changelog
+	- Remove jcenter from settings.gradle
+	- Bump to 1.8
+	- Fix block entity without position
+	- And a bit more...
+- [BingoLobby-1.16.3-0.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/bingolobby/files/3195530) --> [BingoLobby-1.16.3-0.1.5.jar](https://www.curseforge.com/minecraft/mc-mods/bingolobby/files/3214395)
+	- added a config and a view similar to a scoreboard.
+- [Bongo-1.16.3-1.0.26.jar](https://www.curseforge.com/minecraft/mc-mods/bongo/files/3191486) --> [Bongo-1.16.3-1.0.29.jar](https://www.curseforge.com/minecraft/mc-mods/bongo/files/3214310)
+	- Entries are now sorted when using /bingo dump
+	- When curios is installed, these slots are cleared as well.
+- [citadel-1.6.0-1.16.5](https://www.curseforge.com/minecraft/mc-mods/citadel/files/3194139) --> [citadel-1.6.1-1.16.5](https://www.curseforge.com/minecraft/mc-mods/citadel/files/3198842)
+	- Fixed server crash with Undergarden mod
+- [Clumps-6.0.0.13.jar](https://www.curseforge.com/minecraft/mc-mods/clumps/files/3137103) --> [Clumps-6.0.0.17.jar](https://www.curseforge.com/minecraft/mc-mods/clumps/files/3205705)
+	- Current version: 6.0.0.17
+	- Migrate to deferred register, safeRunWhenOn, add localization (#54)  Chloe Dawn  Tue Feb 16 04:37:37 2021
+	- update to 1.16.5  Jared  Sun Feb 14 20:31:57 2021
+	- Mark MCMT as incompatible  Jared  Mon Feb 8 04:21:14 2021
+	- Fixed Clumps and Mending close $49  Jared  Wed Feb 3 22:02:56 2021
+- [Controlling-7.0.0.12.jar](https://www.curseforge.com/minecraft/mc-mods/controlling/files/3169795) --> [Controlling-7.0.0.13.jar](https://www.curseforge.com/minecraft/mc-mods/controlling/files/3200753)
+	- Current version: 7.0.0.13
+	- Readd an available keys screen. Close #76  Jared  Thu Feb 11 20:38:33 2021
+	- Attempt a fix for names being too long  Jared  Thu Feb 11 20:38:33 2021
+	- port to 1.16.5 and close #75  Jared  Fri Jan 15 22:38:55 2021
+	- fix trailing comma. Close #73  Jared  Sat Nov 14 02:36:06 2020
+- [Cucumber-1.16.4-4.1.6.jar](https://www.curseforge.com/minecraft/mc-mods/cucumber/files/3187116) --> [Cucumber-1.16.4-4.1.7.jar](https://www.curseforge.com/minecraft/mc-mods/cucumber/files/3212526)
+	- Release 4.1.7 for MC 1.16.4+
+	- Changes:
+	- Fixed a potential issue with custom bow item FOV overriding other FOV changes
+	- More optimizations to AOE block breaking
+- [DarkUtilities-1.16.5-8.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/dark-utilities/files/3183636) --> [DarkUtilities-1.16.5-8.0.3.jar](https://www.curseforge.com/minecraft/mc-mods/dark-utilities/files/3198877)
+	- Fixed beverages like potions not being affected by the Gluttony Charm.  Tyler Hancock
+	- Huge thanks to my supporters on Patreon
+	- Diablo Crasher
+	- shadow Ultima devil Alpha
+	- BigAl607
+- [ExtendedCrafting-1.16.4-3.1.3.jar](https://www.curseforge.com/minecraft/mc-mods/extended-crafting/files/3193286) --> [ExtendedCrafting-1.16.4-3.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/extended-crafting/files/3215203)
+	- Release 3.1.4 for MC 1.16.4+
+	- Changes:
+	- Fixed shapeless Table Crafting &amp; Ender Crafting recipe matching logic
+	- Fixed Auto Crafting Tables not dropping when broken
+- [ftb-gui-library-1605.2.1.39-forge.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-gui-library/files/3194623) --> [ftb-gui-library-1605.2.1.40-forge.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-gui-library/files/3214262)
+	- Improved error message for &amp; codes  LatvianModder
+- [ftb-ultimine-1603.1.1.13.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine/files/3118088) --> [ftb-ultimine-1605.2.0-build.21-forge.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine/files/3213282)
+	- Merge pull request #67 from MaxNeedsSnacks/master  Kristiāns Micītis
+	- Update to Arch 85 and fix buildscript  Max
+- [geckolib-forge-1.16.5-3.0.12.jar](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/3192554) --> [geckolib-forge-1.16.5-3.0.14.jar](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/3211214)
+	- v3.0.14 Fixed animation issues with mobs that use variant models/animations. #AzureDoom
+	- Fixed Potato Armor not playing in server. #Icosider
+- [industrial-foregoing-1.16.5-3.2.9.1-fbef27c.jar](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/3185896) --> [industrial-foregoing-1.16.5-3.2.10-09eb824.jar](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/3204945)
+	- https://github.com/InnovativeOnlineIndustries/IndustrialForegoing/blob/changelog/CHANGELOG.md
+- [InventoryPets-1.16-2.0.11](https://www.curseforge.com/minecraft/mc-mods/inventory-pets/files/3164771) --> [InventoryPets-1.16-2.0.12](https://www.curseforge.com/minecraft/mc-mods/inventory-pets/files/3196230)
+	- Inventory Pets
+	- Hotfix Release Notes 2.0.12 (for 1.15.x and  1.16.x)
+	- Fixes
+	- Fixed Illuminati Pet timer (once again), so that it works properly across dimensions or when changing world time (credit: JT122506)
+	- Petrifier now works on Mooshroom (credit: skwii69)
+- [kubejs-1605.3.6-build.162-forge.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3192496) --> [kubejs-1605.3.6-build.170-forge.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3211037)
+	- Added server.custom_command.x event. Running /kubejs custom_command test will fire server.custom_command.test event on server  LatvianModder
+- [LibX-1.16.3-1.0.12.jar](https://www.curseforge.com/minecraft/mc-mods/libx/files/3189169) --> [LibX-1.16.3-1.0.17.jar](https://www.curseforge.com/minecraft/mc-mods/libx/files/3214414)
+	- Fix the config system on the server  noeppi_noeppi
+- [Lollipop-1.16.4-3.2.5.jar](https://www.curseforge.com/minecraft/mc-mods/lollipop/files/3187610) --> [Lollipop-1.16.4-3.2.7.jar](https://www.curseforge.com/minecraft/mc-mods/lollipop/files/3213085)
+- [mana-and-artifice-1.2.1.9.jar](https://www.curseforge.com/minecraft/mc-mods/mana-and-artifice/files/3169012) --> [mana-and-artifice-1.3.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/mana-and-artifice/files/3210676)
+	- 1.3.0.2
+	- ======================================
+	- Fixed a bug with the Grimoire UI preventing the moving of spells
+	- Fixed structures generating with waterlogged blocks
+	- Fixed a crashing bug with ritual of Earthen Steppes on servers
+	- And a bit more...
+- [Mekanism-1.16.4-10.0.19.446.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/3183270) --> [Mekanism-1.16.5-10.0.21.448.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/3206392)
+	- 0fe7b00  Use specialized normals to trick diffuse lighting to not take effect and use proper normals for GUI transforms and JEI #6983
+	- ee70dbe  Add leg mode switch key and have it be able to change the speed of the locomotive boosting unit
+	- 954ff84  Format turbine max water to have commas etc in it, and also scale it as needed to ensure it fits in the bounds of the GUI #6985
+	- a658a15  Some minor improvements to the mek build command:  Sets other blocks inside to air so that they work under water/when done against uneven terrain without having to remove blocks from inside  Turbine build command now also adds rotors to the turbine instead of having to be done manually
+	- d40d607  Update maven version in the readme, and also update Development.md to add some basic build instructions. Closes #6790
+- [[1.16.2] Mouse Tweaks 2.13](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/files/3035780) --> [[1.16.2+] Mouse Tweaks 2.14](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/files/3202662)
+	- Fixed red X in server list if Mouse Tweaks was missing on the server (thanks phit).
+- [MysticalAgriculture-1.16.4-4.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture/files/3152061) --> [MysticalAgriculture-1.16.4-4.1.5.jar](https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture/files/3203385)
+	- Release 4.1.5 for MC 1.16.4+
+	- Changes:
+	- Changed Mining/Tilling/Pathing AOE upgraded tools to only play one sound
+	- Changed the Growth Accelerator area of effect to start 2 blocks above (instead of 1, where the farmland/dirt etc would be)
+	- Fixed multiblock plants like saplings, sugarcanes, melons not rendering properly when grown with a watering can
+- [Patchouli-1.16.4-48.jar](https://www.curseforge.com/minecraft/mc-mods/patchouli/files/3126931) --> [Patchouli-1.16.4-50.jar](https://www.curseforge.com/minecraft/mc-mods/patchouli/files/3204037)
+	- https://github.com/Vazkii/Patchouli/releases/tag/release1.16.449forge
+	- https://github.com/Vazkii/Patchouli/releases/tag/release1.16.450forge
+- [Powah-1.16.4-2.3.10.jar](https://www.curseforge.com/minecraft/mc-mods/powah/files/3187611) --> [Powah-1.16.4-2.3.13.jar](https://www.curseforge.com/minecraft/mc-mods/powah/files/3213086)
+	- 2.3.13
+	- Fixed Ender Channels 212 being the same  Thanks to BlueAgent
+	- Fixed powah manual Crafting Panel crash and recipe arrows  Thanks to BlueAgent.
+	- Fixed energy Capability Implementation  Thanks to BlueAgent.
+	- Fixed Broken Heatsource Recipe  Thanks to BlueAgent
+	- And a bit more...
+- [Quark-r2.4-303.jar](https://www.curseforge.com/minecraft/mc-mods/quark/files/3190442) --> [Quark-r2.4-306.jar](https://www.curseforge.com/minecraft/mc-mods/quark/files/3212156)
+	- Fixed issues with the config resetting or not applying properly.
+	- Fixed server crash with crates.
+- [titanium-1.16.4-3.2.5.jar](https://www.curseforge.com/minecraft/mc-mods/titanium/files/3163247) --> [titanium-1.16.5-3.2.7.jar](https://www.curseforge.com/minecraft/mc-mods/titanium/files/3204888)
+	- https://github.com/InnovativeOnlineIndustries/Titanium/blob/changelog/CHANGELOG.md
+- [WailaHarvestability-mc1.16.2-forge-1.1.13.jar](https://www.curseforge.com/minecraft/mc-mods/waila-harvestability/files/3033731) --> [WailaHarvestability-mc1.16.x-forge-1.1.14.jar](https://www.curseforge.com/minecraft/mc-mods/waila-harvestability/files/3215013)
+	- Fixed erroneous error when mod is only present on the client (#79)
+
+
+# Changelog for castBINGO! 1.1.3
+## Internal changes
+- [add Botania bingo (#3)](https://github.com/MelanX/castBINGO/commit/b9596de66698b2bd3d4aa5bb99b7e445a7b11a67)
+- [update forge](https://github.com/MelanX/castBINGO/commit/e329b5a9c9906925ccc5b0a85a1d93d409f31d04)
+- [update quark config](https://github.com/MelanX/castBINGO/commit/9a8b9addff6ad84e358c9eff61bf52cbf2ff065f)
+- [Add bingolobby config](https://github.com/MelanX/castBINGO/commit/385a2a50e4298de0d57e28b472c22897100b6792)
+- [update scripts in readme](https://github.com/MelanX/castBINGO/commit/68a52093b29f2c762e5b8ce364d4fc9f06e9ee8a)
+- [fix changelog not being properly read on release](https://github.com/MelanX/castBINGO/commit/3c60bc2e23c3476ebb7c2ae3b3f167e33eb76ad4)
+- [improve changelog for GitHub releases](https://github.com/MelanX/castBINGO/commit/5d92364535f5fa284e6eec917c504b3ac3d93daf)
+- [Fix scripts](https://github.com/MelanX/castBINGO/commit/aa661e7bc615f96f2cf72eaec1a998ae9abf80e4)

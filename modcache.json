@@ -514,6 +514,141 @@
             "_displayName": "Wawla - What Are We Looking At",
             "projectID": 224712,
             "fileID": 3189215
+        },
+        "ecac669b1344ee52825b4e510098cdd4": {
+            "_displayName": "Citadel",
+            "projectID": 331936,
+            "fileID": 3198842
+        },
+        "d03c5c573494bb12020cb9054a7131e6": {
+            "_displayName": "Cloth Config API (Forge)",
+            "projectID": 348521,
+            "fileID": 3210411
+        },
+        "8d2c943531c8231b9192f86adc1aa263": {
+            "_displayName": "Clumps",
+            "projectID": 256717,
+            "fileID": 3205705
+        },
+        "b13e866317806e19143fccae56199148": {
+            "_displayName": "Controlling",
+            "projectID": 250398,
+            "fileID": 3200753
+        },
+        "c45a574ce9aabd5dace5db0f565fb55c": {
+            "_displayName": "Dark Utilities",
+            "projectID": 242195,
+            "fileID": 3198877
+        },
+        "b8cbe33c7d92dbcc795c5c61aea6f797": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3211214
+        },
+        "ed996a0f257ad48702b44604f313594e": {
+            "_displayName": "Industrial Foregoing",
+            "projectID": 266515,
+            "fileID": 3204945
+        },
+        "2af444cf9cd62529e5ad1b7fc74ddb82": {
+            "_displayName": "Inventory Pets",
+            "projectID": 229380,
+            "fileID": 3196230
+        },
+        "b633e4ac9495ef87b39d6b3fee7d3219": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3211037
+        },
+        "54962b0bb85388ab6c116f3b0f52ff5e": {
+            "_displayName": "Mana and Artifice",
+            "projectID": 406360,
+            "fileID": 3210676
+        },
+        "96141478cea644d0998931c70a8a4d36": {
+            "_displayName": "Mekanism",
+            "projectID": 268560,
+            "fileID": 3206392
+        },
+        "3b4e04a9a79094149306457c7db838d5": {
+            "_displayName": "Mouse Tweaks",
+            "projectID": 60089,
+            "fileID": 3202662
+        },
+        "0e0fd472dafcedbcd564e85fdc8e62e0": {
+            "_displayName": "Mystical Agriculture",
+            "projectID": 246640,
+            "fileID": 3203385
+        },
+        "c8a44b38985c07335e9e28ed55a163ac": {
+            "_displayName": "Patchouli",
+            "projectID": 306770,
+            "fileID": 3204037
+        },
+        "5478eb2962c18253fc3e8c7253ac7a10": {
+            "_displayName": "Titanium",
+            "projectID": 287342,
+            "fileID": 3204888
+        },
+        "2d89e4504e9de91f0e9146909170b9e0": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3214320
+        },
+        "ea1cecd07ce5fa7057934da9a571e10b": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3214395
+        },
+        "84edd7050ecc45d3dafe10340f9a1a11": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3214310
+        },
+        "1c46ce5da536d040540cadf91bb4b182": {
+            "_displayName": "Cucumber Library",
+            "projectID": 272335,
+            "fileID": 3212526
+        },
+        "5e88b2675423ffbb42520f84dbaff39e": {
+            "_displayName": "Extended Crafting",
+            "projectID": 268387,
+            "fileID": 3215203
+        },
+        "76f5167449ae7768317a5b176b060f30": {
+            "_displayName": "FTB GUI Library",
+            "projectID": 404465,
+            "fileID": 3214262
+        },
+        "461bbee213a7f89197397ab5c9892174": {
+            "_displayName": "FTB Ultimine",
+            "projectID": 386134,
+            "fileID": 3213282
+        },
+        "1dccee803d6456f0305aed50d4453f69": {
+            "_displayName": "LibX",
+            "projectID": 412525,
+            "fileID": 3214414
+        },
+        "5b2c6330301d4ede4a9f485fcf8da283": {
+            "_displayName": "Lollipop",
+            "projectID": 347954,
+            "fileID": 3213085
+        },
+        "00e64656b402bf994e2f8095a23d4184": {
+            "_displayName": "Powah!",
+            "projectID": 352656,
+            "fileID": 3213086
+        },
+        "112f40237ebb4fab393505626f51c98a": {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3212156
+        },
+        "c22da036b0c6bcc4b7f70686842ddb76": {
+            "_displayName": "Waila Harvestability",
+            "projectID": 79287,
+            "fileID": 3215013
         }
     },
     "modid_map": {
@@ -636,6 +771,14 @@
         "wawla": {
             "_displayName": "Wawla - What Are We Looking At",
             "projectID": 224712
+        },
+        "ftbultimine": {
+            "_displayName": "FTB Ultimine",
+            "projectID": 386134
+        },
+        "wailaharvestability": {
+            "_displayName": "Waila Harvestability",
+            "projectID": 79287
         }
     }
 }
