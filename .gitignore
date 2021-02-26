@@ -20,7 +20,7 @@
 !config/defaultoptions/*
 !config/bingolobby.json5
 !config/extendedcrafting-common.toml
-!config/ftbultimine-common.toml
+!config/ftbultimine.json5
 !config/lootr-common.toml
 !config/packmenu.cfg
 !config/quark-common.toml
