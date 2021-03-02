@@ -65,6 +65,7 @@
 
 # Changelog for castBINGO! 1.1.3
 ## Internal changes
+- [v1.1.3 release](https://github.com/MelanX/castBINGO/commit/fb4a6c55342ed48cc5aacbd3c0148512741bbee9)
 - [Changes](https://github.com/MelanX/castBINGO/commit/d3439f2d9ef6a7f24716551635864548ad358199)
 - [change loot chests to random loot for each player](https://github.com/MelanX/castBINGO/commit/caa06117e1ff1d17ea1361e6c43a21adbdb28a01)
 - [add game settings for pvp and 25 tasks](https://github.com/MelanX/castBINGO/commit/0f888d31b5713fa2cfb8e56e38839ba876f477be)
