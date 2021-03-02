@@ -69,7 +69,7 @@ def main():
     createServerZip(manifest, gitignore)
 
     print('Uploading to GitHub')
-    uploadToGithub(commit, token, manifest)
+    uploadToGithub(token, manifest)
 
     print('Done')
 
@@ -154,13 +154,14 @@ def copyNotGitignoreTree(sourceBase: str, targetBase: str, relative: str, gitign
                 os.makedirs(os.path.dirname(target))
             shutil.copy2(source, target)
 
-def uploadToGithub(commit, token, manifest):
+def uploadToGithub(token, manifest):
     print('Push latest changes to GitHub')
     subprocess.check_call(['git', 'add', '.'])
     subprocess.check_call(['git', 'commit', '-m', f'v{manifest["version"]} release'])
     subprocess.check_call(['git', 'push'])
+    commit = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8').strip()
 
-    print('Create release')
+    print(f'Create release on newer commit {commit}')
     create_release = Request('https://api.github.com/repos/MelanX/castBINGO/releases', method='POST')
     create_release.add_header('Authorization', f'token {token}')
     create_release.add_header('Accept', 'application/vnd.github.v3+json')
