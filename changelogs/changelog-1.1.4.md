@@ -1,0 +1,74 @@
+## Mod Changes
+### Updated
+- [aiotbotania-1.16.4-1.7.1.jar](https://www.curseforge.com/minecraft/mc-mods/aiot-botania/files/3185817) --> [aiotbotania-1.16.4-1.7.2.jar](https://www.curseforge.com/minecraft/mc-mods/aiot-botania/files/3224181)
+	- fix reload command breaks some recipes  MelanX
+	- add this qualifier  MelanX
+- [Abnormals Core 1.16.4 - 3.0.6](https://www.curseforge.com/minecraft/mc-mods/abnormals-core/files/3157757) --> [Abnormals Core 1.16.5 - 3.1.0](https://www.curseforge.com/minecraft/mc-mods/abnormals-core/files/3218058)
+	- * Added a method to register gifts for villager types
+	- * Added support for Quark's Posts feature (eltrutlikes)
+	- * Added support for Quark's Hedges feature (eltrutlikes)
+	- * Added the ability for Advancement modifiers to use conditions
+	- * Updated AbnormalsWoodBlock and AbnormalsLogBlock to use getToolModifiedState
+- [[Forge 1.16.4/5] v1.8.120](https://www.curseforge.com/minecraft/mc-mods/architectury-forge/files/3214320) --> [[Forge 1.16.4/5] v1.8.130](https://www.curseforge.com/minecraft/mc-mods/architectury-forge/files/3222916)
+	- Architectury v1.8.130 for 1.16.4/5Updated at 20210301 15:49.
+	- Click here for changelog
+	- Update plugin
+	- Update plugins
+	- Add EntityRenderers (#52)
+	- And a bit more...
+- [citadel-1.6.1-1.16.5](https://www.curseforge.com/minecraft/mc-mods/citadel/files/3198842) --> [ citadel-1.6.2-1.16.5 ](https://www.curseforge.com/minecraft/mc-mods/citadel/files/3220917)
+	- Fixed Alex's Mobs Roadrunners not spawning
+- [Controlling-7.0.0.13.jar](https://www.curseforge.com/minecraft/mc-mods/controlling/files/3200753) --> [Controlling-7.0.0.14.jar](https://www.curseforge.com/minecraft/mc-mods/controlling/files/3223560)
+	- Current version: 7.0.0.14
+	- move to the open link screen. Close #78  Jared  Tue Mar 2 03:25:12 2021
+	- Fix tooltips rendering underneath scrollbar and overlaps  Jared  Tue Mar 2 03:11:26 2021
+	- Readd an available keys screen. Close #76  Jared  Thu Feb 11 20:38:33 2021
+	- Attempt a fix for names being too long  Jared  Thu Feb 11 20:38:33 2021
+- [Cucumber-1.16.4-4.1.7.jar](https://www.curseforge.com/minecraft/mc-mods/cucumber/files/3212526) --> [Cucumber-1.16.4-4.1.8.jar](https://www.curseforge.com/minecraft/mc-mods/cucumber/files/3216456)
+	- Release 4.1.8 for MC 1.16.4+
+	- Changes:
+	- Potentially fixed an issue that would cause Mystical Agriculture Infusion/Reprocessor recipes to not show up in JEI
+- [Cyclic-1.16.5-1.1.6.jar](https://www.curseforge.com/minecraft/mc-mods/cyclic/files/3194448) --> [Cyclic-1.16.5-1.1.8.jar](https://www.curseforge.com/minecraft/mc-mods/cyclic/files/3221427)
+	- Wireless Transmitter fix: Processing no longer halts on empty slots.
+	- Fixed IO automation on both anvils, so the input slot cannot be extracted by a hopper.
+	- Fixed 'unable to resolve texture' errors in startup logs.
+	- Fixed Terra Preta not affecting most crops, also increased its growth rate.
+	- Ender Shelf can now accept books from your offhand; also it no longer deletes books with too many enchantments.
+- [ftb-ultimine-1605.2.0-build.21-forge.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine/files/3213282) --> [ftb-ultimine-1605.2.0-build.22-forge.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine/files/3216601)
+	- Updated arch, fixed crash in main menu  LatvianModder
+- [industrial-foregoing-1.16.5-3.2.10-09eb824.jar](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/3204945) --> [industrial-foregoing-1.16.5-3.2.10.1-decb7ae.jar](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/3223241)
+	- https://github.com/InnovativeOnlineIndustries/IndustrialForegoing/blob/changelog/CHANGELOG.md
+- [kubejs-1605.3.6-build.170-forge.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3211037) --> [kubejs-1605.3.6-build.171-forge.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3222777)
+	- Reformatted example scripts  LatvianModder
+	- Reformatted code, possibly fixed some issues with modded biomes/items/blocks/sounds  LatvianModder
+	- Added reload announcement and better errors in recipes. you have to enable them in recipes event with event.itemErrors = true before other functions  LatvianModder
+	- Merge pull request #85 from MaxNeedsSnacks/master  Kristiāns Micītis
+	- Add YeetJEICategoriesEvent  Max
+- [PackMenu-1.16.4-2.3.1.jar](https://www.curseforge.com/minecraft/mc-mods/packmenu/files/3172839) --> [PackMenu-1.16.4-2.4.0.jar](https://www.curseforge.com/minecraft/mc-mods/packmenu/files/3223408)
+	- Added a REALMS action so that clients with PackMenu can connect to realms once more.
+	- Made it so that multiple panoramas can be specified.  One will be chosen at random during resource reload.
+	- All elements that supported an offset (title, splash, java edition, forge warnings) now support having their anchor points changed.
+	- When a button has text that is too long for it's button, it will be trimmed and have "..." placed at the end of it.  Hovering over a button with "..." appended will make the text scroll so that longer text can be read.
+	- Added a screen type for the resource pack menu (RESOURCE_PACKS)
+- [Quark-r2.4-306.jar](https://www.curseforge.com/minecraft/mc-mods/quark/files/3212156) --> [Quark-r2.4-308.jar](https://www.curseforge.com/minecraft/mc-mods/quark/files/3221260)
+	- Fixed compatibility with Lootr in obsidian pillars (noobanidus)
+	- Fixed mega dungeons sometimes spawning with waterlogged blocks
+	- Fixed monster boxes generating over lava
+	- Tried to fix the backpack not shifting the patchouli button hopefully it works
+- [titanium-1.16.5-3.2.7.jar](https://www.curseforge.com/minecraft/mc-mods/titanium/files/3204888) --> [titanium-1.16.5-3.2.8.jar](https://www.curseforge.com/minecraft/mc-mods/titanium/files/3223141)
+	- https://github.com/InnovativeOnlineIndustries/Titanium/blob/changelog/CHANGELOG.md
+- [TwerkItMeal-1.16.5-1.3.7](https://www.curseforge.com/minecraft/mc-mods/twerkitmeal/files/3189805) --> [TwerkItMeal 1.16.5-1.3.8](https://www.curseforge.com/minecraft/mc-mods/twerkitmeal/files/3223367)
+	- updated 1.16.5 forge to 36.0.43
+	- added darkosto's sprinting request
+	- https://github.com/KyleBCox/TwerkItMeal/issues/8
+
+
+# Changelog for castBINGO! 1.1.4
+## Internal changes
+- [v1.1.3 release](https://github.com/MelanX/castBINGO/commit/889278d84fa88983ed3b8dfbdc7073cd50793fa1)
+- [v1.1.3 release](https://github.com/MelanX/castBINGO/commit/fb4a6c55342ed48cc5aacbd3c0148512741bbee9)
+- [Changes](https://github.com/MelanX/castBINGO/commit/d3439f2d9ef6a7f24716551635864548ad358199)
+- [change loot chests to random loot for each player](https://github.com/MelanX/castBINGO/commit/caa06117e1ff1d17ea1361e6c43a21adbdb28a01)
+- [add game settings for pvp and 25 tasks](https://github.com/MelanX/castBINGO/commit/0f888d31b5713fa2cfb8e56e38839ba876f477be)
+- [change to ftb ultimines new config](https://github.com/MelanX/castBINGO/commit/d1f5653a7a7a3e2a3000b05e594293fa6a400496)
+- [v1.1.3 release](https://github.com/MelanX/castBINGO/commit/3fdb28e795a1e0e3fcf1f26c7704e907b0c1f08b)
