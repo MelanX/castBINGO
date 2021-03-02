@@ -654,6 +654,76 @@
             "_displayName": "Bongo",
             "projectID": 406119,
             "fileID": 3224330
+        },
+        "ad782db9ddf63d583a9d47d8cca39b05": {
+            "_displayName": "Abnormals Core",
+            "projectID": 382216,
+            "fileID": 3218058
+        },
+        "1c9ead6755479555d323767765980a11": {
+            "_displayName": "AIOT Botania",
+            "projectID": 294815,
+            "fileID": 3224181
+        },
+        "14277da2a437e025606b7d01ec7037d8": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3222916
+        },
+        "c61e26c850eff17cc13d88610aa176a0": {
+            "_displayName": "Citadel",
+            "projectID": 331936,
+            "fileID": 3220917
+        },
+        "cf1fd43e873885384c2a9e771255c153": {
+            "_displayName": "Controlling",
+            "projectID": 250398,
+            "fileID": 3223560
+        },
+        "eb71226e34f74719300808948311a66f": {
+            "_displayName": "Cucumber Library",
+            "projectID": 272335,
+            "fileID": 3216456
+        },
+        "04c510dde717905cc4a66b0df19a7e30": {
+            "_displayName": "Cyclic",
+            "projectID": 239286,
+            "fileID": 3221427
+        },
+        "0165a7f1b6798ffd010b11ae6da8f1c7": {
+            "_displayName": "FTB Ultimine",
+            "projectID": 386134,
+            "fileID": 3216601
+        },
+        "fb1acc5aef6969550bfeb7980dfdf0f3": {
+            "_displayName": "Industrial Foregoing",
+            "projectID": 266515,
+            "fileID": 3223241
+        },
+        "e4ba35daad724e41ae243258e5c23012": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3222777
+        },
+        "06c49cdffccc7ccfe8c83bdaa7591bbf": {
+            "_displayName": "PackMenu",
+            "projectID": 358191,
+            "fileID": 3223408
+        },
+        "7c6ecfc18c4c767730425b31c89efa22": {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3221260
+        },
+        "f4351754d6d57debf85cd0a66ce37eb2": {
+            "_displayName": "Titanium",
+            "projectID": 287342,
+            "fileID": 3223141
+        },
+        "b6d5ed9479cfa1ee5a0c65774eccef00": {
+            "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
+            "projectID": 414640,
+            "fileID": 3223367
         }
     },
     "modid_map": {

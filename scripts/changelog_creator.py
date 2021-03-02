@@ -6,6 +6,7 @@ import re
 import shutil
 import tempfile
 import zipfile
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 owner = "MelanX"
@@ -102,7 +103,7 @@ def modsChanges(new_manifest_data: dict, file_name: str):
 
     os.makedirs(tempDir)
     print("Downloading zip file from latest release...")
-    file = tempDir + os.path.sep + data["body"] + ".zip"
+    file = tempDir + os.path.sep + data["name"] + ".zip"
     with open(file, "wb") as f:
         f.write(zip_res.read())
 
@@ -168,41 +169,45 @@ def modsChanges(new_manifest_data: dict, file_name: str):
             print("Writing updated mods to changelog...")
             appendFile(f, "### Updated")
             for mod in updated:
-                projectID = mod["projectID"]
-                fileID = mod["fileID"]
-                old_mod_ID = getOldMod(projectID, old_mods)["fileID"]
-                mod_req = Request(f"https://addons-ecs.forgesvc.net/api/v2/addon/{projectID}")
-                old_mod_req = Request(f"https://addons-ecs.forgesvc.net/api/v2/addon/{projectID}/file/{old_mod_ID}")
-                new_mod_req = Request(f"https://addons-ecs.forgesvc.net/api/v2/addon/{projectID}/file/{fileID}")
-                changelog_req = Request(
-                    f"https://addons-ecs.forgesvc.net/api/v2/addon/{projectID}/file/{fileID}/changelog")
+                try:
+                    projectID = mod["projectID"]
+                    fileID = mod["fileID"]
+                    old_mod_ID = getOldMod(projectID, old_mods)["fileID"]
+                    mod_req = Request(f"https://addons-ecs.forgesvc.net/api/v2/addon/{projectID}")
+                    old_mod_req = Request(f"https://addons-ecs.forgesvc.net/api/v2/addon/{projectID}/file/{old_mod_ID}")
+                    new_mod_req = Request(f"https://addons-ecs.forgesvc.net/api/v2/addon/{projectID}/file/{fileID}")
+                    changelog_req = Request(
+                        f"https://addons-ecs.forgesvc.net/api/v2/addon/{projectID}/file/{fileID}/changelog")
 
-                mod_res = urlopen(mod_req)
-                old_mod_res = urlopen(old_mod_req)
-                new_mod_res = urlopen(new_mod_req)
-                changelog_res = urlopen(changelog_req)
+                    mod_res = urlopen(mod_req)
+                    old_mod_res = urlopen(old_mod_req)
+                    new_mod_res = urlopen(new_mod_req)
+                    changelog_res = urlopen(changelog_req)
 
-                mod_data = json.loads(mod_res.read())
-                old_mod_data = json.loads(old_mod_res.read())
-                new_mod_data = json.loads(new_mod_res.read())
+                    mod_data = json.loads(mod_res.read())
+                    old_mod_data = json.loads(old_mod_res.read())
+                    new_mod_data = json.loads(new_mod_res.read())
 
-                appendFile(f,
-                           f"- [{old_mod_data['displayName']}]({mod_data['websiteUrl']}/files/{old_mod_ID}) --> [{new_mod_data['displayName']}]({mod_data['websiteUrl']}/files/{fileID})")
+                    appendFile(f,
+                               f"- [{old_mod_data['displayName']}]({mod_data['websiteUrl']}/files/{old_mod_ID}) --> [{new_mod_data['displayName']}]({mod_data['websiteUrl']}/files/{fileID})")
 
-                i = 0
-                for line in changelog_res.readlines():
-                    if not line.strip() == "":
-                        parts = line.decode().split('<br>')
-                        for part in parts:
-                            if not cleanhtml(part).strip() == "":
-                                if i < 5:
-                                    i += 1
-                                    appendFile(f, "\t- " + cleanhtml(part))
-                                else:
-                                    appendFile(f, "\t- And a bit more...")
-                                    break
-                    if i >= 5:
-                        break
+                    i = 0
+                    for line in changelog_res.readlines():
+                        if not line.strip() == "":
+                            parts = line.decode().split('<br>')
+                            for part in parts:
+                                if not cleanhtml(part).strip() == "":
+                                    if i < 5:
+                                        i += 1
+                                        appendFile(f, "\t- " + cleanhtml(part))
+                                    else:
+                                        appendFile(f, "\t- And a bit more...")
+                                        break
+                        if i >= 5:
+                            break
+                except HTTPError as e:
+                    print(mod["_displayName"], e)
+
             appendFile(f)
 
         if len(downgraded) > 0:
