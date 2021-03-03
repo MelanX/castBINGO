@@ -16,5 +16,5 @@ effectRadius = 3
 saplingsOnly = false
 #The chance of growth effect being applied from sprinting
 #Range: 0.0 ~ 1.0
-sprintGrowChance = 0.15
+sprintGrowChance = 0.001
 
