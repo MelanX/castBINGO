@@ -51,7 +51,7 @@ def downloadMods():
         request1 = Request(download_url)
         response1 = urlopen(request1)
         file_url = response1.read().decode('utf-8')
-        request2 = Request(file_url)
+        request2 = Request(file_url.replace(' ', '%20'))
         response2 = urlopen(request2)
         print('Downloading mod %s...' % file_url[file_url.rfind('/') + 1:])
         with open('mods' + os.path.sep + file_url[file_url.rfind('/') + 1:],
