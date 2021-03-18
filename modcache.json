@@ -724,6 +724,96 @@
             "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
             "projectID": 414640,
             "fileID": 3223367
+        },
+        "7e7eb00317d285467cef4e7113c82631": {
+            "_displayName": "Abnormals Core",
+            "projectID": 382216,
+            "fileID": 3233486
+        },
+        "ab68e62c41f03212af0912b8c5a94a3f": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3241426
+        },
+        "dd49c70707685e4ae437dc680a6909b0": {
+            "_displayName": "Botania",
+            "projectID": 225643,
+            "fileID": 3233810
+        },
+        "747c471a164fa49cb9a4229daa7fa3d5": {
+            "_displayName": "Cloth Config API (Forge)",
+            "projectID": 348521,
+            "fileID": 3235778
+        },
+        "c78e127d13359fc43c48a4501b940762": {
+            "_displayName": "Curios API (Forge)",
+            "projectID": 309927,
+            "fileID": 3231111
+        },
+        "b4bb610574a46563526e955fe409c805": {
+            "_displayName": "Cyclic",
+            "projectID": 239286,
+            "fileID": 3242294
+        },
+        "ca2c4cd9bbf630b193077302d59a4822": {
+            "_displayName": "FTB Chunks",
+            "projectID": 314906,
+            "fileID": 3236808
+        },
+        "8829c5d5309ce8de2ba48f3c39a664e5": {
+            "_displayName": "FTB GUI Library",
+            "projectID": 404465,
+            "fileID": 3237039
+        },
+        "d9af08f2c05862c3c5b98ec0170026db": {
+            "_displayName": "FTB Ultimine",
+            "projectID": 386134,
+            "fileID": 3237136
+        },
+        "eb185f5201b880c3a64174a0145af590": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3224454
+        },
+        "ccd4bc2647b772c020630127cca7e6c7": {
+            "_displayName": "Immersive Engineering",
+            "projectID": 231951,
+            "fileID": 3233018
+        },
+        "70326d12f77711873a714a51145729a5": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3240199
+        },
+        "465918050ab1b298436ddd104dddb8a4": {
+            "_displayName": "LibX",
+            "projectID": 412525,
+            "fileID": 3235946
+        },
+        "05125a6755be8b753a454ac3233ef06a": {
+            "_displayName": "Lollipop",
+            "projectID": 347954,
+            "fileID": 3232534
+        },
+        "6297e7451eed1cbaf0d0750e5b54dda2": {
+            "_displayName": "Lootr",
+            "projectID": 361276,
+            "fileID": 3224494
+        },
+        "ef5da0168104120446f0ae51f234bf5f": {
+            "_displayName": "Performant",
+            "projectID": 354143,
+            "fileID": 3163347
+        },
+        "d3847b91959b771d2a555619733966c0": {
+            "_displayName": "Powah!",
+            "projectID": 352656,
+            "fileID": 3232535
+        },
+        "cdf1152a12dd36f12f9b66e60917b5b5": {
+            "_displayName": "U Team Core",
+            "projectID": 273744,
+            "fileID": 3233194
         }
     },
     "modid_map": {

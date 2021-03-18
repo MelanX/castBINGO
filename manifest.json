@@ -3,7 +3,7 @@
         "version": "1.16.5",
         "modLoaders": [
             {
-                "id": "forge-36.0.42",
+                "id": "forge-36.1.0",
                 "primary": true
             }
         ]
@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "overrides": "overrides",
     "manifestVersion": 1,
-    "version": "1.1.4",
+    "version": "1.1.5",
     "author": "CastCrafter",
     "projectID": 408447,
     "name": "castBINGO!",
@@ -24,7 +24,7 @@
         {
             "_displayName": "Abnormals Core",
             "projectID": 382216,
-            "fileID": 3218058
+            "fileID": 3233486
         },
         {
             "_displayName": "Akashic Tome",
@@ -39,7 +39,7 @@
         {
             "_displayName": "Architectury API (Forge)",
             "projectID": 419699,
-            "fileID": 3222916
+            "fileID": 3241426
         },
         {
             "_displayName": "AutoRegLib",
@@ -69,7 +69,7 @@
         {
             "_displayName": "Botania",
             "projectID": 225643,
-            "fileID": 3175663
+            "fileID": 3233810
         },
         {
             "_displayName": "Citadel",
@@ -79,7 +79,7 @@
         {
             "_displayName": "Cloth Config API (Forge)",
             "projectID": 348521,
-            "fileID": 3210411
+            "fileID": 3235778
         },
         {
             "_displayName": "Clumps",
@@ -104,12 +104,12 @@
         {
             "_displayName": "Curios API (Forge)",
             "projectID": 309927,
-            "fileID": 3186427
+            "fileID": 3231111
         },
         {
             "_displayName": "Cyclic",
             "projectID": 239286,
-            "fileID": 3221427
+            "fileID": 3242294
         },
         {
             "_displayName": "Dark Utilities",
@@ -134,17 +134,17 @@
         {
             "_displayName": "FTB Chunks",
             "projectID": 314906,
-            "fileID": 3189022
+            "fileID": 3236808
         },
         {
             "_displayName": "FTB GUI Library",
             "projectID": 404465,
-            "fileID": 3214262
+            "fileID": 3237039
         },
         {
             "_displayName": "FTB Ultimine",
             "projectID": 386134,
-            "fileID": 3216601
+            "fileID": 3237136
         },
         {
             "_displayName": "Farmer's Delight",
@@ -174,7 +174,7 @@
         {
             "_displayName": "GeckoLib",
             "projectID": 388172,
-            "fileID": 3211214
+            "fileID": 3224454
         },
         {
             "_displayName": "Hwyla",
@@ -184,7 +184,7 @@
         {
             "_displayName": "Immersive Engineering",
             "projectID": 231951,
-            "fileID": 3189063
+            "fileID": 3233018
         },
         {
             "_displayName": "Industrial Foregoing",
@@ -214,22 +214,22 @@
         {
             "_displayName": "KubeJS",
             "projectID": 238086,
-            "fileID": 3222777
+            "fileID": 3240199
         },
         {
             "_displayName": "LibX",
             "projectID": 412525,
-            "fileID": 3214414
+            "fileID": 3235946
         },
         {
             "_displayName": "Lollipop",
             "projectID": 347954,
-            "fileID": 3213085
+            "fileID": 3232534
         },
         {
             "_displayName": "Lootr",
             "projectID": 361276,
-            "fileID": 3187524
+            "fileID": 3224494
         },
         {
             "_displayName": "Mana and Artifice",
@@ -262,6 +262,11 @@
             "fileID": 3204037
         },
         {
+            "_displayName": "Performant",
+            "projectID": 354143,
+            "fileID": 3163347
+        },
+        {
             "_displayName": "Placebo",
             "projectID": 283644,
             "fileID": 3172794
@@ -269,7 +274,7 @@
         {
             "_displayName": "Powah!",
             "projectID": 352656,
-            "fileID": 3213086
+            "fileID": 3232535
         },
         {
             "_displayName": "Quark",
@@ -324,7 +329,7 @@
         {
             "_displayName": "U Team Core",
             "projectID": 273744,
-            "fileID": 3177217
+            "fileID": 3233194
         },
         {
             "_displayName": "Waddles",
