@@ -11,6 +11,12 @@ events.listen('recipes', function (event) {
         shapedRecipe(item.of('create:fluid_pipe', 8), ['SIS'], {
             S: 'create:copper_sheet',
             I: '#forge:ingots/copper'
+        }),
+        shapedRecipe('naturescompass:naturescompass', ['EPE', 'PMP', 'ECE'], {
+            E: '#forge:gems/diamond',
+            P: '#forge:ingots/gold',
+            C: 'minecraft:compass',
+            M: 'minecraft:heart_of_the_sea'
         })
     ];
 

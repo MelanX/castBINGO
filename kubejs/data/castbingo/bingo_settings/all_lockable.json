@@ -1,0 +1,9 @@
+{
+  "invulnerable": false,
+  "winCondition": "bongo.row_and_column",
+  "friendlyFire": false,
+  "lockTaskOnDeath": true,
+  "teleportsPerTeam": 1,
+  "consumeItems": true,
+  "pvp": false
+}

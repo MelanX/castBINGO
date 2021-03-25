@@ -82,7 +82,6 @@ def githubChanges(manifest_data: dict, file_name: str):
         commits.append([message, url])
 
     with open(file_name, "a", encoding="utf-8") as f:
-        appendFile(f, "# Changelog for castBINGO! " + manifest_data['version'])
         appendFile(f, "## Internal changes")
         for commit in commits:
             appendFile(f, f"- [{commit[0]}]({commit[1]})")
@@ -253,6 +252,8 @@ def main(manifest: dict):
     if os.path.isfile(file_name):
         os.remove(file_name)
 
+    with open(file_name, "a", encoding="utf-8") as f:
+        appendFile(f, "# Changelog for castBINGO! " + manifest['version'])
     modsChanges(manifest, file_name)
     githubChanges(manifest, file_name)
 

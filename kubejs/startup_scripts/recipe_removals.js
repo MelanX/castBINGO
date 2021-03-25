@@ -18,7 +18,9 @@ events.listen('recipes', function (event) {
         'minecraft:beetroot_soup',
         'minecraft:mushroom_stew',
         'minecraft:rabbit_stew_from_brown_mushroom',
-        'minecraft:rabbit_stew_from_red_mushroom'
+        'minecraft:rabbit_stew_from_red_mushroom',
+
+        'naturescompass:natures_compass'
     ];
 
     idRemovals.forEach((removal) => {
