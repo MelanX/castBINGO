@@ -65,8 +65,9 @@ def main():
     print('Prepare CurseForge pack.')
     createModpackZip(manifest, gitignore)
 
-    print('Prepare Server zip.')
-    createServerZip(manifest, gitignore)
+    print('Prepare Server zips.')
+    createServerZip(manifest, gitignore, 'default')
+    createServerZip(manifest, gitignore, 'skyblock')
 
     print('Uploading to GitHub')
     uploadToGithub(token, manifest)
@@ -98,8 +99,9 @@ def createModpackZip(manifest, gitignore):
     print('Create archive')
     shutil.make_archive(os.path.join('build', 'curseforge'), 'zip', targetDir)
 
-def createServerZip(manifest, gitignore):
-    targetDir = os.path.join('build', 'server')
+def createServerZip(manifest, gitignore, edition):
+    print("Creating server zip for edition " + edition)
+    targetDir = os.path.join('build', 'server', edition)
 
     os.makedirs(targetDir)
 
@@ -127,6 +129,10 @@ def createServerZip(manifest, gitignore):
     for entry in overrides:
         copyNotGitignoreTree('.', targetDir, entry, gitignore)
 
+    if os.path.isdir('server-' + edition):
+        print('Copy edition specific server files')
+        shutil.copytree('server-' + edition, targetDir, dirs_exist_ok=True)
+
     print('Generate server files')
     with open(targetDir + os.path.sep + 'server.properties', mode='w') as f:
         f.writelines([
@@ -140,7 +146,7 @@ def createServerZip(manifest, gitignore):
         ])
 
     print('Create archive')
-    shutil.make_archive(os.path.join('build', 'server'), 'zip', targetDir)
+    shutil.make_archive(os.path.join('build', 'server', edition), 'zip', targetDir)
 
 def copyNotGitignoreTree(sourceBase: str, targetBase: str, relative: str, gitignore):
     source = sourceBase + os.path.sep + relative
@@ -180,8 +186,9 @@ def uploadToGithub(token, manifest):
     print('Upload CurseForge pack')
     uploadFileToRelease(token, release_id, manifest, 'application/zip', 'curseforge', 'zip', os.path.join('build', 'curseforge.zip'))
 
-    print('Upload Server zip')
-    uploadFileToRelease(token, release_id, manifest, 'application/zip', 'server', 'zip', os.path.join('build', 'server.zip'))
+    print('Upload Server zips')
+    uploadFileToRelease(token, release_id, manifest, 'application/zip', 'server-default', 'zip', os.path.join('build', 'server' 'default.zip'))
+    uploadFileToRelease(token, release_id, manifest, 'application/zip', 'server-skyblock', 'zip', os.path.join('build', 'server' 'skyblock.zip'))
 
 def uploadFileToRelease(token, release_id, manifest, mime, basename, suffix, path):
     request = Request(f'https://uploads.github.com/repos/MelanX/castBINGO/releases/{release_id}/assets?name={basename}-{manifest["version"]}.{suffix}', method='POST')
