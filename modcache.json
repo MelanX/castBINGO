@@ -814,6 +814,36 @@
             "_displayName": "U Team Core",
             "projectID": 273744,
             "fileID": 3233194
+        },
+        "425856288929ae04dbb92d440f662204": {
+            "_displayName": "LibX",
+            "projectID": 412525,
+            "fileID": 3245714
+        },
+        "b10d8beabdba9eaf75ad8bb6e0990432": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3250957
+        },
+        "a78a58c0b1fe63f8849127d590b88289": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3251127
+        },
+        "05efede5650bc35409aecec3316b2c2e": {
+            "_displayName": "Just Enough Advancements (JEA)",
+            "projectID": 444941,
+            "fileID": 3245115
+        },
+        "c3d221c1fec5aeeb0699049095daae10": {
+            "_displayName": "MineMention",
+            "projectID": 460925,
+            "fileID": 3249805
+        },
+        "c8900f23c68c43839e75839ea015deea": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3251576
         }
     },
     "modid_map": {

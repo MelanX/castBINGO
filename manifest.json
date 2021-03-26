@@ -54,12 +54,12 @@
         {
             "_displayName": "BingoLobby",
             "projectID": 440998,
-            "fileID": 3214395
+            "fileID": 3251127
         },
         {
             "_displayName": "Bongo",
             "projectID": 406119,
-            "fileID": 3224330
+            "fileID": 3251576
         },
         {
             "_displayName": "Bookshelf",
@@ -202,6 +202,11 @@
             "fileID": 3077903
         },
         {
+            "_displayName": "Just Enough Advancements (JEA)",
+            "projectID": 444941,
+            "fileID": 3245115
+        },
+        {
             "_displayName": "Just Enough Items (JEI)",
             "projectID": 238222,
             "fileID": 3157864
@@ -219,7 +224,7 @@
         {
             "_displayName": "LibX",
             "projectID": 412525,
-            "fileID": 3235946
+            "fileID": 3245714
         },
         {
             "_displayName": "Lollipop",
@@ -240,6 +245,11 @@
             "_displayName": "Mekanism",
             "projectID": 268560,
             "fileID": 3206392
+        },
+        {
+            "_displayName": "MineMention",
+            "projectID": 460925,
+            "fileID": 3249805
         },
         {
             "_displayName": "Mouse Tweaks",

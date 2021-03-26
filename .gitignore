@@ -64,6 +64,8 @@
 !pack.json
 !serverdata
 !serverdata/**
+!/server-*
+!/server-*/**
 !scripts
 !scripts/*
 !tokens-example.json

@@ -3,6 +3,9 @@
   // If a subtitle is empty it won't get replaced and the countdown won't be visible.
   // True means subtitle 2, false means subtitle 1
   "countdown_in_subtitle2": false,
+
+  // Whether the world is being generated as void world or not
+  "is_void": false,
   
   // The subtitle to be shown in the sidebar while in the lobby.
   // This will cycle through all the elements in the list.
