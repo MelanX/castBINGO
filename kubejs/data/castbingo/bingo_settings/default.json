@@ -1,5 +1,4 @@
 {
-  "invulnerable": true,
   "startingInventory": [
     {
       "id": "akashictome:tome",
@@ -55,11 +54,5 @@
         }
       }
     }
-  ],
-  "winCondition": "bongo.default",
-  "friendlyFire": false,
-  "lockTaskOnDeath": false,
-  "teleportsPerTeam": 0,
-  "consumeItems": false,
-  "pvp": false
+  ]
 }

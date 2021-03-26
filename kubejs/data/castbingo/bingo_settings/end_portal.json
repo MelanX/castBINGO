@@ -1,0 +1,19 @@
+{
+  "backpackInventory": [
+    {
+      "id": "minecraft:end_portal_frame",
+      "Count": 12,
+      "type": "bongo.item"
+    },
+    {
+      "id": "minecraft:ender_pearl",
+      "Count": 16,
+      "type": "bongo.item"
+    },
+    {
+      "id": "minecraft:blaze_rod",
+      "Count": 6,
+      "type": "bongo.item"
+    }
+  ]
+}
