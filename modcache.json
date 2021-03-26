@@ -844,6 +844,81 @@
             "_displayName": "Bongo",
             "projectID": 406119,
             "fileID": 3251576
+        },
+        "f898b3ff99a0511e4f9cc5f1350da81a": {
+            "_displayName": "AIOT Botania",
+            "projectID": 294815,
+            "fileID": 3245616
+        },
+        "7398f8c04f2c27665cad029f72462a38": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3248258
+        },
+        "b5c7a26d88388f07c7a733aeeee419b7": {
+            "_displayName": "Bookshelf",
+            "projectID": 228525,
+            "fileID": 3241077
+        },
+        "bac0fedfe0c6f60becba5b93eb019e1b": {
+            "_displayName": "Cucumber Library",
+            "projectID": 272335,
+            "fileID": 3249370
+        },
+        "e1a8dab4ca1cba564dcef787b12a98de": {
+            "_displayName": "Cyclic",
+            "projectID": 239286,
+            "fileID": 3249448
+        },
+        "2af7073711507e78c200387528be1657": {
+            "_displayName": "Ex Nihilo: Sequentia",
+            "projectID": 400012,
+            "fileID": 3227779
+        },
+        "1e212d41ceb23cdf505f39372b746890": {
+            "_displayName": "FastWorkbench",
+            "projectID": 288885,
+            "fileID": 3245271
+        },
+        "7a0a6c10697b950de75412db7911ac8c": {
+            "_displayName": "FTB Chunks",
+            "projectID": 314906,
+            "fileID": 3248884
+        },
+        "d24d0b017433a5676d333ce010767d8e": {
+            "_displayName": "Industrial Foregoing",
+            "projectID": 266515,
+            "fileID": 3226333
+        },
+        "c3d57a0cdaf60971df49ce168986b37a": {
+            "_displayName": "Just Enough Advancements (JEA)",
+            "projectID": 444941,
+            "fileID": 3251664
+        },
+        "c262e2e17bf609650be31eeb5ac9bfc7": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3247934
+        },
+        "3c2e9dbc26586bf2a4b846d2807d73f5": {
+            "_displayName": "Mystical Agriculture",
+            "projectID": 246640,
+            "fileID": 3251398
+        },
+        "54bb2cb71f2d0edb3b08232f55976b7e": {
+            "_displayName": "Nature's Compass",
+            "projectID": 252848,
+            "fileID": 3191661
+        },
+        "fbb982be9fbfd0ac999222277a8d2958": {
+            "_displayName": "Performant",
+            "projectID": 354143,
+            "fileID": 3246972
+        },
+        "5fc9c75e5a032e06fed1316177623a6a": {
+            "_displayName": "Skyblock Builder",
+            "projectID": 446691,
+            "fileID": 3249903
         }
     },
     "modid_map": {
