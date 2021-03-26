@@ -27,5 +27,7 @@ events.listen('recipes', function (event) {
         event.remove({id: removal});
     });
 
+    event.remove({mod: 'exnihilosequentia'})
+
     event.remove({type: 'xreliquary:alkahestry_crafting'});
 });
