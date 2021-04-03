@@ -919,6 +919,16 @@
             "_displayName": "Skyblock Builder",
             "projectID": 446691,
             "fileID": 3249903
+        },
+        "51e06349b8e78a6fd6188853b6f8b85e": {
+            "_displayName": "LibX",
+            "projectID": 412525,
+            "fileID": 3256700
+        },
+        "04f07c55dc924fa1ed9e4806a88bae89": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3260995
         }
     },
     "modid_map": {

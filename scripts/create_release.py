@@ -67,7 +67,7 @@ def main():
 
     print('Prepare Server zips.')
     createServerZip(manifest, gitignore, 'default')
-    createServerZip(manifest, gitignore, 'skyblock')
+    # createServerZip(manifest, gitignore, 'skyblock')
 
     print('Uploading to GitHub')
     uploadToGithub(token, manifest)
