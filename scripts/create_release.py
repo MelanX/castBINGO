@@ -188,7 +188,7 @@ def uploadToGithub(token, manifest):
 
     print('Upload Server zips')
     uploadFileToRelease(token, release_id, manifest, 'application/zip', 'server-default', 'zip', os.path.join('build', 'server', 'default.zip'))
-    uploadFileToRelease(token, release_id, manifest, 'application/zip', 'server-skyblock', 'zip', os.path.join('build', 'server', 'skyblock.zip'))
+    # uploadFileToRelease(token, release_id, manifest, 'application/zip', 'server-skyblock', 'zip', os.path.join('build', 'server', 'skyblock.zip'))
 
 def uploadFileToRelease(token, release_id, manifest, mime, basename, suffix, path):
     request = Request(f'https://uploads.github.com/repos/MelanX/castBINGO/releases/{release_id}/assets?name={basename}-{manifest["version"]}.{suffix}', method='POST')

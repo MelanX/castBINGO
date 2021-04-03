@@ -1,4 +1,4 @@
-## castBINGO! - 1.1.6
+## castBINGO! - 1.0.0-easter
 - [aiotbotania-1.16.4-1.7.3.jar](https://www.curseforge.com/minecraft/mc-mods/aiot-botania/3245616) (by [MelanX](https://www.curseforge.com/members/melanx/projects))
 - [Abnormals Core 1.16.5 - 3.1.1](https://www.curseforge.com/minecraft/mc-mods/abnormals-core/3233486) (by [TeamAbnormals](https://www.curseforge.com/members/teamabnormals/projects))
 - [AkashicTome-1.4-16.jar](https://www.curseforge.com/minecraft/mc-mods/akashic-tome/3190372) (by [Vazkii](https://www.curseforge.com/members/vazkii/projects))
@@ -7,7 +7,7 @@
 - [AutoRegLib-1.6-47.jar](https://www.curseforge.com/minecraft/mc-mods/autoreglib/3128555) (by [Vazkii](https://www.curseforge.com/members/vazkii/projects))
 - [bwncr-1.16.4-3.9.16.jar](https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded/3101531) (by [Kreezxil](https://www.curseforge.com/members/kreezxil/projects))
 - [BingoLobby-1.16.4-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/bingolobby/3251127) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
-- [Bongo-1.16.4-1.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/bongo/3251576) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
+- [Bongo-1.16.4-1-1-2-easter.jar](https://www.curseforge.com/minecraft/mc-mods/bongo/3260995) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
 - [Bookshelf-1.16.5-10.0.7.jar](https://www.curseforge.com/minecraft/mc-mods/bookshelf/3241077) (by [DarkhaxDev](https://www.curseforge.com/members/darkhaxdev/projects))
 - [Botania-1.16.4-414.jar](https://www.curseforge.com/minecraft/mc-mods/botania/3233810) (by [Vazkii](https://www.curseforge.com/members/vazkii/projects))
 - [[Forge 1.16.4/5] v4.11.15](https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge/3235778) (by [shedaniel](https://www.curseforge.com/members/shedaniel/projects))
@@ -39,7 +39,7 @@
 - [jei-1.16.4-7.6.1.65.jar](https://www.curseforge.com/minecraft/mc-mods/jei/3157864) (by [mezz](https://www.curseforge.com/members/mezz/projects))
 - [JustEnoughResources-1.16.1-0.11.1.98](https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer/3050183) (by [way2muchnoise](https://www.curseforge.com/members/way2muchnoise/projects))
 - [kubejs-1605.3.6-build.177-forge.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/3247934) (by [LatvianModder](https://www.curseforge.com/members/latvianmodder/projects))
-- [LibX-1.16.3-1.0.23.jar](https://www.curseforge.com/minecraft/mc-mods/libx/3245714) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
+- [LibX-1.16.3-1.0.27.jar](https://www.curseforge.com/minecraft/mc-mods/libx/3256700) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
 - [Lollipop-1.16.5-3.2.9.jar](https://www.curseforge.com/minecraft/mc-mods/lollipop/3232534) (by [owmii](https://www.curseforge.com/members/owmii/projects))
 - [lootr-1.16.4-0.0.4.16.jar](https://www.curseforge.com/minecraft/mc-mods/lootr/3224494) (by [Noobanidus](https://www.curseforge.com/members/noobanidus/projects))
 - [mana-and-artifice-1.3.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/mana-and-artifice/3210676) (by [AWildCanadianEh](https://www.curseforge.com/members/awildcanadianeh/projects))
