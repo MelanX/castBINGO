@@ -1,4 +1,4 @@
-events.listen('recipes', function (event) {
+onEvent('recipes', event => {
     const idRemovals = [
         'botania:mushroom_stew',
 
@@ -26,10 +26,6 @@ events.listen('recipes', function (event) {
     idRemovals.forEach((removal) => {
         event.remove({id: removal});
     });
-
-    if (!skyblockMode) {
-        event.remove({mod: 'exnihilosequentia'})
-    }
 
     event.remove({type: 'xreliquary:alkahestry_crafting'});
 });
