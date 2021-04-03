@@ -1,4 +1,4 @@
-events.listen('recipes', function (event) {
+onEvent('recipes', event => {
     recipes = [
         shapedRecipe('create:empty_blaze_burner', ['II', 'BB'], {
             I: 'create:iron_sheet',
@@ -12,12 +12,6 @@ events.listen('recipes', function (event) {
             S: 'create:copper_sheet',
             I: '#forge:ingots/copper'
         }),
-        shapedRecipe('naturescompass:naturescompass', ['EPE', 'PMP', 'ECE'], {
-            E: '#forge:gems/diamond',
-            P: '#forge:ingots/gold',
-            C: 'minecraft:compass',
-            M: 'minecraft:heart_of_the_sea'
-        })
     ];
 
     recipes.forEach(function (recipe) {
@@ -28,7 +22,3 @@ events.listen('recipes', function (event) {
         }
     });
 });
-
-function shapedRecipe(result, pattern, key, id) {
-    return {result: result, pattern: pattern, key: key, id: id};
-}

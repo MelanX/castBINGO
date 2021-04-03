@@ -1,6 +1,6 @@
 //priority: 1000
 
-events.listen('server.datapack.high_priority', (event) => {
+onEvent('server.datapack.high_priority', () => {
     const defaultConfig = {
         mode: 'normal',
         message: 'Valid modes are normal and skyblock.'
