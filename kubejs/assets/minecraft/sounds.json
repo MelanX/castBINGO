@@ -1,0 +1,9 @@
+{
+  "entity.enderman.hurt": {
+    "replace": true,
+    "sounds": [
+      "mob/endermen/hit1",
+      "mob/endermen/hit2"
+    ]
+  }
+}
