@@ -142,7 +142,9 @@ def createServerZip(manifest, gitignore, edition):
             f'motd=§4CastBingo {manifest["version"]}§r\\nHosted by Syncopsta\n',
             'online-mode=true\n',
             'spawn-protection=0\n',
-            'view-distance=8\n'
+            'view-distance=8\n',
+            'enable-query=true\n',
+            'query.port=25565\n'
         ])
 
     print('Create archive')
