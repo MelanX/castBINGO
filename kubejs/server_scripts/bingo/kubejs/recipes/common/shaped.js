@@ -12,6 +12,16 @@ onEvent('recipes', event => {
             S: 'create:copper_sheet',
             I: '#forge:ingots/copper'
         }),
+        shapedRecipe('4x minecraft:chest', ['LLL', 'L L', 'LLL'], {
+            L: '#minecraft:logs'
+        }),
+        shapedRecipe('16x minecraft:stick', ['L', 'L'], {
+            L: '#minecraft:logs'
+        }),
+        shapedRecipe('minecraft:hopper', ['ILI', 'ILI', ' I '], {
+            I: '#forge:ingots/iron',
+            L: '#minecraft:logs'
+        })
     ];
 
     recipes.forEach(function (recipe) {
