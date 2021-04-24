@@ -29,16 +29,4 @@ onEvent('recipes', event => {
         multiSmelt(`exnihilosequentia:ingot_${tag}`, `#forge:ores/${tag}`);
         multiSmelt(`exnihilosequentia:ingot_${tag}`, `create:crushed_${tag}_ore`);
     });
-
-    recipes = [
-
-    ];
-
-    recipes.forEach(function (recipe) {
-        if (recipe.id) {
-            event.shaped(recipe.result, recipe.pattern, recipe.key).id(recipe.id);
-        } else {
-            event.shaped(recipe.result, recipe.pattern, recipe.key);
-        }
-    });
 });
