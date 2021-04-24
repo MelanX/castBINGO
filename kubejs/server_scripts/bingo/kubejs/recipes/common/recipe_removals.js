@@ -5,6 +5,7 @@ onEvent('recipes', event => {
         'create:crafting/kinetics/fluid_pipe',
         'create:crafting/kinetics/empty_blaze_burner',
         'create:crafting/kinetics/whisk',
+        'create:empty_schematic',
 
         'cyclic:solidifier_amberalt',
 
