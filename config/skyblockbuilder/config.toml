@@ -1,0 +1,95 @@
+
+[structures]
+	#All the features that should be generated.
+	#A list with all possible structures can be found in config/skyblockbuilder/features.txt
+	#INFO: The two default values are required for the obsidian towers in end. If this is missing, they will be first generated when respawning the dragon.
+	features = ["minecraft:end_spike", "minecraft:end_gateway"]
+	#All the structures that should be generated.
+	#A list with all possible structures can be found in config/skyblockbuilder/structures.txt
+	structures = ["minecraft:fortress"]
+	#If this is true, the structure and feature whitelist will be blacklists and everything except of the given structures/features are being generated. [default: false]
+	whitelist-is-blacklist = false
+
+[dimensions]
+
+	[dimensions.nether]
+		#Should nether generate as in default world type? [default: false]
+		default = false
+
+	[dimensions.end]
+		#Should end generate as in default world type? [default: false]
+		default = false
+		#Should the main island be generated as normal? [default: true]
+		main-island = true
+
+[world]
+	#Should a surface be generated in overworld? [default: false]
+	surface = false
+	#The block settings for generating the surface.
+	#Same format as flat world generation settings (blocks only)
+	surface-settings = "minecraft:bedrock,2*minecraft:dirt,minecraft:grass_block"
+	#Distance between islands in overworld [default: 8192]
+	#nether the distance is 1/8
+	#Range: 64 ~ 29999900
+	island-distance = 8192
+	#Sea level in world [default: 63]
+	#Range: 0 ~ 256
+	sea-level = 63
+	#The radius for the biomes to repeat [default: 8192]
+	#By default it's the perfect range that each team has the same biomes
+	#WARNING: Too small biome range will prevent some structures to generate, if structures are enabled, because some need a special biome!
+	#Range: 64 ~ 29999900
+	biome-range = 8192
+
+	[world.single-biome]
+		#Specifies the biome for the whole world
+		biome = "minecraft:plains"
+		#Should only one biome be generated? [default: false]
+		#WARNING: Some structures need a special biome, e.g. Mansion needs Dark Oak Forest! These structures will not be generated if you have only one biome!
+		enabled = false
+
+[spawn]
+	#The radius to find a valid spawn if no given spawn is valid
+	#Range: > 0
+	radius = 50
+	#The dimension the islands will be generated in. Vanilla dimensions:
+	#minecraft:overworld
+	#minecraft:the_nether
+	#minecraft:the_end
+	dimension = "minecraft:overworld"
+	#Direction the player should look at initial spawn
+	#Allowed Values: NORTH, EAST, SOUTH, WEST
+	direction = "EAST"
+	#Height of the bottom layer from the structure.
+	#This affects where exactly the island will be generated.
+	#Range: 1 ~ 255
+	height = 64
+
+[inventory]
+	#Should players' items be dropped when leaving a team? [default: true]
+	drop = true
+	#Should all items be reset on first world join? [default: false]
+	#This will delete all the items given on spawn from other mods guide books.
+	clear = false
+
+[utility]
+	#Should players be able to leave their team or invite others? [default: true]
+	self-manage = true
+	#Should players be able to create their own team? [default: false]
+	create-own-team = false
+
+	[utility.teleports]
+		#Should players be able to teleport to spawn? [default: true]
+		spawn = true
+		#Should players be able to visit other island? [default: true]
+		allow-visits = true
+		#Should players be able to teleport to their home island? [default: true]
+		home = true
+
+	[utility.spawns]
+		#The range from island center for possible spawns to add. [default: 50]
+		#Range: > 0
+		range = 50
+		#Should players be able to modify their spawn positions? [default: false]
+		modify-spawns = false
+

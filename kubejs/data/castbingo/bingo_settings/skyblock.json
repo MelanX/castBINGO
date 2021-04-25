@@ -1,0 +1,26 @@
+{
+  "startingInventory": [
+    {
+      "id": "bongo:basket"
+    },
+    {
+      "id": "minecraft:wooden_axe",
+      "tag": {
+        "Enchantments": [
+          {
+            "lvl": 10,
+            "id": "minecraft:unbreaking"
+          }, {
+            "lvl": 5,
+            "id": "minecraft:efficiency"
+          }
+        ]
+      }
+    }
+  ],
+  "backpackInventory": [
+    {
+      "id": "minecraft:bucket"
+    }
+  ]
+}

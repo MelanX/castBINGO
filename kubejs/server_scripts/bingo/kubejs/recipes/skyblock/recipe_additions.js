@@ -3,6 +3,16 @@ onEvent('recipes', event => {
         return;
     }
 
+    shapedRecipes = [
+        shapedRecipe('minecraft:oak_sapling', ['LL', 'LL'], {
+            L: 'botania:living_root'
+        })
+    ];
+
+    shapelessRecipes = [
+        shapelessRecipe('botania:fertilizer', ['botania:living_root'])
+    ]
+
     event.custom(
         sieve('exnihilosequentia:dust', 'mana-and-artifice:vinteum_dust', [{
             chance: 0.15,
@@ -34,4 +44,19 @@ onEvent('recipes', event => {
             chance: 0.03,
             mesh: 'diamond'
         }]));
+
+    shapedRecipes.forEach(function (recipe) {
+        if (recipe.id) {
+            event.shaped(recipe.result, recipe.pattern, recipe.key).id(recipe.id);
+        } else {
+            event.shaped(recipe.result, recipe.pattern, recipe.key);
+        }
+    });
+    shapelessRecipes.forEach(function (recipe) {
+        if (recipe.id) {
+            event.shapeless(recipe.result, recipe.ingredients).id(recipe.id);
+        } else {
+            event.shapeless(recipe.result, recipe.ingredients);
+        }
+    });
 });
