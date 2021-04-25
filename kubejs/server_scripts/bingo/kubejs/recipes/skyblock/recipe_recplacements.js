@@ -1,6 +1,6 @@
 onEvent('recipes', event => {
     if (!skyblockMode) {
-        return
+        return;
     }
 
     const multiSmelt = (output, input) => {
