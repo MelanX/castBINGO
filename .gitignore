@@ -26,6 +26,10 @@
 !config/minemention.json5
 !config/packmenu.cfg
 !config/quark-common.toml
+!config/skyblockbuilder
+!config/skyblockbuilder/config.toml
+!config/skyblockbuilder/spawns.json
+!config/skyblockbuilder/template.nbt
 !config/twerk-config.toml
 !config/waila
 !config/waila/waila.json
