@@ -1,6 +1,6 @@
 onEvent('recipes', event => {
     if (!normalMode) {
-        return
+        return;
     }
 
     recipes = [
