@@ -139,7 +139,7 @@ def createServerZip(manifest, gitignore, edition):
             'allow-flight=true\n',
             'enable-command-block=true\n',
             'max-players=32\n',
-            f'motd=§4CastBingo {manifest["version"]}§r\\nHosted by Syncopsta\n',
+            f'motd=§4CastBingo {manifest["version"]}{(" " + edition.capitalize() + " Edition") if edition != "default" else ""}§r\\nHosted by Syncopsta\n',
             'online-mode=true\n',
             'spawn-protection=0\n',
             'view-distance=8\n',
