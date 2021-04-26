@@ -49,6 +49,8 @@
 !kubejs/data/**
 !kubejs/server_scripts
 !kubejs/server_scripts/**
+!kubejs/startup_scripts
+!kubejs/startup_scripts/**
 
 # readme
 !README.md
