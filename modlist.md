@@ -1,4 +1,4 @@
-## castBINGO! - 1.1.8
+## castBINGO! - 1.1.9
 - [aiotbotania-1.16.4-1.7.5.jar](https://www.curseforge.com/minecraft/mc-mods/aiot-botania/3261322) (by [MelanX](https://www.curseforge.com/members/melanx/projects))
 - [Abnormals Core 1.16.5 - 3.1.1](https://www.curseforge.com/minecraft/mc-mods/abnormals-core/3233486) (by [TeamAbnormals](https://www.curseforge.com/members/teamabnormals/projects))
 - [AkashicTome-1.4-16.jar](https://www.curseforge.com/minecraft/mc-mods/akashic-tome/3190372) (by [Vazkii](https://www.curseforge.com/members/vazkii/projects))
