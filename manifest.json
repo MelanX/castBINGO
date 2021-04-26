@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "overrides": "overrides",
     "manifestVersion": 1,
-    "version": "1.1.7",
+    "version": "1.1.8",
     "author": "CastCrafter",
     "projectID": 408447,
     "name": "castBINGO!",
@@ -124,7 +124,7 @@
         {
             "_displayName": "Ex Nihilo: Sequentia",
             "projectID": 400012,
-            "fileID": 3280022
+            "fileID": 3227779
         },
         {
             "_displayName": "Extended Crafting",
@@ -349,7 +349,7 @@
         {
             "_displayName": "Waila Harvestability",
             "projectID": 79287,
-            "fileID": 3215013
+            "fileID": 3289488
         },
         {
             "_displayName": "Wawla - What Are We Looking At",

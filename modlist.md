@@ -1,4 +1,4 @@
-## castBINGO! - 1.1.7
+## castBINGO! - 1.1.8
 - [aiotbotania-1.16.4-1.7.5.jar](https://www.curseforge.com/minecraft/mc-mods/aiot-botania/3261322) (by [MelanX](https://www.curseforge.com/members/melanx/projects))
 - [Abnormals Core 1.16.5 - 3.1.1](https://www.curseforge.com/minecraft/mc-mods/abnormals-core/3233486) (by [TeamAbnormals](https://www.curseforge.com/members/teamabnormals/projects))
 - [AkashicTome-1.4-16.jar](https://www.curseforge.com/minecraft/mc-mods/akashic-tome/3190372) (by [Vazkii](https://www.curseforge.com/members/vazkii/projects))
@@ -19,8 +19,8 @@
 - [Cyclic-1.16.5-1.2.7.jar](https://www.curseforge.com/minecraft/mc-mods/cyclic/3279021) (by [Lothrazar](https://www.curseforge.com/members/lothrazar/projects))
 - [DarkUtilities-1.16.5-8.0.3.jar](https://www.curseforge.com/minecraft/mc-mods/dark-utilities/3198877) (by [DarkhaxDev](https://www.curseforge.com/members/darkhaxdev/projects))
 - [DefaultOptions_1.16.3-12.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/default-options/3066044) (by [BlayTheNinth](https://www.curseforge.com/members/blaytheninth/projects))
-- [emojiful-1.16.4-2.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/emojiful/3184796) (by [hrznstudio](https://www.curseforge.com/members/hrznstudio/projects))
-- [exnihilosequentia-1.16-2.0.2.5.jar](https://www.curseforge.com/minecraft/mc-mods/ex-nihilo-sequentia/3280022) (by [NovaMachina](https://www.curseforge.com/members/novamachina/projects))
+- [emojiful-1.16.4-2.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/emojiful/3184796) (by [Buuz135](https://www.curseforge.com/members/buuz135/projects))
+- [exnihilosequentia-1.16-2.0.2.3.jar](https://www.curseforge.com/minecraft/mc-mods/ex-nihilo-sequentia/3227779) (by [NovaMachina](https://www.curseforge.com/members/novamachina/projects))
 - [ExtendedCrafting-1.16.4-3.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/extended-crafting/3215203) (by [BlakeBr0](https://www.curseforge.com/members/blakebr0/projects))
 - [ftb-chunks-1605.2.3-build.75.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks/3248884) (by [FTB](https://www.curseforge.com/members/ftb/projects))
 - [ftb-gui-library-1605.2.1.41-forge.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-gui-library/3237039) (by [FTB](https://www.curseforge.com/members/ftb/projects))
@@ -62,8 +62,8 @@
 - [skyblockbuilder-1.16.4-1.4.6.jar](https://www.curseforge.com/minecraft/mc-mods/skyblock-builder/3289063) (by [MelanX](https://www.curseforge.com/members/melanx/projects))
 - [endercompass-3.1.jar](https://www.curseforge.com/minecraft/mc-mods/stronghold-compass/3045490) (by [tfarecnim](https://www.curseforge.com/members/tfarecnim/projects))
 - [Endergetic 1.16.4 - 3.0.0](https://www.curseforge.com/minecraft/mc-mods/endergetic/3154938) (by [TeamAbnormals](https://www.curseforge.com/members/teamabnormals/projects))
-- [titanium-1.16.5-3.2.8.2.jar](https://www.curseforge.com/minecraft/mc-mods/titanium/3261072) (by [hrznstudio](https://www.curseforge.com/members/hrznstudio/projects))
+- [titanium-1.16.5-3.2.8.2.jar](https://www.curseforge.com/minecraft/mc-mods/titanium/3261072) (by [Buuz135](https://www.curseforge.com/members/buuz135/projects))
 - [TwerkItMeal 1.16.5-1.3.8](https://www.curseforge.com/minecraft/mc-mods/twerkitmeal/3223367) (by [TicTicBoooom](https://www.curseforge.com/members/ticticboooom/projects))
 - [Waddles-1.16.5-0.8.12.jar](https://www.curseforge.com/minecraft/mc-mods/waddles/3265184) (by [Girafi](https://www.curseforge.com/members/girafi/projects))
-- [WailaHarvestability-mc1.16.x-forge-1.1.14.jar](https://www.curseforge.com/minecraft/mc-mods/waila-harvestability/3215013) (by [squeek502](https://www.curseforge.com/members/squeek502/projects))
+- [WailaHarvestability-mc1.16.x-forge-1.1.15.jar](https://www.curseforge.com/minecraft/mc-mods/waila-harvestability/3289488) (by [squeek502](https://www.curseforge.com/members/squeek502/projects))
 - [WAWLA-1.16.5-8.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/wawla/3189215) (by [DarkhaxDev](https://www.curseforge.com/members/darkhaxdev/projects))
