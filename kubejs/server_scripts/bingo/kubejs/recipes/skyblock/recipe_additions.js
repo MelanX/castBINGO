@@ -6,6 +6,9 @@ onEvent('recipes', event => {
     shapedRecipes = [
         shapedRecipe('minecraft:oak_sapling', ['LL', 'LL'], {
             L: 'botania:living_root'
+        }),
+        shapedRecipe('kubejs:chunk_osmium', ['PP', 'PP'], {
+            P: 'kubejs:piece_osmium'
         })
     ];
 
@@ -43,6 +46,11 @@ onEvent('recipes', event => {
         }, {
             chance: 0.03,
             mesh: 'diamond'
+        }]));
+    event.custom(
+        sieve('minecraft:gravel', 'kubejs:piece_osmium', [{
+            chance: 0.05,
+            mesh: 'iron'
         }]));
 
     shapedRecipes.forEach(function (recipe) {
