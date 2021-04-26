@@ -3,7 +3,7 @@
         "version": "1.16.5",
         "modLoaders": [
             {
-                "id": "forge-36.1.2",
+                "id": "forge-36.1.13",
                 "primary": true
             }
         ]
@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "overrides": "overrides",
     "manifestVersion": 1,
-    "version": "1.1.6",
+    "version": "1.1.7",
     "author": "CastCrafter",
     "projectID": 408447,
     "name": "castBINGO!",
@@ -19,7 +19,7 @@
         {
             "_displayName": "AIOT Botania",
             "projectID": 294815,
-            "fileID": 3245616
+            "fileID": 3261322
         },
         {
             "_displayName": "Abnormals Core",
@@ -39,7 +39,7 @@
         {
             "_displayName": "Architectury API (Forge)",
             "projectID": 419699,
-            "fileID": 3248258
+            "fileID": 3279826
         },
         {
             "_displayName": "AutoRegLib",
@@ -54,12 +54,12 @@
         {
             "_displayName": "BingoLobby",
             "projectID": 440998,
-            "fileID": 3251127
+            "fileID": 3289000
         },
         {
             "_displayName": "Bongo",
             "projectID": 406119,
-            "fileID": 3251576
+            "fileID": 3279782
         },
         {
             "_displayName": "Bookshelf",
@@ -69,22 +69,22 @@
         {
             "_displayName": "Botania",
             "projectID": 225643,
-            "fileID": 3233810
+            "fileID": 3281106
         },
         {
             "_displayName": "Cloth Config API (Forge)",
             "projectID": 348521,
-            "fileID": 3235778
+            "fileID": 3261152
         },
         {
             "_displayName": "Clumps",
             "projectID": 256717,
-            "fileID": 3205705
+            "fileID": 3275832
         },
         {
             "_displayName": "Controlling",
             "projectID": 250398,
-            "fileID": 3223560
+            "fileID": 3281360
         },
         {
             "_displayName": "Create",
@@ -99,12 +99,12 @@
         {
             "_displayName": "Curios API (Forge)",
             "projectID": 309927,
-            "fileID": 3231111
+            "fileID": 3275653
         },
         {
             "_displayName": "Cyclic",
             "projectID": 239286,
-            "fileID": 3249448
+            "fileID": 3279021
         },
         {
             "_displayName": "Dark Utilities",
@@ -124,7 +124,7 @@
         {
             "_displayName": "Ex Nihilo: Sequentia",
             "projectID": 400012,
-            "fileID": 3227779
+            "fileID": 3280022
         },
         {
             "_displayName": "Extended Crafting",
@@ -144,7 +144,7 @@
         {
             "_displayName": "FTB Ultimine",
             "projectID": 386134,
-            "fileID": 3237136
+            "fileID": 3269868
         },
         {
             "_displayName": "Farmer's Delight",
@@ -169,7 +169,7 @@
         {
             "_displayName": "GeckoLib",
             "projectID": 388172,
-            "fileID": 3224454
+            "fileID": 3282081
         },
         {
             "_displayName": "Hwyla",
@@ -184,7 +184,7 @@
         {
             "_displayName": "Industrial Foregoing",
             "projectID": 266515,
-            "fileID": 3226333
+            "fileID": 3261176
         },
         {
             "_displayName": "Inventory Pets",
@@ -214,12 +214,12 @@
         {
             "_displayName": "KubeJS",
             "projectID": 238086,
-            "fileID": 3247934
+            "fileID": 3286650
         },
         {
             "_displayName": "LibX",
             "projectID": 412525,
-            "fileID": 3245714
+            "fileID": 3275772
         },
         {
             "_displayName": "Lollipop",
@@ -229,7 +229,7 @@
         {
             "_displayName": "Lootr",
             "projectID": 361276,
-            "fileID": 3224494
+            "fileID": 3272069
         },
         {
             "_displayName": "Mana and Artifice",
@@ -264,7 +264,7 @@
         {
             "_displayName": "PackMenu",
             "projectID": 358191,
-            "fileID": 3223408
+            "fileID": 3264418
         },
         {
             "_displayName": "Patchouli",
@@ -274,12 +274,12 @@
         {
             "_displayName": "Performant",
             "projectID": 354143,
-            "fileID": 3246972
+            "fileID": 3285916
         },
         {
             "_displayName": "Placebo",
             "projectID": 283644,
-            "fileID": 3172794
+            "fileID": 3281276
         },
         {
             "_displayName": "Powah!",
@@ -299,12 +299,12 @@
         {
             "_displayName": "Reliquary v1.3",
             "projectID": 241319,
-            "fileID": 3119035
+            "fileID": 3274714
         },
         {
             "_displayName": "Rhino",
             "projectID": 416294,
-            "fileID": 3187177
+            "fileID": 3279704
         },
         {
             "_displayName": "Runelic",
@@ -319,7 +319,7 @@
         {
             "_displayName": "Skyblock Builder",
             "projectID": 446691,
-            "fileID": 3249903
+            "fileID": 3289063
         },
         {
             "_displayName": "Stronghold Compass",
@@ -334,7 +334,7 @@
         {
             "_displayName": "Titanium",
             "projectID": 287342,
-            "fileID": 3223141
+            "fileID": 3261072
         },
         {
             "_displayName": "TwerkItMeal - Twerk To Grow All The Things",
@@ -344,7 +344,7 @@
         {
             "_displayName": "Waddles",
             "projectID": 251767,
-            "fileID": 3113194
+            "fileID": 3265184
         },
         {
             "_displayName": "Waila Harvestability",

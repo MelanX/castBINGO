@@ -919,6 +919,131 @@
             "_displayName": "Skyblock Builder",
             "projectID": 446691,
             "fileID": 3249903
+        },
+        "037c363f9e2a0502fdef16250b690d7e": {
+            "_displayName": "AIOT Botania",
+            "projectID": 294815,
+            "fileID": 3261322
+        },
+        "ce8d883c2114d4a00ac7d1067616bab1": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3279826
+        },
+        "4df932681a9b57d77a3c639dbca1a86c": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3289000
+        },
+        "34c1d5b8a8503aea4badc007b8b78f35": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3279782
+        },
+        "1d4e075e6efa34779021ca3332333433": {
+            "_displayName": "Botania",
+            "projectID": 225643,
+            "fileID": 3281106
+        },
+        "2b86a2435d49a120e31aa4c135db529b": {
+            "_displayName": "Cloth Config API (Forge)",
+            "projectID": 348521,
+            "fileID": 3261152
+        },
+        "5563895d424798ec59e6ab52615b67d5": {
+            "_displayName": "Clumps",
+            "projectID": 256717,
+            "fileID": 3275832
+        },
+        "bfdbe5898b497b3be0c6e7a9ba7b9aa4": {
+            "_displayName": "Controlling",
+            "projectID": 250398,
+            "fileID": 3281360
+        },
+        "ab9c725a289f88a2df897fb0e3fd443b": {
+            "_displayName": "Curios API (Forge)",
+            "projectID": 309927,
+            "fileID": 3275653
+        },
+        "0fb18ac8d1281745964b522500be4829": {
+            "_displayName": "Cyclic",
+            "projectID": 239286,
+            "fileID": 3279021
+        },
+        "3bd5c4fff60a0ecf7eaedd02eb688355": {
+            "_displayName": "Ex Nihilo: Sequentia",
+            "projectID": 400012,
+            "fileID": 3280022
+        },
+        "ff8699b07a70a4ec08678baecfcf413b": {
+            "_displayName": "FTB Ultimine",
+            "projectID": 386134,
+            "fileID": 3269868
+        },
+        "421552380b318edeebc33ee064c8c023": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3282081
+        },
+        "a08f9f7f738e1a4de269807ae987c6ee": {
+            "_displayName": "Industrial Foregoing",
+            "projectID": 266515,
+            "fileID": 3261176
+        },
+        "cfb2fc095b107756f8235d3c130f8ed3": {
+            "_displayName": "KubeJS",
+            "projectID": 238086,
+            "fileID": 3286650
+        },
+        "3790757e07a1a3660a8900e96cad69d0": {
+            "_displayName": "LibX",
+            "projectID": 412525,
+            "fileID": 3275772
+        },
+        "046c0f9707c7599a3c45b1a5c0e3c2a0": {
+            "_displayName": "Lootr",
+            "projectID": 361276,
+            "fileID": 3272069
+        },
+        "df613c822777058a59b8abbdcab13c82": {
+            "_displayName": "PackMenu",
+            "projectID": 358191,
+            "fileID": 3264418
+        },
+        "ec2ca1a7d75356b12fa13cbdbf7bb062": {
+            "_displayName": "Performant",
+            "projectID": 354143,
+            "fileID": 3285916
+        },
+        "11fba0438fffd4bd1bfde1dedfd66981": {
+            "_displayName": "Placebo",
+            "projectID": 283644,
+            "fileID": 3281276
+        },
+        "442e61d8ba1d00b89b6dcc9a800a8b77": {
+            "_displayName": "Reliquary v1.3",
+            "projectID": 241319,
+            "fileID": 3274714
+        },
+        "2726b890dd6ad236139ca778224f6566": {
+            "_displayName": "Rhino",
+            "projectID": 416294,
+            "fileID": 3279704
+        },
+        "fc921b601b0cbb53fbe27d21fb8d3f53": {
+            "_displayName": "Skyblock Builder",
+            "projectID": 446691,
+            "fileID": 3289063
+        },
+        "40a382f289cee4d408b885f916d6a032": {
+            "_displayName": "Titanium",
+            "projectID": 287342,
+            "fileID": 3261072
+        },
+        "7de3c92826445354513dc91ba43721a6": {
+            "_displayName": "Waddles",
+            "projectID": 251767,
+            "fileID": 3265184
         }
     },
     "modid_map": {

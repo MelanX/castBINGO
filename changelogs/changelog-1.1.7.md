@@ -1,0 +1,108 @@
+# Changelog for castBINGO! 1.1.7
+## Mod Changes
+### Forge updated
+forge-36.1.2 --> forge-36.1.13
+### Updated
+- [aiotbotania-1.16.4-1.7.3.jar](https://www.curseforge.com/minecraft/mc-mods/aiot-botania/files/3245616) --> [aiotbotania-1.16.4-1.7.5.jar](https://www.curseforge.com/minecraft/mc-mods/aiot-botania/files/3261322)
+	- retexture everything by Vik  MelanX
+	- fix manasteel aiot doesn't except sword enchantments  MelanX
+- [[Forge 1.16.4/5] v1.10.138](https://www.curseforge.com/minecraft/mc-mods/architectury-forge/files/3248258) --> [[Forge 1.16.4/5] v1.12.145](https://www.curseforge.com/minecraft/mc-mods/architectury-forge/files/3279826)
+	- Architectury v1.12.145 for 1.16.4/5Updated at 20210417 14:08.
+	- Click here for changelog
+	- Add interruptTrue/Default/False as util methods
+	- Bump to 1.11
+	- Some more (mostly Entitybased) Events (#75)
+	- And a bit more...
+- [BingoLobby-1.16.4-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/bingolobby/files/3251127) --> [BingoLobby-1.16.4-1.0.3.jar](https://www.curseforge.com/minecraft/mc-mods/bingolobby/files/3289000)
+	- Added skyblockbuilder compat
+- [Bongo-1.16.4-1-1-2-easter.jar](https://www.curseforge.com/minecraft/mc-mods/bongo/files/3260995) --> [Bongo-1.16.4-1.1.5.jar](https://www.curseforge.com/minecraft/mc-mods/bongo/files/3279782)
+	- A new event after teleport
+	- Working SkyblockBuilder integration
+	- Removed ocean spawns with the default teleporter.
+- [Botania-1.16.4-414.jar](https://www.curseforge.com/minecraft/mc-mods/botania/files/3233810) --> [Botania-1.16.5-415.jar](https://www.curseforge.com/minecraft/mc-mods/botania/files/3281106)
+	- https://botaniamod.net/changelog.php
+- [[Forge 1.16.4/5] v4.11.15](https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge/files/3235778) --> [[Forge 1.16.4/5] v4.11.19](https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge/files/3261152)
+- [Clumps-6.0.0.17.jar](https://www.curseforge.com/minecraft/mc-mods/clumps/files/3205705) --> [Clumps-6.0.0.21.jar](https://www.curseforge.com/minecraft/mc-mods/clumps/files/3275832)
+	- Current version: 6.0.0.21
+	- Rework how mending is applied  Jared  Wed Apr 14 14:43:14 2021
+	- mark mcmt as compatible for now  Jared  Tue Apr 13 15:30:29 2021
+	- Add discord webhook  Jared  Tue Apr 13 15:27:55 2021
+	- Fix mending Calculation. Thanks @TheNormMan! Fixes #60  Jared  Sat Apr 10 19:04:30 2021
+- [Controlling-7.0.0.14.jar](https://www.curseforge.com/minecraft/mc-mods/controlling/files/3223560) --> [Controlling-7.0.0.15.jar](https://www.curseforge.com/minecraft/mc-mods/controlling/files/3281360)
+	- Current version: 7.0.0.15
+	- Add events for modcompat  Jared  Mon Apr 19 00:40:07 2021
+	- move to the open link screen. Close #78  Jared  Tue Mar 2 03:25:12 2021
+	- Fix tooltips rendering underneath scrollbar and overlaps  Jared  Tue Mar 2 03:11:26 2021
+	- Readd an available keys screen. Close #76  Jared  Thu Feb 11 20:38:33 2021
+- [curios-forge-1.16.5-4.0.5.0.jar](https://www.curseforge.com/minecraft/mc-mods/curios/files/3231111) --> [curios-forge-1.16.5-4.0.5.1.jar](https://www.curseforge.com/minecraft/mc-mods/curios/files/3275653)
+	- Changelog
+	- All notable changes to this project will be documented in this file.
+	- The format is based on Keep a Changelog and this project adheres to Forge Recommended Versioning.
+	- [1.16.54.0.5.1]  2021.04.14
+	- Changed
+- [Cyclic-1.16.5-1.2.1.jar](https://www.curseforge.com/minecraft/mc-mods/cyclic/files/3249448) --> [Cyclic-1.16.5-1.2.7.jar](https://www.curseforge.com/minecraft/mc-mods/cyclic/files/3279021)
+	- Fix server startup crash introduced in 1.2.6
+- [exnihilosequentia-1.16-2.0.2.3.jar](https://www.curseforge.com/minecraft/mc-mods/ex-nihilo-sequentia/files/3227779) --> [exnihilosequentia-1.16-2.0.2.5.jar](https://www.curseforge.com/minecraft/mc-mods/ex-nihilo-sequentia/files/3280022)
+	- Current Release 1.162.0.2.5
+	- Merge branch '1.16dev' into 1.16  Jacob Williams
+	- Prep 2.0.2.5  Jacob Williams
+	- Remove GitHub Action  Jacob Williams
+	- Merge remotetracking branch 'origin/1.16dev' into 1.16dev  Jacob Williams
+- [ftb-ultimine-1605.2.0-build.25-forge.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine/files/3237136) --> [ftb-ultimine-1605.2.0-build.26-forge.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine/files/3269868)
+	- Update, refactor and add &quot;ftbultimine:excluded_tools/strict&quot; tag  Max
+- [geckolib-forge-1.16.5-3.0.15.jar](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/3224454) --> [geckolib-forge-1.16.5-3.0.31.jar](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/3282081)
+	- v3.0.31 Fixed items with tags always returning a value of 1, causing all stacks to play the animation. #DenimRed/AzureDoom
+- [industrial-foregoing-1.16.5-3.2.10.2-d316328.jar](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/3226333) --> [industrial-foregoing-1.16.5-3.2.11-55cb112.jar](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/3261176)
+	- https://github.com/InnovativeOnlineIndustries/IndustrialForegoing/blob/changelog/CHANGELOG.md
+- [kubejs-1605.3.6-build.177-forge.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3247934) --> [kubejs-1605.3.7-build.186-forge.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3286650)
+	- Added Detector blocks for puzzles, KubeJS tab, improved resource generation a bit  LatvianModder
+- [LibX-1.16.3-1.0.27.jar](https://www.curseforge.com/minecraft/mc-mods/libx/files/3256700) --> [LibX-1.16.3-1.0.39.jar](https://www.curseforge.com/minecraft/mc-mods/libx/files/3275772)
+	- Change the maven location back  noeppi_noeppi
+	- Add a new loot entry type that can select multiple items from its children in one entry. This allows for much more complex loot tables.  noeppi_noeppi
+- [lootr-1.16.4-0.0.4.16.jar](https://www.curseforge.com/minecraft/mc-mods/lootr/files/3224494) --> [lootr-1.16.4-0.0.5.17.jar](https://www.curseforge.com/minecraft/mc-mods/lootr/files/3272069)
+	- New major release.
+	- Fixed issues with custom inventories always referencing the same ItemStack, resulting in any adjustment changing both a) the reference inventory, and b) everyone else's inventory. Oops.
+- [PackMenu-1.16.4-2.4.0.jar](https://www.curseforge.com/minecraft/mc-mods/packmenu/files/3223408) --> [PackMenu-1.16.4-2.4.1.jar](https://www.curseforge.com/minecraft/mc-mods/packmenu/files/3264418)
+	- Fix arbitrary scaling not working.  Previously only 1/n where n is an integer scaling worked properly.  Scaling may still have issues in some random cases.
+- [performant-1.16.2-5-3.40m.jar](https://www.curseforge.com/minecraft/mc-mods/performant/files/3246972) --> [performant-1.16.2-5-3.54m.jar](https://www.curseforge.com/minecraft/mc-mods/performant/files/3285916)
+	- Fix shape exception
+	- Fix hopper sometimes not allowing item input as intended
+- [Placebo-1.16.4-4.4.1.jar](https://www.curseforge.com/minecraft/mc-mods/placebo/files/3172794) --> [Placebo-1.16.4-4.4.2.jar](https://www.curseforge.com/minecraft/mc-mods/placebo/files/3281276)
+	- ItemAdapter can now deserialize an empty stack if passed minecraft:air
+	- Added an event for when items are used
+	- Added compat with Lootr
+	- Added an event for when a player blocks with a shield
+	- Make SpawnerEditor use IWorld
+- [reliquary-1.16.3-1.3.4.1061.jar](https://www.curseforge.com/minecraft/mc-mods/reliquary-v1-3/files/3119035) --> [reliquary-1.16.5-1.3.5.1096.jar](https://www.curseforge.com/minecraft/mc-mods/reliquary-v1-3/files/3274714)
+	- Fixed issue with empty bullets &gt; gold nugget recipe replacing vanilla gold ingot to nuggets recipe
+	- Other changes also included here (as I am going to archive the previous release because of the issue above):
+	- Added experience fluid tag to make reliquary xp juice compatible with other mods.
+	- Removed milk fluid from Reliquary and instead using the new one in forge.
+	- New setting added for list of entities that should not have a mob charm created for them.
+	- And a bit more...
+- [rhino-1.7.13-build.14.jar](https://www.curseforge.com/minecraft/mc-mods/rhino/files/3187177) --> [rhino-1.7.13-build.23.jar](https://www.curseforge.com/minecraft/mc-mods/rhino/files/3279704)
+	- Updated fabric version  LatvianModder
+	- Made Context.getClassShutter() public  LatvianModder
+- [skyblockbuilder-1.16.4-1.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/skyblock-builder/files/3249903) --> [skyblockbuilder-1.16.4-1.4.6.jar](https://www.curseforge.com/minecraft/mc-mods/skyblock-builder/files/3289063)
+	- fix new teleport to spawn preventing code  MelanX
+- [titanium-1.16.5-3.2.8.jar](https://www.curseforge.com/minecraft/mc-mods/titanium/files/3223141) --> [titanium-1.16.5-3.2.8.2.jar](https://www.curseforge.com/minecraft/mc-mods/titanium/files/3261072)
+	- https://github.com/InnovativeOnlineIndustries/Titanium/blob/changelog/CHANGELOG.md
+- [Waddles-1.16.4-0.8.11.jar](https://www.curseforge.com/minecraft/mc-mods/waddles/files/3113194) --> [Waddles-1.16.5-0.8.12.jar](https://www.curseforge.com/minecraft/mc-mods/waddles/files/3265184)
+	- Added Korean translation (Thanks to @myoun)
+	- Fixed Entity attribute warning on startup, on newer versions of Forge
+	- Fixed BiomeDictonary Types not being able to set to empty, in the config
+
+
+## Internal changes
+- [add skyblock island and settings, spawns and config](https://github.com/MelanX/castBINGO/commit/950ddcf17598f7074e1d8c0c1b6a99667f8f40f3)
+- [add skyblock bingo](https://github.com/MelanX/castBINGO/commit/896428506912cf1abad9aa08246579722c2e42b5)
+- [add special skyblock recipes](https://github.com/MelanX/castBINGO/commit/48fe0709ac853d84c0d25fab23960900498ce8fe)
+- [add 'shortcut recipes' for chests, sticks and hoppers](https://github.com/MelanX/castBINGO/commit/a0bb4885cbcc33a81320fc08423dc8cf1c3752cc)
+- [remove empty schematic to avoid users using schematics](https://github.com/MelanX/castBINGO/commit/4c90f42498e56fd297a2b22185d5fb4bde977462)
+- [unify ingots which have multiple recipes](https://github.com/MelanX/castBINGO/commit/caa05c7ca409e555749c92eaafcecefc07918769)
+- [disable annoying update message](https://github.com/MelanX/castBINGO/commit/f64283a13f6dcff39eb07d65a32c599e60a47b42)
+- [add modes to pack](https://github.com/MelanX/castBINGO/commit/97af00e53488d115f36989370156a4ec171d54b1)
+- [sorted kubejs stuff](https://github.com/MelanX/castBINGO/commit/7c8a6f5f8ee5ca0e7b9d7a8b3ba81195b23201e6)
+- [add packmode for skyblock](https://github.com/MelanX/castBINGO/commit/9e37e4830178efad9225ac0a2b35a20989439e71)
+- [Merge remote-tracking branch 'origin/master'](https://github.com/MelanX/castBINGO/commit/b845fd68b289f5f73917c9e0d15e94a49d0a50b2)
+- [change endermen sounds to AHHHHHHHHHHHH](https://github.com/MelanX/castBINGO/commit/25057a558f78603ca913f2eef1e09952427cb543)
