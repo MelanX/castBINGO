@@ -1,9 +1,6 @@
 {
   "startingInventory": [
     {
-      "id": "bongo:basket"
-    },
-    {
       "id": "minecraft:wooden_axe",
       "tag": {
         "Enchantments": [
