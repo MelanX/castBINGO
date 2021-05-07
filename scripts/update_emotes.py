@@ -23,10 +23,13 @@ def updateEmotes():
     for twitch_channel in emote_data['twitchChannels']:
         id = get_user_id(twitch_channel, client_id, token)
         request = Request(f'https://api.twitchemotes.com/api/v4/channels/{id}')
-        response = urlopen(request)
-        data = json.loads(response.read())
-        for entry in data['emotes']:
-            emotes[entry['code']] = f'https://static-cdn.jtvnw.net/emoticons/v1/{entry["id"]}/3.0'
+        try:
+            response = urlopen(request)
+            data = json.loads(response.read())
+            for entry in data['emotes']:
+                emotes[entry['code']] = f'https://static-cdn.jtvnw.net/emoticons/v1/{entry["id"]}/3.0'
+        except Exception as e:
+            print(e)
 
     for twitch_channel in emote_data['bttvChannels']:
         id = get_user_id(twitch_channel, client_id, token)
