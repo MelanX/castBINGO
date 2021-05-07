@@ -257,6 +257,8 @@
 	#Frequency of Sea Cave Dungeons (default: 5)
 	#Range: 1 ~ 10
 	frequencySeaCaveDungeons = 5
+	#Enable Loot Pet with FTBUltimine installed (default:false)
+	enableLootWithFTBUltimine = true
 	#Illuminati invisibility duration in minutes (default: 1)
 	#Range: 1 ~ 3
 	illuminatiInvisibleDuration = 1
