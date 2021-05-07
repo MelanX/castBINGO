@@ -19,5 +19,10 @@
     {
       "id": "minecraft:bucket"
     }
+  ],
+  "emergencyItems": [
+    {
+      "id": "minecraft:lava_bucket"
+    }
   ]
 }
