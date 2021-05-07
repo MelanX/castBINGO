@@ -12,7 +12,7 @@ import update_emotes
 import modlist
 import changelog_creator
 
-MOD_LIST_CREATOR_VERSION = '1.1.4'
+MOD_LIST_CREATOR_VERSION = '1.2.0'
 
 
 def main():
