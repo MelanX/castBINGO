@@ -1,7 +1,5 @@
-onEvent('recipes', event => {
-    if (!normalMode) {
-        return;
-    }
+// packmode: normal
 
+onEvent('recipes', event => {
     event.remove({mod: 'exnihilosequentia'})
 });

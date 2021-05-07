@@ -1,8 +1,6 @@
-onEvent('recipes', event => {
-    if (!skyblockMode) {
-        return;
-    }
+// packmode: skyblock
 
+onEvent('recipes', event => {
     const multiSmelt = (output, input) => {
         event.smelting(output, input).xp(0.7);
         event.blasting(output, input).xp(0.7);

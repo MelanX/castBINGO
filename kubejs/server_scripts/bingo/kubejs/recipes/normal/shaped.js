@@ -1,8 +1,6 @@
-onEvent('recipes', event => {
-    if (!normalMode) {
-        return;
-    }
+// packmode: normal
 
+onEvent('recipes', event => {
     recipes = [
         shapedRecipe('naturescompass:naturescompass', ['EPE', 'PMP', 'ECE'], {
             E: '#forge:gems/diamond',

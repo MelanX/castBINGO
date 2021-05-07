@@ -1,8 +1,6 @@
-onEvent('recipes', event => {
-    if (!skyblockMode) {
-        return;
-    }
+// packmode: skyblock
 
+onEvent('recipes', event => {
     shapedRecipes = [
         shapedRecipe('minecraft:oak_sapling', ['LL', 'LL'], {
             L: 'botania:living_root'
