@@ -1049,6 +1049,101 @@
             "_displayName": "Waila Harvestability",
             "projectID": 79287,
             "fileID": 3289488
+        },
+        "3956a8f69965617c3286bafb8233e3c5": {
+            "_displayName": "Architectury API (Forge)",
+            "projectID": 419699,
+            "fileID": 3296137
+        },
+        "d6cdff641d4cc6c3863c9ec7ff403255": {
+            "_displayName": "BingoLobby",
+            "projectID": 440998,
+            "fileID": 3293963
+        },
+        "517ac822384158821a1dc9033a1c0737": {
+            "_displayName": "Bongo",
+            "projectID": 406119,
+            "fileID": 3293961
+        },
+        "3f6e7ac3575448c5710f7bdcecae2087": {
+            "_displayName": "Botania",
+            "projectID": 225643,
+            "fileID": 3300995
+        },
+        "bfbfb5da9a48fa8e4ecfdc9f888d3f16": {
+            "_displayName": "Clumps",
+            "projectID": 256717,
+            "fileID": 3294214
+        },
+        "85407f6f67fd4ff7167b73b7e14a7f1c": {
+            "_displayName": "Create",
+            "projectID": 328085,
+            "fileID": 3278516
+        },
+        "b889cabf89d3f4af531e9399681373a3": {
+            "_displayName": "Ex Nihilo: Sequentia",
+            "projectID": 400012,
+            "fileID": 3294507
+        },
+        "952cdd45dd9c04b84982b1bf14442d0b": {
+            "_displayName": "GeckoLib",
+            "projectID": 388172,
+            "fileID": 3295305
+        },
+        "beb8233e60caaa71dcd60f0705f237f7": {
+            "_displayName": "Inventory Pets",
+            "projectID": 229380,
+            "fileID": 3276018
+        },
+        "f62500b5cb6ea57382ef7a6fe063abf8": {
+            "_displayName": "Just Enough Advancements (JEA)",
+            "projectID": 444941,
+            "fileID": 3300267
+        },
+        "508712a9481e43424b554c87f12425d6": {
+            "_displayName": "KubeJS (Forge)",
+            "projectID": 238086,
+            "fileID": 3297583
+        },
+        "d5c37be2741c95e37040f6bdf73226c8": {
+            "_displayName": "LibX",
+            "projectID": 412525,
+            "fileID": 3296083
+        },
+        "edffbff7659c424c8a8be82c95fa6799": {
+            "_displayName": "MythicBotany",
+            "projectID": 400058,
+            "fileID": 3299532
+        },
+        "0ef310785a46895f7a376cf65b619b4a": {
+            "_displayName": "PackMenu",
+            "projectID": 358191,
+            "fileID": 3292171
+        },
+        "d5df49f0a8ed3cd4611ebe3f4f30d3b7": {
+            "_displayName": "Patchouli",
+            "projectID": 306770,
+            "fileID": 3300030
+        },
+        "33b72384e6d89fe43d780eeecf388339": {
+            "_displayName": "Performant",
+            "projectID": 354143,
+            "fileID": 3296009
+        },
+        "045f2e1183e629cd680d5af32444895f": {
+            "_displayName": "Quark",
+            "projectID": 243121,
+            "fileID": 3282239
+        },
+        "9f96fb3abe86e414daa94062c7df8cb7": {
+            "_displayName": "Reliquary v1.3",
+            "projectID": 241319,
+            "fileID": 3292211
+        },
+        "7af6018f61b4f21f106eb416dc8a5623": {
+            "_displayName": "Skyblock Builder",
+            "projectID": 446691,
+            "fileID": 3294160
         }
     },
     "modid_map": {

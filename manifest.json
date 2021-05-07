@@ -3,7 +3,7 @@
         "version": "1.16.5",
         "modLoaders": [
             {
-                "id": "forge-36.1.13",
+                "id": "forge-36.1.16",
                 "primary": true
             }
         ]
@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "overrides": "overrides",
     "manifestVersion": 1,
-    "version": "1.1.9",
+    "version": "1.1.10",
     "author": "CastCrafter",
     "projectID": 408447,
     "name": "castBINGO!",
@@ -39,7 +39,7 @@
         {
             "_displayName": "Architectury API (Forge)",
             "projectID": 419699,
-            "fileID": 3279826
+            "fileID": 3296137
         },
         {
             "_displayName": "AutoRegLib",
@@ -54,12 +54,12 @@
         {
             "_displayName": "BingoLobby",
             "projectID": 440998,
-            "fileID": 3289000
+            "fileID": 3293963
         },
         {
             "_displayName": "Bongo",
             "projectID": 406119,
-            "fileID": 3279782
+            "fileID": 3293961
         },
         {
             "_displayName": "Bookshelf",
@@ -69,7 +69,7 @@
         {
             "_displayName": "Botania",
             "projectID": 225643,
-            "fileID": 3281106
+            "fileID": 3300995
         },
         {
             "_displayName": "Cloth Config API (Forge)",
@@ -79,7 +79,7 @@
         {
             "_displayName": "Clumps",
             "projectID": 256717,
-            "fileID": 3275832
+            "fileID": 3294214
         },
         {
             "_displayName": "Controlling",
@@ -89,7 +89,7 @@
         {
             "_displayName": "Create",
             "projectID": 328085,
-            "fileID": 3167531
+            "fileID": 3278516
         },
         {
             "_displayName": "Cucumber Library",
@@ -124,7 +124,7 @@
         {
             "_displayName": "Ex Nihilo: Sequentia",
             "projectID": 400012,
-            "fileID": 3227779
+            "fileID": 3294507
         },
         {
             "_displayName": "Extended Crafting",
@@ -169,7 +169,7 @@
         {
             "_displayName": "GeckoLib",
             "projectID": 388172,
-            "fileID": 3282081
+            "fileID": 3295305
         },
         {
             "_displayName": "Hwyla",
@@ -189,7 +189,7 @@
         {
             "_displayName": "Inventory Pets",
             "projectID": 229380,
-            "fileID": 3196230
+            "fileID": 3276018
         },
         {
             "_displayName": "Inventory Sorter",
@@ -199,7 +199,7 @@
         {
             "_displayName": "Just Enough Advancements (JEA)",
             "projectID": 444941,
-            "fileID": 3251664
+            "fileID": 3300267
         },
         {
             "_displayName": "Just Enough Items (JEI)",
@@ -212,14 +212,14 @@
             "fileID": 3050183
         },
         {
-            "_displayName": "KubeJS",
+            "_displayName": "KubeJS (Forge)",
             "projectID": 238086,
-            "fileID": 3286650
+            "fileID": 3297583
         },
         {
             "_displayName": "LibX",
             "projectID": 412525,
-            "fileID": 3275772
+            "fileID": 3296083
         },
         {
             "_displayName": "Lollipop",
@@ -257,6 +257,11 @@
             "fileID": 3251398
         },
         {
+            "_displayName": "MythicBotany",
+            "projectID": 400058,
+            "fileID": 3299532
+        },
+        {
             "_displayName": "Nature's Compass",
             "projectID": 252848,
             "fileID": 3191661
@@ -264,17 +269,17 @@
         {
             "_displayName": "PackMenu",
             "projectID": 358191,
-            "fileID": 3264418
+            "fileID": 3292171
         },
         {
             "_displayName": "Patchouli",
             "projectID": 306770,
-            "fileID": 3204037
+            "fileID": 3300030
         },
         {
             "_displayName": "Performant",
             "projectID": 354143,
-            "fileID": 3285916
+            "fileID": 3296009
         },
         {
             "_displayName": "Placebo",
@@ -289,7 +294,7 @@
         {
             "_displayName": "Quark",
             "projectID": 243121,
-            "fileID": 3221260
+            "fileID": 3282239
         },
         {
             "_displayName": "ReAuth",
@@ -299,7 +304,7 @@
         {
             "_displayName": "Reliquary v1.3",
             "projectID": 241319,
-            "fileID": 3274714
+            "fileID": 3292211
         },
         {
             "_displayName": "Rhino",
@@ -319,7 +324,7 @@
         {
             "_displayName": "Skyblock Builder",
             "projectID": 446691,
-            "fileID": 3289063
+            "fileID": 3294160
         },
         {
             "_displayName": "Stronghold Compass",

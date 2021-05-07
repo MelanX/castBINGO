@@ -3,7 +3,7 @@
         "version": "1.16.5",
         "modLoaders": [
             {
-                "id": "forge-36.1.13",
+                "id": "forge-36.1.16",
                 "primary": true
             }
         ]
@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "overrides": "overrides",
     "manifestVersion": 1,
-    "version": "1.1.9",
+    "version": "1.1.10",
     "author": "CastCrafter",
     "projectID": 408447,
     "name": "castBINGO!"
