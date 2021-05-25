@@ -268,6 +268,24 @@
               "weight": 5,
               "Count": 1,
               "type": "bongo.item"
+            },
+            {
+              "id": "mythicbotany:exoblaze",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mythicbotany:aquapanthus",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mythicbotany:hellebore",
+              "weight": 20,
+              "Count": 1,
+              "type": "bongo.item"
             }
           ]
         },
@@ -333,6 +351,12 @@
             {
               "id": "botania:spectrolus",
               "weight": 3,
+              "Count": 1,
+              "type": "bongo.item"
+            },
+            {
+              "id": "mythicbotany:raindeletia",
+              "weight": 15,
               "Count": 1,
               "type": "bongo.item"
             }

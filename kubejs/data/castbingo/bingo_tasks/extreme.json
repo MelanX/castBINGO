@@ -2047,6 +2047,16 @@
       ]
     },
     {
+      "type": "bongo.advancement",
+      "weight": 2,
+      "advancement": "mythicbotany:mythicbotany/kill_pixie"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 2,
+      "id": "mythicbotany:gjallar_horn_full"
+    },
+    {
       "type": "bongo.group",
       "weight": 30,
       "tasks": [
@@ -2171,6 +2181,11 @@
           "type": "bongo.item"
         }
       ]
+    },
+    {
+      "type": "bongo.item",
+      "weight": 10,
+      "id": "utilitix:mob_bell"
     },
     {
       "id": "xreliquary:glacial_staff",
