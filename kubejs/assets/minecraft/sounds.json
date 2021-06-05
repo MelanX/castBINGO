@@ -5,5 +5,12 @@
       "mob/endermen/hit1",
       "mob/endermen/hit2"
     ]
+  },
+  "entity.rabbit.ambient": {
+    "replace": true,
+    "sounds": [
+      "mob/rabbit/ambient1",
+      "mob/rabbit/ambient2"
+    ]
   }
 }
