@@ -1,79 +1,27 @@
-# ignore everything
-*
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
 
-# except...
-# this file
-!.gitignore
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
 
-# github files
-!.github
-!.github/**
+# gradle
+build
+.gradle
 
-# packmenu resources
-!packmenu
-!packmenu/resources
-!packmenu/resources/**
+# other
+eclipse
+run
 
-# selected configs
-!config
-!config/defaultoptions
-!config/defaultoptions/*
-!config/bingolobby.json5
-!config/extendedcrafting-common.toml
-!config/ftbultimine.json5
-!config/inventorypets-common.toml
-!config/lootr-common.toml
-!config/minemention.json5
-!config/packmenu.cfg
-!config/quark-common.toml
-!config/skyblockbuilder
-!config/skyblockbuilder/config.toml
-!config/skyblockbuilder/spawns.json
-!config/skyblockbuilder/template.nbt
-!config/twerk-config.toml
-!config/waila
-!config/waila/waila.json
-!config/MouseTweaks.cfg
-
-# serverconfigs
-!defaultconfigs
-!defaultconfigs/*
-
-# kubejs
-!kubejs
-!kubejs/assets
-!kubejs/assets/**
-!kubejs/config
-!kubejs/config/client.properties
-!kubejs/data
-!kubejs/data/**
-!kubejs/server_scripts
-!kubejs/server_scripts/**
-!kubejs/startup_scripts
-!kubejs/startup_scripts/**
-
-# readme
-!README.md
-
-# modlist
-!modlist.md
-
-# changelogs
-!changelogs
-!changelogs/*.md
-
-# server utilities
-!clientmods.txt
-!create_current_manifest.py
-!emotes.json
-!manifest.json
-!modcache.json
-!overrides.txt
-!pack.json
-!serverdata
-!serverdata/**
-!/server-*
-!/server-*/**
-!scripts
-!scripts/*
-!tokens-example.json
+# Files from Forge MDK
+forge*changelog.txt
+/run*
+/src
