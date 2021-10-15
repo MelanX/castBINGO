@@ -3,3 +3,8 @@ minimapShape:1
 minimapFrame:2
 minimapFrameColor:13
 lockNorth:true
+interface:dummy:0:0:false:false:true:false
+interface:dummy:0:135:false:false:false:false
+interface:dummy:120:0:true:false:false:false
+interface:dummy:0:50:true:false:false:false
+interface:gui.xaero_minimap:0:0:false:false:true:false

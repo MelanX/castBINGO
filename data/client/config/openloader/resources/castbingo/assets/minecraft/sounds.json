@@ -1,0 +1,22 @@
+{
+  "entity.enderman.hurt": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mob/endermen/hit1",
+        "volume": 0.7
+      },
+      {
+        "name": "mob/endermen/hit2",
+        "volume": 0.7
+      }
+    ]
+  },
+  "entity.rabbit.ambient": {
+    "replace": true,
+    "sounds": [
+      "mob/rabbit/ambient1",
+      "mob/rabbit/ambient2"
+    ]
+  }
+}

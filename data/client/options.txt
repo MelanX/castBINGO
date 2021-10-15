@@ -2,3 +2,4 @@ gamma:10.0
 autoJump:false
 soundCategory_music:0.0
 guiScale:3
+fov:0.5

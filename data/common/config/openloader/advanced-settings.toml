@@ -4,5 +4,5 @@
 	#Should OpenLoader try to load data packs?
 	load-data-packs = true
 	#Should OpenLoader try to load resource packs?
-	load-resource-packs = false
+	load-resource-packs = true
 
