@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tools",
+  "pattern": [
+    "EPE",
+    "PMP",
+    "ECE"
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:gems/diamond"
+    },
+    "P": {
+      "tag": "forge:ingots/gold"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "M": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "naturescompass:naturescompass"
+  }
+}
