@@ -10,7 +10,7 @@ buildscript {
 
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:5.1.23'
-        classpath 'io.github.noeppi_noeppi.tools:ModGradle:1.0.33'
+        classpath 'io.github.noeppi_noeppi.tools:ModGradle:1.0.34'
         classpath 'org.apache.maven:maven-artifact:3.8.1'
         classpath 'com.google.code.findbugs:jsr305:3.0.1'
     }
@@ -23,9 +23,9 @@ apply plugin: 'io.github.noeppi_noeppi.tools.modgradle.packdev'
 
 modpack {
     projectId 408447
-    edition 'skyblock'
+//    edition 'skyblock'
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.8'
+    minecraft 'net.minecraftforge:forge:1.17.1-37.0.95'
 }

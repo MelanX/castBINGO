@@ -1,0 +1,5 @@
+updateNotification:false
+minimapShape:1
+minimapFrame:2
+minimapFrameColor:13
+lockNorth:true
