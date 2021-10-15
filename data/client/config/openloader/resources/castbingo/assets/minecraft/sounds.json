@@ -4,11 +4,11 @@
     "sounds": [
       {
         "name": "mob/endermen/hit1",
-        "volume": 0.7
+        "volume": 0.3
       },
       {
         "name": "mob/endermen/hit2",
-        "volume": 0.7
+        "volume": 0.3
       }
     ]
   },

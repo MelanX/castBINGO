@@ -1,0 +1,5 @@
+#Server-side config. Client's version of these settings are ignored if on a dedicated server.
+[server]
+	#Maximum blocks to break with one excavation (Integer). DEFAULT: 64
+	#Range: > 1
+	max = 16
