@@ -30,7 +30,7 @@
   {
     "project": 250398,
     "file": 3480214,
-    "side": "common",
+    "side": "client",
     "locked": false,
     "installed": true
   },
@@ -93,7 +93,7 @@
   {
     "project": 358191,
     "file": 3477757,
-    "side": "common",
+    "side": "client",
     "locked": false,
     "installed": true
   },
@@ -141,7 +141,7 @@
   },
   {
     "project": 463703,
-    "file": 3491941,
+    "file": 3492644,
     "side": "common",
     "locked": false,
     "installed": true
@@ -149,7 +149,7 @@
   {
     "project": 283644,
     "file": 3477758,
-    "side": "common",
+    "side": "client",
     "locked": false,
     "installed": false
   },
