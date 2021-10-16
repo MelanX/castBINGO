@@ -3,3 +3,5 @@ autoJump:false
 soundCategory_music:0.0
 guiScale:3
 fov:0.5
+key_gui.xaero_minimap_settings:key.keyboard.unknown
+key_gui.xaero_enlarge_map:key.keyboard.unknown
