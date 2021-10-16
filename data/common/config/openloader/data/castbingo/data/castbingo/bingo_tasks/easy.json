@@ -3,17 +3,48 @@
     {
       "type": "bongo.item",
       "weight": 20,
-      "id": "minecraft:acacia_boat"
-    },
-    {
-      "type": "bongo.item",
-      "weight": 20,
       "id": "minecraft:amethyst_shard"
     },
     {
       "type": "bongo.item",
       "weight": 20,
       "id": "minecraft:spyglass"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:glow_berries"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 25,
+      "id": "minecraft:cobbled_deepslate"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 30,
+      "id": "minecraft:lightning_rod"
+    },
+    {
+      "type": "bongo.item",
+      "weight": 15,
+      "id": "minecraft:glow_ink_sac"
+    },
+    {
+      "type": "bongo.advancement",
+      "weight": 20,
+      "advancement": "minecraft:husbandry/axolotl_in_a_bucket"
+    },
+    {
+      "type": "bongo.entity",
+      "weight": 15,
+      "entity": "minecraft:goat"
+    },
+
+    {
+      "type": "bongo.item",
+      "weight": 20,
+      "id": "minecraft:acacia_boat"
     },
     {
       "type": "bongo.item",
