@@ -1,6 +1,7 @@
 {
   "entity.enderman.hurt": {
     "replace": true,
+    "subtitle": "subtitles.entity.enderman.hurt",
     "sounds": [
       {
         "name": "mob/endermen/hit1",
@@ -14,6 +15,7 @@
   },
   "entity.ghast.ambient": {
     "replace": true,
+    "subtitle": "subtitles.entity.ghast.ambient",
     "sounds": [
       {
         "name": "mob/ghast/ambient1",
