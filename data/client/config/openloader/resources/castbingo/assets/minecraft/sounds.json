@@ -11,12 +11,5 @@
         "volume": 0.7
       }
     ]
-  },
-  "entity.rabbit.ambient": {
-    "replace": true,
-    "sounds": [
-      "mob/rabbit/ambient1",
-      "mob/rabbit/ambient2"
-    ]
   }
 }
