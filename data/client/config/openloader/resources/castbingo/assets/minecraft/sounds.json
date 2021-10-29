@@ -11,5 +11,18 @@
         "volume": 0.7
       }
     ]
+  },
+  "entity.ghast.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mob/ghast/ambient1",
+        "volume": 0.7
+      },
+      {
+        "name": "mob/ghast/ambient2",
+        "volume": 0.7
+      }
+    ]
   }
 }
