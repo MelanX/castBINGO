@@ -16,7 +16,7 @@
   {
     "project": 232131,
     "file": 3502130,
-    "side": "common",
+    "side": "client",
     "locked": false,
     "installed": true
   },
@@ -170,7 +170,7 @@
   {
     "project": 531761,
     "file": 3502124,
-    "side": "common",
+    "side": "client",
     "locked": false,
     "installed": false
   }
