@@ -1,0 +1,7 @@
+{
+  // The multiplier for calculating the additional health for a ghost
+  "healthMultiplier": 0.5,
+  
+  // The chance per second to spawn a ghost at night nearby a player
+  "spawnChance": 0.1
+}

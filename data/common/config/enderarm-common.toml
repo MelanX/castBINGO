@@ -1,0 +1,31 @@
+
+#General configuration settings
+[General]
+	#This will disable the loot arm loot table changes done by this mod.
+	disableLootEdit = false
+	#Total arm durability before breaking.
+	#Range: > 1
+	armDurability = 500
+	#Set if newly activated arms should have randomized durability on them or not.
+	randomActivationDurability = true
+	#This will drop ready to use arms instead of broken ones. (PS. You should use loot tables for better control!)
+	dropUseableArms = false
+	#How visible the base block texture is. Higher = harder to see through. Lower = easier to see through.
+	#Range: 0.0 ~ 1.0
+	ghostBlockAlpha = 0.5
+	#How far will the effects of the arm work. NOTE: THIS DOES NOT ALLOW YOU TO REACH FURTHER! HIGHER VALUES WILL HARM PERFORMANCE!
+	#Range: > 1
+	armReach = 5
+	#Should ghost blocks spawn the purple particles when looking through them.
+	ghostSpawnsParticles = false
+	#How much durability is consumed when a block is converted to one that can be seen through.
+	#Range: > 1
+	durabilityConsumedPerBlock = 1
+	#Chance for an arm to drop in percent. (PS. You should use loot tables for better control!)
+	#Range: 0.0 ~ 1.0
+	brokenArmChance = 0.25
+
+[Debug]
+	#Enable debug view for blocks. This will make them render as end gates regardless for everyone.
+	debug = false
+

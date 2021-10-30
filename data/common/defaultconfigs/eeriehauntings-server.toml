@@ -1,0 +1,55 @@
+
+#Modify ghost behaviors and the numbers behind the scenes
+["Haunting Settings"]
+	#The radius of which a ghost will look for physical items to interact with. Larger numbers are more resource heavy, and make the ghost stronger. Only matter if physicalEvents is set to true.
+	#Range: 3 ~ 16
+	physicalEventScans = 5
+	#The percentage increase in haunt chance a player experiences when they kill a tamable entity.
+	#Range: 0.0 ~ 100.0
+	petHauntChance = 12.5
+	#Increase the potency of boons additively
+	#Range: 0 ~ 100
+	boonstrength = 0
+	#The minimum wait time between ghost events in ticks
+	#Range: > 100
+	minimumEventWait = 400
+	#The percentage increase in haunt chance a player experiences when they kill anything outside of the other categories.
+	#Range: 0.0 ~ 100.0
+	miscHauntChance = 1.5
+	#The percentage increase in haunt chance a player experiences when they kill another player.
+	#Range: 0.0 ~ 100.0
+	playerHauntChance = 25.0
+	#The percentage increase in haunt chance a player experiences when they kill a villager.
+	#Range: 0.0 ~ 100.0
+	villagerHauntChance = 10.0
+	#The percent chance a player is to be haunted on a given night by default. If the player isn't haunted at night, this is the value they will start off on for the next night.
+	#Range: 0.0 ~ 100.0
+	defaultHauntChance = 40.0
+	#The percentage increase in haunt chance a player experiences when they kill a golem.
+	#Range: 0.0 ~ 100.0
+	golemHauntChance = 7.5
+	#Allows ghost actions to effect the nearby surroundings of players. Disabling may improve performance, but will also reduce how spooky the ghost can be.
+	physicalEvents = true
+	#The maximum wait time between ghost events in ticks
+	#Range: > 100
+	maximumEventWait = 700
+	#Enables or disables strong strength events (levitation, hunger, nausea) (replaces with weak sound events)
+	strongStrengthEvents = true
+	#Enables or disables medium strength events (blindness, slowness, weakness) (replaces with weak sound events)
+	mediumStrengthEvents = true
+
+#Modify ghost mechanics and the numbers behind the scenes
+["Haunting Mechanics"]
+	#Enables or disables boons, a system where a ghost can provide a buff for an hour when an offering is burnt.
+	boon = true
+	#How much of an increase to a player's haunting chance is being hit with a soulball
+	#Range: 0.0 ~ 100.0
+	soulBallHauntChance = 5.0
+	#Disables needing specific exorcism types to exorcise the ghost. Also automatically means the anger mechanic is disabled
+	easyMode = false
+	#How many ingame days are players safe after they successfully use chalk.
+	#Range: 1 ~ 60
+	chalkDuration = 10
+	#Enables or Disables ghosts getting angry when the wrong exorcism type is used, ramping up more harsh effects until the next day.
+	anger = true
+

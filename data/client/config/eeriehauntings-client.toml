@@ -1,0 +1,6 @@
+
+#Modify ghost behaviors and the numbers behind the scenes
+["Haunting Visuals"]
+	#Enables or disables the old mojang shaders when strong events happen. No intensive shaders are used, just some quick effects.
+	strongShaders = false
+

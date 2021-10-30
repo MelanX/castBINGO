@@ -1,0 +1,12 @@
+
+#Modify the rules for the enchantments
+["Magical Properties"]
+	#Changes the base chance of the effects of trick happening. Multiplied by 2 and 3 for higher tiers of the enchantment.
+	#Range: 1 ~ 100
+	baseTrickChance = 5
+	#Changes the base chance of the effects of treat happening. Multiplied by 2 and 3 for higher tiers of the enchantment.
+	#Range: 1 ~ 100
+	baseTreatChance = 10
+	#Enables or disables mobs dropping candy from the other SpookyJam Trick Or Treat mod with the Treat enchantment when installed.
+	trickOrTreatCompat = true
+

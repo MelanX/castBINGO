@@ -1,0 +1,14 @@
+
+#Modify compatability mod features
+["Haunting Compatability"]
+	#The multiplier each point of torment provides to the strength of the observed effect.
+	#Range: 0.0 ~ 1.0
+	tormentCompatRate = 0
+	#Enables or disables compat with Spooky Biomes. Users in the Ghostly Forest Biome may make any haunting spirits more brave
+	eerieSpookyBiomesCompat = true
+	#Enables or disables compat with Torment, a fellow SpookyJam 2021 mod. Players with higher level of torment get their haunt chances multiplied by the value in tormentCompatRate per point of torment. This does nothing without the mod installed.
+	eerieTormentCompat = false
+	#The multiplier applied to the ghost haunt chance when the player is in a Ghostly Forest
+	#Range: 0.5 ~ 5.0
+	spookyBiomeCompatRate = 2.0
+

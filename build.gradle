@@ -23,7 +23,6 @@ apply plugin: 'io.github.noeppi_noeppi.tools.modgradle.packdev'
 
 modpack {
     projectId 408447
-//    edition 'skyblock'
 }
 
 dependencies {

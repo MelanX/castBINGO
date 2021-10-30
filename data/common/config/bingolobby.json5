@@ -1,0 +1,109 @@
+{
+  // Whether subtitle 1 or subtitle 2 should be replaced with the countdown
+  // If a subtitle is empty it won't get replaced and the countdown won't be visible.
+  // True means subtitle 2, false means subtitle 1
+  "countdown_in_subtitle2": false,
+
+  // Whether the world is being generated as void world or not
+  "is_void": false,
+
+  // The subtitle to be shown in the sidebar while in the lobby.
+  // This will cycle through all the elements in the list.
+  "subtitle": [
+    {
+      "text": "SpookyJam 2021",
+      "bold": true,
+      "color": "green"
+    }
+  ],
+
+  // The second subtitle to be shown in the sidebar while in the lobby.
+  // This will cycle through all the elements in the list.
+  "subtitle2": [
+    {
+      "text": "Death Generator by Caltinor",
+      "color": "gold"
+    },
+    {
+      "text": "Eerie Hauntings by CartoonishVillain",
+      "color": "gold"
+    },
+    {
+      "text": "Boohoo! by MelanX",
+      "color": "gold"
+    },
+    {
+      "text": "Observed by CartoonishVillain",
+      "color": "gold"
+    },
+    {
+      "text": "Trick XOR Treat by CartoonishVillain",
+      "color": "gold"
+    },
+    {
+      "text": "Spooky Scary Jockeys by ACGaming56",
+      "color": "gold"
+    },
+    {
+      "text": "Bad to the Bone by AbsolemJackdaw",
+      "color": "gold"
+    },
+    {
+      "text": "Trick or Treat by SameButDifferent",
+      "color": "gold"
+    },
+    {
+      "text": "Torment by noeppi_noeppi",
+      "color": "gold"
+    },
+    {
+      "text": "BumpkinBatch by cfrishausen",
+      "color": "gold"
+    },
+    {
+      "text": "DeathKnell by Darkhax",
+      "color": "gold"
+    },
+    {
+      "text": "EnderArm by ClayCorp",
+      "color": "gold"
+    },
+    {
+      "text": "Lost in the Mist by Melonslise",
+      "color": "gold"
+    }
+  ],
+
+  // The title to be shown in the sidebar while in the lobby.
+  "title": {
+    "bold": true,
+    "text": "Spooky",
+    "extra": [
+      {
+        "text": "B",
+        "bold": true,
+        "color": "red"
+      },
+      {
+        "text": "I",
+        "bold": true,
+        "color": "blue"
+      },
+      {
+        "text": "N",
+        "bold": true,
+        "color": "green"
+      },
+      {
+        "text": "G",
+        "bold": true,
+        "color": "yellow"
+      },
+      {
+        "text": "O",
+        "bold": true,
+        "color": "light_purple"
+      }
+    ]
+  }
+}
