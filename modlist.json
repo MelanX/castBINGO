@@ -233,7 +233,7 @@
   {
     "project": 531761,
     "file": 3502124,
-    "side": "client",
+    "side": "common",
     "locked": false,
     "installed": false
   }
