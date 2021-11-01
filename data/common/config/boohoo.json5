@@ -1,7 +1,32 @@
 {
+  // Should the ghost disappear when turning into day?
+  "disappearAtDay": true,
+  
+  // A list of dimensions where no ghost should spawn
+  // This is a resource list. See https://noeppi-noeppi.github.io/LibX/io/github/noeppi_noeppi/libx/util/ResourceList.html#use_resource_lists_in_configs
+  "forbiddenDimensions": {
+    "whitelist": false,
+    "elements": [
+      "bingolobby:lobby"
+    ]
+  },
+  
+  // Ghost multiplier when the players ghost takes or deals damage.
+  // Increases the amount when taking damage.
+  // Decreases the amount when dealing damage.
+  // Maximum: 10.0
+  "ghostMultiplier": 1,
+  
   // The multiplier for calculating the additional health for a ghost
-  "healthMultiplier": 0.5,
+  "healthMultiplier": 0,
   
   // The chance per second to spawn a ghost at night nearby a player
-  "spawnChance": 0.1
+  "spawnChance": 0.1,
+  
+  // Should the ghost steal one item stack once the player is dead?
+  "stealItems": true,
+  
+  // Duration in ticks the ghost will stay in the world after the player died.
+  // Maximum: 2147483646
+  "vanishCounter": 1200
 }

@@ -1,5 +1,19 @@
+
 #Server-side config. Client's version of these settings are ignored if on a dedicated server.
 [server]
+	#All blocks are placed in the player's inventory unless it is full (False may cause extra lag on slower machines.) DEFAULT: true
+	vacuum = true
 	#Maximum blocks to break with one excavation (Integer). DEFAULT: 64
 	#Range: > 1
 	max = 64
+	#Multiply the default Minecraft block exhaustion by this much (Double). DEFAULT: 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	exhaustion = 1.0
+	#Does the player need to mine with a valid tool? DEFAULT: false
+	tool = false
+
+#Per-client config.
+[client]
+	#Disable the keybind and activate excavation by crouching. DEFAULT: false
+	crouch = false
+

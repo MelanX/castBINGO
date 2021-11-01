@@ -7,7 +7,7 @@
 	#Range: > 1
 	armDurability = 500
 	#Set if newly activated arms should have randomized durability on them or not.
-	randomActivationDurability = true
+	randomActivationDurability = false
 	#This will drop ready to use arms instead of broken ones. (PS. You should use loot tables for better control!)
 	dropUseableArms = false
 	#How visible the base block texture is. Higher = harder to see through. Lower = easier to see through.
