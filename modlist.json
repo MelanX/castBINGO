@@ -1,7 +1,7 @@
 [
   {
     "project": 60089,
-    "file": 3515478,
+    "file": 3399291,
     "side": "common",
     "locked": false,
     "installed": true
@@ -16,13 +16,13 @@
   {
     "project": 232131,
     "file": 3502130,
-    "side": "common",
+    "side": "client",
     "locked": false,
     "installed": true
   },
   {
     "project": 238222,
-    "file": 3538319,
+    "file": 3502663,
     "side": "common",
     "locked": false,
     "installed": true
@@ -64,7 +64,7 @@
   },
   {
     "project": 263466,
-    "file": 3536273,
+    "file": 3508433,
     "side": "common",
     "locked": false,
     "installed": true
@@ -78,7 +78,7 @@
   },
   {
     "project": 317780,
-    "file": 3532566,
+    "file": 3502019,
     "side": "common",
     "locked": false,
     "installed": true
@@ -106,7 +106,7 @@
   },
   {
     "project": 361276,
-    "file": 3544540,
+    "file": 3491592,
     "side": "common",
     "locked": false,
     "installed": true
@@ -120,7 +120,7 @@
   },
   {
     "project": 406119,
-    "file": 3530583,
+    "file": 3491769,
     "side": "common",
     "locked": false,
     "installed": true
@@ -148,7 +148,7 @@
   },
   {
     "project": 463703,
-    "file": 3515459,
+    "file": 3494188,
     "side": "common",
     "locked": false,
     "installed": true
@@ -162,15 +162,15 @@
   },
   {
     "project": 412525,
-    "file": 3517529,
+    "file": 3495430,
     "side": "common",
     "locked": false,
     "installed": false
   },
   {
     "project": 531761,
-    "file": 3538713,
-    "side": "common",
+    "file": 3502124,
+    "side": "client",
     "locked": false,
     "installed": false
   }
