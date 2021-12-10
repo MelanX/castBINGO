@@ -10,9 +10,13 @@ buildscript {
 
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:5.1.23'
-        classpath 'io.github.noeppi_noeppi.tools:ModGradle:1.0.34'
+        classpath 'io.github.noeppi_noeppi.tools:ModGradle:1.0.43'
         classpath 'org.apache.maven:maven-artifact:3.8.1'
         classpath 'com.google.code.findbugs:jsr305:3.0.1'
+        
+        // See https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228
+        classpath('org.apache.logging.log4j:log4j-api') { version { strictly '[2.15.0,)' } }
+        classpath('org.apache.logging.log4j:log4j-core') { version { strictly '[2.15.0,)' } }
     }
 }
 
@@ -27,5 +31,5 @@ modpack {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.17.1-37.0.95'
+    minecraft 'net.minecraftforge:forge:1.17.1-37.1.1'
 }
