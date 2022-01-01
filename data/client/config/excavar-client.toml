@@ -1,0 +1,4 @@
+#Should tools being prevented from breaking? If true, mining will be stopped when durability is 1
+#If the durability is at 1 when breaking the first block, the tool will still break.
+preventBreaking = false
+

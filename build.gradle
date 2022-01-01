@@ -9,8 +9,8 @@ buildscript {
     }
 
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:5.1.23'
-        classpath 'io.github.noeppi_noeppi.tools:ModGradle:1.0.43'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:5.1.27'
+        classpath 'io.github.noeppi_noeppi.tools:ModGradle:1.0.44'
         classpath 'org.apache.maven:maven-artifact:3.8.1'
         classpath 'com.google.code.findbugs:jsr305:3.0.1'
         
@@ -31,5 +31,5 @@ modpack {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.17.1-37.1.1'
+    minecraft 'net.minecraftforge:forge:1.18.1-39.0.9'
 }

@@ -1,0 +1,2 @@
+#If set to true, you need the correct tool to break the blocks.
+requiresCorrectTool = false

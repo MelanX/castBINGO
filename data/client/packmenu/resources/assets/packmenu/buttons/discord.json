@@ -12,6 +12,6 @@
 	"texture": "packmenu:textures/gui/buttons.png",
 	"widgets": false,
 	"action": "OPEN_URL",
-	"data": "http://discord.gg/castcrafter",
+	"data": "https://discord.gg/castcrafter",
 	"anchor": "BOTTOM_CENTER"
 }
