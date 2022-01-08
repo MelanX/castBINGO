@@ -1,0 +1,5 @@
+
+#Gamerules that are set when a world is loaded
+[gamerules]
+	#Whether advancements should be announced in chat
+	announce_advancements = false
