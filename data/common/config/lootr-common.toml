@@ -1,0 +1,2 @@
+#prevent the destruction of Lootr chests except while sneaking in creative mode
+disable_break = true
