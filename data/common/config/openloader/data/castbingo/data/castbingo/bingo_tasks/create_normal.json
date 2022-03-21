@@ -1,0 +1,343 @@
+{
+  "tasks": [
+    {
+      "id": "create:analog_lever",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+	{
+      "id": "create:item_vault",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:andesite_casing",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:black_seat",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:chute",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:cinder_flour",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:cogwheel",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:copper_backtank",
+      "Count": 1,
+      "tag": {
+        "Air": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:copper_sheet",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:crafter_slot_cover",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:crushed_iron_ore",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:cuckoo_clock",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:diving_helmet",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:dough",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:electron_tube",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:empty_schematic",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:experience_nugget",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:fluid_pipe",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:gearbox",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:goggles",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:golden_sheet",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:hand_crank",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:mechanical_piston",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:metal_bracket",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:powered_toggle_latch",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:red_toolbox",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:sand_paper",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:speedometer",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:super_glue",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      },
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:water_wheel",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:wheat_flour",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:wrench",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+	{
+      "advancement": "create:andesite_alloy",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:basin",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:belt",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:blaze_burner",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:brass",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:crafter",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:crushing_wheel",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:deployer",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:electron_tube",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:extendo_grip",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:fan_lava",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:fan_smoke",
+      "type": "bongo.advancement"
+    },
+	{
+      "advancement": "create:overstressed",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:fan_water",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:millstone",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:mixer",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:polished_rose_quartz",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:press",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:shifting_gears",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:speedometer",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:water_wheel",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:windmill",
+      "type": "bongo.advancement"
+    },
+    {
+      "advancement": "create:wrench",
+      "type": "bongo.advancement"
+    },
+	{
+      "id": "create:crafting_blueprint",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:cut_calcite_brick_stairs",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:cut_diorite",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:gantry_shaft",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:large_cogwheel",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:mechanical_saw",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:oak_window_pane",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:raw_zinc_block",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:turntable",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+	{
+      "id": "create:cut_dripstone_wall",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:cut_granite",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:dripstone_pillar",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:minecart_coupling",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+    {
+      "id": "create:small_granite_brick_slab",
+      "Count": 1,
+      "type": "bongo.item"
+    },
+	{
+      "id": "create:copper_valve_handle",
+      "Count": 1,
+      "type": "bongo.item"
+    }
+  ]
+}
