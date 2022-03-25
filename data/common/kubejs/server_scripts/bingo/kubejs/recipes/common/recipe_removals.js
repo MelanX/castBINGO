@@ -20,7 +20,9 @@ onEvent('recipes', event => {
         'minecraft:rabbit_stew_from_brown_mushroom',
         'minecraft:rabbit_stew_from_red_mushroom',
 
-        'naturescompass:natures_compass'
+        'naturescompass:natures_compass',
+        
+        'mana-and-artifice:improvised_manaweaver_wand'
     ];
 
     idRemovals.forEach((removal) => {

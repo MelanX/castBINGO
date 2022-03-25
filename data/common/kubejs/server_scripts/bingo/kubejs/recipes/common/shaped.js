@@ -12,6 +12,12 @@ onEvent('recipes', event => {
             S: 'create:copper_sheet',
             I: '#forge:ingots/copper'
         }),
+        shapedRecipe('naturescompass:naturescompass', ['EPE', 'PMP', 'ECE'], {
+            E: '#forge:gems/diamond',
+            P: '#forge:ingots/gold',
+            C: 'minecraft:compass',
+            M: 'minecraft:heart_of_the_sea'
+        })
     ];
 
     recipes.forEach(function (recipe) {
