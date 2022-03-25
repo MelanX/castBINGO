@@ -1,0 +1,450 @@
+[
+  {
+    "project": 60089,
+    "file": 3202662,
+    "side": "client",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 79287,
+    "file": 3289488,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 224712,
+    "file": 3189215,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 225643,
+    "file": 3608755,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 229380,
+    "file": 3341486,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 230976,
+    "file": 3590413,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 231951,
+    "file": 3578181,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 232131,
+    "file": 3330403,
+    "side": "client",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 237701,
+    "file": 3680041,
+    "side": "client",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 238086,
+    "file": 3647098,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 238222,
+    "file": 3681294,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 239286,
+    "file": 3640728,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 240630,
+    "file": 3435305,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 240633,
+    "file": 3077903,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 241319,
+    "file": 3682110,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 242195,
+    "file": 3348602,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 243121,
+    "file": 3642325,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 246640,
+    "file": 3562127,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 250398,
+    "file": 3531453,
+    "side": "client",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 250577,
+    "file": 3190372,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 251767,
+    "file": 3343400,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 252848,
+    "file": 3382150,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 253449,
+    "file": 3033593,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 256717,
+    "file": 3658432,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 261251,
+    "file": 3430455,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 266515,
+    "file": 3525789,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 268387,
+    "file": 3591820,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 268560,
+    "file": 3659389,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 284324,
+    "file": 3543338,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 291509,
+    "file": 3154938,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 294815,
+    "file": 3507609,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 314906,
+    "file": 3603374,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 328085,
+    "file": 3536025,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 333396,
+    "file": 3316666,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 352656,
+    "file": 3232535,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 354143,
+    "file": 3711662,
+    "side": "server",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 358191,
+    "file": 3475660,
+    "side": "client",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 361276,
+    "file": 3711327,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 386134,
+    "file": 3520756,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 398521,
+    "file": 3573686,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 406119,
+    "file": 3317959,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 406360,
+    "file": 3651870,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 407174,
+    "file": 3188120,
+    "side": "client",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 414640,
+    "file": 3424072,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 440998,
+    "file": 3317961,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 444941,
+    "file": 3554181,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 460925,
+    "file": 3454779,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
+    "project": 228525,
+    "file": 3604213,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 250363,
+    "file": 3326041,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 272335,
+    "file": 3507886,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 283644,
+    "file": 3536806,
+    "side": "client",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 287342,
+    "file": 3525770,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 306770,
+    "file": 3459118,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 309927,
+    "file": 3661903,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 347954,
+    "file": 3232534,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 382216,
+    "file": 3607198,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 388172,
+    "file": 3629666,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 393149,
+    "file": 3348676,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 404465,
+    "file": 3553840,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 404468,
+    "file": 3535953,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 412525,
+    "file": 3329216,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 416294,
+    "file": 3525704,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 419699,
+    "file": 3705903,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  },
+  {
+    "project": 486392,
+    "file": 3535459,
+    "side": "common",
+    "locked": false,
+    "installed": false
+  }
+]
