@@ -17,6 +17,12 @@ onEvent('recipes', event => {
             P: '#forge:ingots/gold',
             C: 'minecraft:compass',
             M: 'minecraft:heart_of_the_sea'
+        }),
+        shapedRecipe('feywild:fey_altar', ['fpf', 'pdp', 'ggg'], {
+            f: 'feywild:fey_dust',
+            p: 'minecraft:iron_ingot',
+            d: 'feywild:lesser_fey_gem',
+            g: 'minecraft:gold_nugget'
         })
     ];
 
