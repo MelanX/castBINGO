@@ -26,5 +26,15 @@
         "volume": 0.7
       }
     ]
+  },
+  "entity.phantom.ambient": {
+    "replace": true,
+    "subtitle": "subtitles.entity.phantom.ambient",
+    "sounds": [
+      {
+        "name": "mob/phantom/ambient",
+        "volume": 0.6
+      }
+    ]
   }
 }
