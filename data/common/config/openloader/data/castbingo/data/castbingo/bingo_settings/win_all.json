@@ -1,4 +1,4 @@
 {
   "winCondition": "bongo.all",
-  "leaderboard": false
+  "leaderboard": true
 }
